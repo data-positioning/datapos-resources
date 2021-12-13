@@ -1,0 +1,6 @@
+.firebase
+
+.vscode/*
+!.vscode/tasks.json
+
+node_modules
