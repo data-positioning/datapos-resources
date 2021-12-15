@@ -1,29 +1,65 @@
 {
     "sections": [
-        { "title": "Introduction", "articles": [{ "title": "What is Nectis?" }, { "title": "Getting Started" }] },
         {
-            "title": "Workflow",
+            "title": "Getting Started",
+            "articles": [
+                { "id": "whatIsNectis", "title": "What is Nectis?" },
+                { "id": "gettingStarted", "title": "Getting Started" }
+            ]
+        },
+        {
+            "title": "Building Blocks",
+            "sections": [
+                {
+                    "title": "Data Sources",
+                    "iconName": "fa-file-import-thin",
+                    "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                },
+                {
+                    "title": "Nectis Nodes",
+                    "iconName": "",
+                    "sections": [{ "title": "Browser" }, { "title": "Cloud" }]
+                },
+                {
+                    "title": "Data Destinations",
+                    "iconName": "fa-file-import-thin",
+                    "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                }
+            ]
+        },
+        {
+            "title": "Data Positioning Workflow",
             "sections": [
                 {
                     "title": "Catalogue Data",
+                    "iconName": "",
+                    "stepNumber": 1,
                     "articles": [],
                     "sections": [{ "title": "Configure Selection" }, { "title": "Audit Content" }, { "title": "Audit Relationships" }, { "title": "Investigate & Transform" }]
                 },
                 {
                     "title": "Assemble Dimensions",
+                    "iconName": "",
+                    "stepNumber": 2,
                     "articles": []
                 },
                 {
                     "title": "Contextualise Data",
                     "articles": [],
+                    "iconName": "",
+                    "stepNumber": 3,
                     "sections": [{ "title": "Configure Query" }, { "title": "Verify Results" }]
                 },
                 {
                     "title": "Explore Results",
+                    "iconName": "",
+                    "stepNumber": 4,
                     "articles": []
                 },
                 {
                     "title": "Build Data Applications",
+                    "iconName": "",
+                    "stepNumber": 5,
                     "articles": []
                 }
             ]
