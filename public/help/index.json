@@ -1,3 +1,33 @@
 {
-    "sections": [{ "title": "Getting Started" }, { "title": "Workflow" }, { "title": "Housekeeping" }]
+    "sections": [
+        { "title": "Introduction", "articles": [{ "title": "What is Nectis?" }, { "title": "Getting Started" }] },
+        {
+            "title": "Workflow",
+            "sections": [
+                {
+                    "title": "Catalogue Data",
+                    "articles": [],
+                    "sections": [{ "title": "Configure Selection" }, { "title": "Audit Content" }, { "title": "Audit Relationships" }, { "title": "Investigate & Transform" }]
+                },
+                {
+                    "title": "Assemble Dimensions",
+                    "articles": []
+                },
+                {
+                    "title": "Contextualise Data",
+                    "articles": [],
+                    "sections": [{ "title": "Configure Query" }, { "title": "Verify Results" }]
+                },
+                {
+                    "title": "Explore Results",
+                    "articles": []
+                },
+                {
+                    "title": "Build Data Applications",
+                    "articles": []
+                }
+            ]
+        },
+        { "title": "Housekeeping", "articles": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
+    ]
 }
