@@ -8,10 +8,10 @@
             ]
         },
         {
-            "title": "Building Blocks",
+            "title": "Data Components",
             "sections": [
                 {
-                    "title": "Data Source Connections",
+                    "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
                     "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 },
@@ -21,7 +21,7 @@
                     "sections": [{ "title": "Browser" }, { "title": "Cloud" }]
                 },
                 {
-                    "title": "Data Destination Connections",
+                    "title": "Data Destinations",
                     "iconName": "fa-file-import-thin",
                     "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 }
