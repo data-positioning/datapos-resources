@@ -11,17 +11,17 @@
             "title": "Building Blocks",
             "sections": [
                 {
-                    "title": "Data Sources",
+                    "title": "Data Source Connections",
                     "iconName": "fa-file-import-thin",
                     "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 },
                 {
-                    "title": "Nectis Nodes",
+                    "title": "Nexus Nodes",
                     "iconName": "",
                     "sections": [{ "title": "Browser" }, { "title": "Cloud" }]
                 },
                 {
-                    "title": "Data Destinations",
+                    "title": "Data Destination Connections",
                     "iconName": "fa-file-import-thin",
                     "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 }
