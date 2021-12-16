@@ -20,7 +20,7 @@
         {
             "title": "Using the Databench",
             "items": [
-                { "id": "introducingDatabench", "title": "Introducing the Databench", "items": [] },
+                { "id": "introducingDatabench", "title": "Introducing the Databench", "iconName": "fa-keynote-thin", "items": [] },
                 {
                     "title": "Cataloguing Data",
                     "iconName": "fa-table-thin",
