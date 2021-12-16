@@ -1,69 +1,77 @@
 {
-    "sections": [
+    "items": [
         {
-            "title": "Getting Started",
-            "articles": [
+            "title": "Introduction",
+            "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
-                { "id": "gettingStarted", "title": "Getting Started" }
+                {
+                    "id": "gettingStarted",
+                    "title": "Getting Started",
+                    "items": [
+                        { "title": "Evaluating the Databench" },
+                        { "title": "Requirements & Compatibility" },
+                        { "title": "Signing In & Out of Your Account" },
+                        { "title": "Exploring the Sample Data" }
+                    ]
+                },
+                { "id": "usingTheDatabench", "title": "Using the Databench" }
             ]
         },
         {
             "title": "Data Components",
-            "sections": [
+            "items": [
                 {
                     "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
-                    "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 },
                 {
                     "title": "Nexus Nodes",
                     "iconName": "",
-                    "sections": [{ "title": "Browser" }, { "title": "Cloud" }]
+                    "items": [{ "title": "Browser" }, { "title": "Cloud" }]
                 },
                 {
                     "title": "Data Destinations",
                     "iconName": "fa-file-import-thin",
-                    "sections": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 }
             ]
         },
         {
-            "title": "Using the Databench",
-            "sections": [
+            "title": "The Data Positioning Workflow",
+            "items": [
                 {
                     "title": "Catalogue Data",
                     "iconName": "",
                     "stepNumber": 1,
-                    "articles": [],
-                    "sections": [{ "title": "Configure Selection" }, { "title": "Audit Content" }, { "title": "Audit Relationships" }, { "title": "Investigate & Transform" }]
+                    "items": [{ "title": "Configure Selection" }, { "title": "Audit Content" }, { "title": "Audit Relationships" }, { "title": "Investigate & Transform" }]
                 },
                 {
                     "title": "Assemble Dimensions",
                     "iconName": "",
                     "stepNumber": 2,
-                    "articles": []
+                    "items": []
                 },
                 {
                     "title": "Contextualise Data",
-                    "articles": [],
                     "iconName": "",
                     "stepNumber": 3,
-                    "sections": [{ "title": "Configure Query" }, { "title": "Verify Results" }]
+                    "items": [{ "title": "Configure Query" }, { "title": "Verify Results" }]
                 },
                 {
                     "title": "Explore Results",
                     "iconName": "",
                     "stepNumber": 4,
-                    "articles": []
+                    "items": []
                 },
                 {
                     "title": "Build Data Applications",
                     "iconName": "",
                     "stepNumber": 5,
-                    "articles": []
+                    "items": []
                 }
             ]
         },
-        { "title": "Housekeeping", "articles": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
+        { "title": "Housekeeping", "items": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
     ]
 }
