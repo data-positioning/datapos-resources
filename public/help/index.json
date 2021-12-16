@@ -3,10 +3,10 @@
         {
             "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
-                { "id": "introducingDatabench", "title": "Introducing the Databench" },
                 {
                     "title": "Getting Started",
                     "items": [
+                        { "title": "Creating an Account" },
                         { "title": "Evaluating the Databench" },
                         { "title": "Requirements & Compatibility" },
                         { "title": "Signing In & Out of Your Account" },
@@ -18,38 +18,24 @@
             ]
         },
         {
-            "title": "Data Positioning Workflow Guides",
+            "title": "Using the Databench",
             "items": [
+                { "id": "introducingDatabench", "title": "Introducing the Databench", "iconName": "fa-table-thin", "items": [] },
                 {
                     "title": "Cataloguing Data",
                     "iconName": "fa-table-thin",
                     "stepNumber": 1,
                     "items": [{ "title": "Configure Selection" }, { "title": "Audit Content" }, { "title": "Audit Relationships" }, { "title": "Investigate & Transform" }]
                 },
-                {
-                    "title": "Assembling Dimensions",
-                    "iconName": "fa-network-wired-thin",
-                    "stepNumber": 2,
-                    "items": []
-                },
+                { "title": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "stepNumber": 2, "items": [] },
                 {
                     "title": "Contextualising Data",
                     "iconName": "fa-timeline-arrow-thin",
                     "stepNumber": 3,
                     "items": [{ "title": "Configure Query" }, { "title": "Verify Results" }]
                 },
-                {
-                    "title": "Exploring Results",
-                    "iconName": "fa-chart-mixed-thin",
-                    "stepNumber": 4,
-                    "items": []
-                },
-                {
-                    "title": "Building Data Applications",
-                    "iconName": "fa-chart-tree-map-thin",
-                    "stepNumber": 5,
-                    "items": []
-                }
+                { "title": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
+                { "title": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "stepNumber": 5, "items": [] }
             ]
         },
         {
@@ -77,6 +63,6 @@
                 }
             ]
         },
-        { "title": "Housekeeping Guides", "items": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
+        { "title": "Housekeeping", "items": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
     ]
 }
