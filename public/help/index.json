@@ -3,6 +3,7 @@
         {
             "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
+                { "id": "introducingTheDatabench", "title": "Introducing the Databench" },
                 {
                     "id": "gettingStarted",
                     "title": "Getting Started",
@@ -12,8 +13,7 @@
                         { "title": "Signing In & Out of Your Account" },
                         { "title": "Exploring the Sample Data" }
                     ]
-                },
-                { "id": "usingTheDatabench", "title": "Using the Databench" }
+                }
             ]
         },
         {
@@ -60,11 +60,6 @@
                     "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 },
                 {
-                    "title": "Nexus Nodes",
-                    "iconName": "",
-                    "items": [{ "title": "Browser" }, { "title": "Cloud" }]
-                },
-                {
                     "title": "Context Models",
                     "iconName": "",
                     "items": [{ "title": "General" }, { "title": "Human Resources" }]
@@ -73,6 +68,11 @@
                     "title": "Data Destinations",
                     "iconName": "fa-file-import-thin",
                     "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                },
+                {
+                    "title": "Nexus Nodes",
+                    "iconName": "",
+                    "items": [{ "title": "Browser" }, { "title": "Cloud" }]
                 }
             ]
         },
