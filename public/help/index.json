@@ -17,7 +17,7 @@
             ]
         },
         {
-            "title": "The Data Positioning Workflow",
+            "title": "Data Positioning Workflow Guides",
             "items": [
                 {
                     "title": "Catalogue Data",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "title": "Data Components",
+            "title": "Data Component References",
             "items": [
                 {
                     "title": "Data Sources",
@@ -76,6 +76,6 @@
                 }
             ]
         },
-        { "title": "Housekeeping", "items": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
+        { "title": "Housekeeping Guides", "items": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
     ]
 }
