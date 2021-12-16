@@ -3,9 +3,8 @@
         {
             "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
-                { "id": "introducingTheDatabench", "title": "Introducing the Databench" },
+                { "id": "introducingDatabench", "title": "Introducing the Databench" },
                 {
-                    "id": "gettingStarted",
                     "title": "Getting Started",
                     "items": [
                         { "title": "Evaluating the Databench" },
@@ -13,38 +12,40 @@
                         { "title": "Signing In & Out of Your Account" },
                         { "title": "Exploring the Sample Data" }
                     ]
-                }
+                },
+                { "id": "helpFeedback", "title": "Getting Help & providing Feedback" },
+                { "id": "glossary", "title": "Glossary Of Terms & Concepts" }
             ]
         },
         {
             "title": "Data Positioning Workflow Guides",
             "items": [
                 {
-                    "title": "Catalogue Data",
+                    "title": "Cataloguing Data",
                     "iconName": "",
                     "stepNumber": 1,
                     "items": [{ "title": "Configure Selection" }, { "title": "Audit Content" }, { "title": "Audit Relationships" }, { "title": "Investigate & Transform" }]
                 },
                 {
-                    "title": "Assemble Dimensions",
+                    "title": "Assembling Dimensions",
                     "iconName": "",
                     "stepNumber": 2,
                     "items": []
                 },
                 {
-                    "title": "Contextualise Data",
+                    "title": "Contextualising Data",
                     "iconName": "",
                     "stepNumber": 3,
                     "items": [{ "title": "Configure Query" }, { "title": "Verify Results" }]
                 },
                 {
-                    "title": "Explore Results",
+                    "title": "Exploring Results",
                     "iconName": "",
                     "stepNumber": 4,
                     "items": []
                 },
                 {
-                    "title": "Build Data Applications",
+                    "title": "Building Data Applications",
                     "iconName": "",
                     "stepNumber": 5,
                     "items": []
