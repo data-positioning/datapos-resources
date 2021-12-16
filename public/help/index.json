@@ -17,26 +17,6 @@
             ]
         },
         {
-            "title": "Data Components",
-            "items": [
-                {
-                    "title": "Data Sources",
-                    "iconName": "fa-file-import-thin",
-                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
-                },
-                {
-                    "title": "Nexus Nodes",
-                    "iconName": "",
-                    "items": [{ "title": "Browser" }, { "title": "Cloud" }]
-                },
-                {
-                    "title": "Data Destinations",
-                    "iconName": "fa-file-import-thin",
-                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
-                }
-            ]
-        },
-        {
             "title": "The Data Positioning Workflow",
             "items": [
                 {
@@ -68,6 +48,31 @@
                     "iconName": "",
                     "stepNumber": 5,
                     "items": []
+                }
+            ]
+        },
+        {
+            "title": "Data Components",
+            "items": [
+                {
+                    "title": "Data Sources",
+                    "iconName": "fa-file-import-thin",
+                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                },
+                {
+                    "title": "Nexus Nodes",
+                    "iconName": "",
+                    "items": [{ "title": "Browser" }, { "title": "Cloud" }]
+                },
+                {
+                    "title": "Context Models",
+                    "iconName": "",
+                    "items": [{ "title": "General" }, { "title": "Human Resources" }]
+                },
+                {
+                    "title": "Data Destinations",
+                    "iconName": "fa-file-import-thin",
+                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
                 }
             ]
         },
