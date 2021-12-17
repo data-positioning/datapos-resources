@@ -4,13 +4,13 @@
             "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
                 {
+                    "id": "gettingStarted",
                     "title": "Getting Started",
                     "items": [
-                        { "title": "Creating an Account" },
-                        { "title": "Evaluating the Databench" },
-                        { "title": "Requirements & Compatibility" },
-                        { "title": "Signing In & Out of Your Account" },
-                        { "title": "Exploring the Sample Data" }
+                        { "id": "exploringSampleData", "title": "Exploring the Sample Data" },
+                        { "id": "creatingAccount", "title": "Creating an Account" },
+                        { "id": "requirementsCompatibility,", "title": "Requirements & Compatibility" },
+                        { "id": "signingInOut", "title": "Signing In & Out of Your Account" }
                     ]
                 },
                 { "id": "helpFeedback", "title": "Getting Help & Providing Feedback" },
@@ -18,51 +18,88 @@
             ]
         },
         {
+            "id": "usingDatabench",
             "title": "Using the Databench",
             "items": [
                 { "id": "introducingDatabench", "title": "Introducing the Databench", "iconName": "fa-keynote-thin", "items": [] },
                 {
+                    "id": "cataloguingData",
                     "title": "Cataloguing Data",
                     "iconName": "fa-table-thin",
                     "stepNumber": 1,
-                    "items": [{ "title": "Configure Selection" }, { "title": "Audit Content" }, { "title": "Audit Relationships" }, { "title": "Investigate & Transform" }]
+                    "items": [
+                        { "id": "configureSelection", "title": "Configure Selection" },
+                        { "id": "auditContent", "title": "Audit Content" },
+                        { "id": "auditRelationships", "title": "Audit Relationships" },
+                        { "id": "investigateTransform", "title": "Investigate & Transform" }
+                    ]
                 },
-                { "title": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "stepNumber": 2, "items": [] },
+                { "id": "assemblingDimensions", "title": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "stepNumber": 2, "items": [] },
                 {
+                    "id": "contextualisingData",
                     "title": "Contextualising Data",
                     "iconName": "fa-timeline-arrow-thin",
                     "stepNumber": 3,
-                    "items": [{ "title": "Configure Query" }, { "title": "Verify Results" }]
+                    "items": [
+                        { "id": "configureQuery", "title": "Configure Query" },
+                        { "id": "verifyResults", "title": "Verify Results" }
+                    ]
                 },
-                { "title": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
-                { "title": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "stepNumber": 5, "items": [] }
+                { "id": "exploringResults", "title": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
+                { "id": "buildingDataApplications", "title": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "stepNumber": 5, "items": [] }
             ]
         },
         {
+            "id": "dataComponents",
             "title": "Data Components",
             "items": [
                 {
+                    "id": "dataSources",
                     "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
-                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                    "items": [
+                        { "id": "applicationDataSources", "title": "Applications" },
+                        { "id": "databasesDataSources", "title": "Databases" },
+                        { "id": "fileStoreDataSources", "title": "File Stores" }
+                    ]
                 },
                 {
+                    "id": "contextModels",
                     "title": "Context Models",
                     "iconName": "fa-diagram-project-thin",
-                    "items": [{ "title": "General" }, { "title": "Human Resources" }]
+                    "items": [
+                        { "id": "generalContextModel", "title": "General" },
+                        { "id": "humanResourceContextModel", "title": "Human Resources" }
+                    ]
                 },
                 {
+                    "id": "dataDestinations",
                     "title": "Data Destinations",
                     "iconName": "fa-file-export-thin",
-                    "items": [{ "title": "Applications" }, { "title": "Databases" }, { "title": "File Services" }]
+                    "items": [
+                        { "id": "applicationDataDestinations", "title": "Applications" },
+                        { "id": "databaseDataDestinations", "title": "Databases" },
+                        { "id": "fileStoreDataDestinations", "title": "File Stores" }
+                    ]
                 },
                 {
+                    "id": "nexusNodes",
                     "title": "Nexus Nodes",
                     "iconName": "fa-chart-network-thin",
-                    "items": [{ "title": "Browser" }, { "title": "Cloud" }]
+                    "items": [
+                        { "id": "browserNexusNodes", "title": "Browser" },
+                        { "id": "cloudNexusNodes", "title": "Cloud" }
+                    ]
                 }
             ]
         },
-        { "title": "Housekeeping", "items": [{ "title": "Managing your Account" }, { "title": "Data Governance & Security" }] }
+        {
+            "id": "housekeeping",
+            "title": "Housekeeping",
+            "items": [
+                { "id": "managingAccount", "title": "Managing your Account" },
+                { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
+            ]
+        }
     ]
 }
