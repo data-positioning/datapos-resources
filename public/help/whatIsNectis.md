@@ -10,7 +10,7 @@ Data analysis can be divided into a three step workflow:
 1. Access the data stores to build applications that enable analysis,
 1. Conduct the analysis.
 
-For a comprehensive definition of data analysis please refer to this Wikipedia Article.
+For a comprehensive definition of data analysis please refer to this [Wikipedia Article](https://en.wikipedia.org/wiki/Data_analysis).
 
 ## Data Positioning Workbench
 
