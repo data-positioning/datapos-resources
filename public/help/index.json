@@ -71,7 +71,11 @@
                     "iconName": "fa-diagram-project-thin",
                     "items": [
                         { "id": "generalContextModel", "title": "General" },
-                        { "id": "humanResourceContextModel", "title": "Human Resources" }
+                        {
+                            "id": "humanResourceContextModels",
+                            "title": "Human Resource Models",
+                            "items": [{ "id": "hrWorkforceModel", "title": "Workforce Model" }]
+                        }
                     ]
                 },
                 {
