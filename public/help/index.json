@@ -2,6 +2,7 @@
     "items": [
         {
             "id": "introduction",
+            "title": "Introduction",
             "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
                 {
