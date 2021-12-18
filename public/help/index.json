@@ -70,7 +70,7 @@
                     "title": "Context Models",
                     "iconName": "fa-diagram-project-thin",
                     "items": [
-                        { "id": "generalContextModel", "title": "General" },
+                        { "id": "generalContextModel", "title": "General Models" },
                         {
                             "id": "humanResourceContextModels",
                             "title": "Human Resource Models",
