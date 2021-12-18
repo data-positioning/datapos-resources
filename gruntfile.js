@@ -1,6 +1,12 @@
-module.exports = function init(_grunt) {
+/**
+ * @author Jonathan Terrell <jonathan.terrell@springbrook.es>
+ * @copyright Copyright (c) 2019-2021 Springbrook S.L.
+ * @license "ISC"
+ */
+
+module.exports = function init(grunt) {
     // Initialise configuration.
-    _grunt.initConfig({
+    grunt.initConfig({
         bump: {
             options: {
                 commitFiles: ['-a'],
@@ -15,9 +21,10 @@ module.exports = function init(_grunt) {
     });
 
     // Load external tasks.
-    _grunt.loadNpmTasks('grunt-bump');
-    _grunt.loadNpmTasks('grunt-run');
+    grunt.loadNpmTasks('grunt-bump');
+    grunt.loadNpmTasks('grunt-run');
 
     // Register local tasks.
-    _grunt.registerTask('release', ['bump', 'run:deploy']);
+    grunt.registerTask('sync', ['bump']); // cmd shift S
+    grunt.registerTask('release', ['bump', 'run:deploy']); // cmd shift R
 };
