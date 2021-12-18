@@ -70,11 +70,11 @@
                     "title": "Context Models",
                     "iconName": "fa-diagram-project-thin",
                     "items": [
-                        { "id": "generalContextModel", "title": "General Models" },
+                        { "id": "generalModels", "title": "General Models" },
                         {
-                            "id": "humanResourceContextModels",
+                            "id": "humanResourceModels",
                             "title": "Human Resource Models",
-                            "items": [{ "id": "hrWorkforceModel", "title": "Workforce Model" }]
+                            "items": [{ "id": "hrWorkforceModel", "title": "HR Workforce Model" }]
                         }
                     ]
                 },
