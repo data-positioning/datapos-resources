@@ -31,13 +31,13 @@
                     "stepNumber": 1,
                     "items": [
                         { "id": "createSourceView", "title": "Create a View" },
-                        { "id": "groupSourceViewsIntoFolders", "title": "Group Views into Folders", "draft": true },
                         { "id": "configureSelection", "title": "Configure View Selection" },
                         { "id": "auditContent", "title": "Audit View Content" },
                         { "id": "auditRelationships", "title": "Audit View Relationships" },
                         { "id": "investigateTransform", "title": "Investigate/Transform View Data" },
                         { "id": "reviewApproveSourceView", "title": "Review/Approve a View", "draft": true },
                         { "id": "cancelSaveSourceViewChanges", "title": "Cancel/Save View Changes" },
+                        { "id": "groupSourceViewsIntoFolders", "title": "Group Views into Folders", "draft": true },
                         { "id": "renameSourceView", "title": "Rename a View" },
                         { "id": "deleteSourceView", "title": "Delete a View" }
                     ]
