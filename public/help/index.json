@@ -35,7 +35,7 @@
                         { "id": "configureSelection", "title": "Configure Selection" },
                         { "id": "auditContent", "title": "Audit Content" },
                         { "id": "auditRelationships", "title": "Audit Relationships" },
-                        { "id": "investigateTransform", "title": "Investigate & Transform" },
+                        { "id": "investigateTransform", "title": "Investigate/Transform Source View Data" },
                         { "id": "reviewApproveSourceView", "title": "Review/Approve a Source View", "draft": true },
                         { "id": "cancelSaveSourceViewChanges", "title": "Cancel/Save Source View Changes" },
                         { "id": "renameSourceView", "title": "Rename a Source View" },
