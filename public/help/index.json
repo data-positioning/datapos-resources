@@ -58,8 +58,8 @@
             ]
         },
         {
-            "id": "dataComponents",
-            "title": "Data Components",
+            "id": "dataComponentReference",
+            "title": "Data Component Reference",
             "items": [
                 {
                     "id": "dataSources",
