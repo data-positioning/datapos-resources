@@ -1,8 +1,8 @@
 {
     "items": [
         {
-            "id": "firstSteps",
-            "title": "First Steps",
+            "id": "introduction",
+            "title": "Introduction",
             "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
                 {
