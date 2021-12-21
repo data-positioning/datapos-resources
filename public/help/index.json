@@ -59,9 +59,18 @@
             ]
         },
         {
+            "id": "housekeeping",
+            "title": "Housekeeping",
+            "items": [
+                { "id": "managingAccount", "title": "Managing your Account" },
+                { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
+            ]
+        },
+        {
             "id": "dataComponentReference",
             "title": "Data Component Reference",
             "items": [
+                { "id": "introducingDataComponents", "title": "Introducing Data Components", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
                     "id": "dataSources",
                     "title": "Data Sources",
@@ -104,14 +113,6 @@
                         { "id": "cloudNexusNodes", "title": "Cloud" }
                     ]
                 }
-            ]
-        },
-        {
-            "id": "housekeeping",
-            "title": "Housekeeping",
-            "items": [
-                { "id": "manageAccount", "title": "Manage your Account" },
-                { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
             ]
         }
     ]
