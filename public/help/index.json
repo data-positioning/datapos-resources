@@ -9,9 +9,9 @@
                     "id": "gettingStarted",
                     "title": "Getting Started",
                     "items": [
+                        { "id": "checkCompatibility,", "title": "Check Browser Compatibility" },
                         { "id": "exploringSampleData", "title": "Exploring the Sample Data" },
                         { "id": "creatingAccount", "title": "Creating an Account" },
-                        { "id": "requirementsCompatibility,", "title": "Requirements & Compatibility" },
                         { "id": "signingInOut", "title": "Signing In & Out of Your Account" }
                     ]
                 },
