@@ -1,1 +1,1 @@
-# Introduction the Databench
+# Introducing the Databench
