@@ -1,22 +1,23 @@
 {
     "items": [
         {
-            "id": "introduction",
-            "title": "Introduction",
+            "id": "firstSteps",
+            "title": "First Steps",
             "items": [
                 { "id": "whatIsNectis", "title": "What is Nectis?" },
                 {
                     "id": "gettingStarted",
                     "title": "Getting Started",
                     "items": [
-                        { "id": "checkCompatibility,", "title": "Check Browser Compatibility" },
-                        { "id": "exploringSampleData", "title": "Exploring the Sample Data" },
-                        { "id": "creatingAccount", "title": "Creating an Account" },
+                        { "id": "checkBrowserCompatibility,", "title": "Check Browser Compatibility" },
+                        { "id": "exploreSampleData", "title": "Explore the Sample Data" },
+                        { "id": "createAccount", "title": "Create an Account" },
                         { "id": "signingInOut", "title": "Signing In & Out of Your Account" }
                     ]
                 },
                 { "id": "helpFeedback", "title": "Getting Help & Providing Feedback" },
-                { "id": "glossary", "title": "Glossary of Terms & Concepts" }
+                { "id": "glossary", "title": "Glossary of Terms & Concepts" },
+                { "id": "faqs", "title": "Frequently Asked Questions" }
             ]
         },
         {
@@ -109,7 +110,7 @@
             "id": "housekeeping",
             "title": "Housekeeping",
             "items": [
-                { "id": "managingAccount", "title": "Managing your Account" },
+                { "id": "manageAccount", "title": "Manage your Account" },
                 { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
             ]
         }
