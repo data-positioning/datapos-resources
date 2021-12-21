@@ -67,8 +67,8 @@
             ]
         },
         {
-            "id": "dataComponentReference",
-            "title": "Data Component Reference",
+            "id": "dataComponents",
+            "title": "Data Components",
             "items": [
                 { "id": "introducingDataComponents", "title": "Introducing Data Components", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
