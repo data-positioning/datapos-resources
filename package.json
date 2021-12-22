@@ -4,7 +4,7 @@
     "author": "Jonathan Terrell <jonathan.terrell@springbrook.es>",
     "license": "SEE LICENSE IN LICENSE.md",
     "private": true,
-    "version": "0.1.87",
+    "version": "0.1.88",
     "devDependencies": {
         "grunt": "^1.1.0",
         "grunt-bump": "^0.8.0",

@@ -37,6 +37,7 @@
                         { "id": "auditRelationships", "title": "Audit View Relationships" },
                         { "id": "investigateTransform", "title": "Investigate/Transform View Data" },
                         { "id": "reviewApproveSourceView", "title": "Review/Approve a View", "draft": true },
+                        { "id": "disburseSourceViewData", "title": "Disburse Data (Optional)", "draft": true },
                         { "id": "cancelSaveSourceViewChanges", "title": "Cancel/Save View Changes" },
                         { "id": "groupSourceViewsIntoFolders", "title": "Group Views into Folders", "draft": true },
                         { "id": "renameSourceView", "title": "Rename a View" },
@@ -50,8 +51,15 @@
                     "iconName": "fa-timeline-arrow-thin",
                     "stepNumber": 3,
                     "items": [
+                        { "id": "createEventQuery", "title": "Create an Event Query" },
                         { "id": "configureEventQuery", "title": "Configure Event Query" },
-                        { "id": "verifyEventQueryResults", "title": "Verify Results" }
+                        { "id": "verifyEventQueryResults", "title": "Verify Results" },
+                        { "id": "reviewApproveEventQuery", "title": "Review/Approve an Event Query", "draft": true },
+                        { "id": "disburseEventQueryData", "title": "Disburse Data (Optional)", "draft": true },
+                        { "id": "cancelSaveEventQueryChanges", "title": "Cancel/Save Event Query Changes" },
+                        { "id": "groupEventQueriesIntoFolders", "title": "Group Event Queries into Folders", "draft": true },
+                        { "id": "renameEventQuery", "title": "Rename an Event Query" },
+                        { "id": "deleteEvent Query", "title": "Delete an Event Query" }
                     ]
                 },
                 { "id": "exploringResults", "title": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },

@@ -32,11 +32,12 @@
 
 ...
 
-## ## Data Destination
+## Data Destination
 
 A data destination is a location to which we can send data. Examples include applications, databases, devices and file services.
 
-Data Destination Connector
+## Data Destination Connector
+
 A data destination connector implements a secure gateway to a specific data source. You can only use these gateways to send data.
 
 ## Data Register
@@ -55,22 +56,24 @@ A data source connector implements a secure gateway to a specific data source. Y
 
 ...
 
-## ## Database Connector
+## Database Connector
 
 ...
 
-Dimension Manager
+## Dimension Manager
+
 ...
 
 ## File Service
 
 ...
 
-## ## File Service Connector
+## File Service Connector
 
 ...
 
-Read-Only Connector
+## Read-Only Connector
+
 A connector that that can only be used to retrieve data from a specific type of data source (e.g. Salesforce, Dropbox).
 
 ## Reviewing Results
