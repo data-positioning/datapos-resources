@@ -1,0 +1,119 @@
+{
+    "items": [
+        {
+            "id": "introduction",
+            "title": "Introduction",
+            "items": [
+                { "id": "whatIsNectis", "title": "What is Nectis?" },
+                {
+                    "id": "gettingStarted",
+                    "title": "Getting Started",
+                    "items": [
+                        { "id": "checkBrowserCompatibility,", "title": "Check Browser Compatibility" },
+                        { "id": "exploreSampleData", "title": "Explore the Sample Data" },
+                        { "id": "createAccount", "title": "Create an Account" },
+                        { "id": "signingInOut", "title": "Signing In & Out of Your Account" }
+                    ]
+                },
+                { "id": "helpFeedback", "title": "Getting Help & Providing Feedback" },
+                { "id": "faqs", "title": "Frequently Asked Questions" },
+                { "id": "glossary", "title": "Glossary of Terms & Concepts" }
+            ]
+        },
+        {
+            "id": "usingDatabench",
+            "title": "Using the Databench",
+            "items": [
+                { "id": "introducingDatabench", "title": "Introducing the Databench", "iconName": "fa-keynote-thin", "items": [] },
+                {
+                    "id": "cataloguingData",
+                    "title": "Cataloguing Data",
+                    "iconName": "fa-table-thin",
+                    "stepNumber": 1,
+                    "items": [
+                        { "id": "createSourceView", "title": "Create a View" },
+                        { "id": "configureSelection", "title": "Configure View Selection" },
+                        { "id": "auditContent", "title": "Audit View Content" },
+                        { "id": "auditRelationships", "title": "Audit View Relationships" },
+                        { "id": "investigateTransform", "title": "Investigate/Transform View Data" },
+                        { "id": "reviewApproveSourceView", "title": "Review/Approve a View", "draft": true },
+                        { "id": "cancelSaveSourceViewChanges", "title": "Cancel/Save View Changes" },
+                        { "id": "groupSourceViewsIntoFolders", "title": "Group Views into Folders", "draft": true },
+                        { "id": "renameSourceView", "title": "Rename a View" },
+                        { "id": "deleteSourceView", "title": "Delete a View" }
+                    ]
+                },
+                { "id": "assemblingDimensions", "title": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "stepNumber": 2, "items": [] },
+                {
+                    "id": "contextualisingData",
+                    "title": "Contextualising Data",
+                    "iconName": "fa-timeline-arrow-thin",
+                    "stepNumber": 3,
+                    "items": [
+                        { "id": "configureQuery", "title": "Configure Query" },
+                        { "id": "verifyResults", "title": "Verify Results" }
+                    ]
+                },
+                { "id": "exploringResults", "title": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
+                { "id": "buildingDataApplications", "title": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "stepNumber": 5, "items": [] }
+            ]
+        },
+        {
+            "id": "housekeeping",
+            "title": "Housekeeping",
+            "items": [
+                { "id": "managingAccount", "title": "Managing your Account" },
+                { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
+            ]
+        },
+        {
+            "id": "dataComponents",
+            "title": "Data Components",
+            "items": [
+                { "id": "introducingDataComponents", "title": "Introducing Data Components", "iconName": "fa-diagram-project-thin", "items": [] },
+                {
+                    "id": "dataSources",
+                    "title": "Data Sources",
+                    "iconName": "fa-file-import-thin",
+                    "items": [
+                        { "id": "applicationDataSources", "title": "Applications" },
+                        { "id": "databasesDataSources", "title": "Databases" },
+                        { "id": "fileStoreDataSources", "title": "File Stores" }
+                    ]
+                },
+                {
+                    "id": "contextModels",
+                    "title": "Context Models",
+                    "iconName": "fa-diagram-subtask-thin",
+                    "items": [
+                        { "id": "generalModels", "title": "General Models" },
+                        {
+                            "id": "humanResourceModels",
+                            "title": "Human Resource Models",
+                            "items": [{ "id": "hrWorkforceModel", "title": "HR Workforce Model" }]
+                        }
+                    ]
+                },
+                {
+                    "id": "dataDestinations",
+                    "title": "Data Destinations",
+                    "iconName": "fa-file-export-thin",
+                    "items": [
+                        { "id": "applicationDataDestinations", "title": "Applications" },
+                        { "id": "databaseDataDestinations", "title": "Databases" },
+                        { "id": "fileStoreDataDestinations", "title": "File Stores" }
+                    ]
+                },
+                {
+                    "id": "nexusNodes",
+                    "title": "Nexus Nodes",
+                    "iconName": "fa-code-commit-thin",
+                    "items": [
+                        { "id": "browserNexusNodes", "title": "Browser" },
+                        { "id": "cloudNexusNodes", "title": "Cloud" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
