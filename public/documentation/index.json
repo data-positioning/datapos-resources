@@ -84,9 +84,9 @@
                     "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
                     "items": [
-                        { "id": "applicationDataSources", "title": "Applications" },
-                        { "id": "databasesDataSources", "title": "Databases" },
-                        { "id": "fileStoreDataSources", "title": "File Stores" }
+                        { "id": "applicationDataSources", "title": "Applications", "items": [] },
+                        { "id": "databasesDataSources", "title": "Databases", "items": [] },
+                        { "id": "fileStoreDataSources", "title": "File Stores", "items": [] }
                     ]
                 },
                 {
@@ -107,9 +107,9 @@
                     "title": "Data Destinations",
                     "iconName": "fa-file-export-thin",
                     "items": [
-                        { "id": "applicationDataDestinations", "title": "Applications" },
-                        { "id": "databaseDataDestinations", "title": "Databases" },
-                        { "id": "fileStoreDataDestinations", "title": "File Stores" }
+                        { "id": "applicationDataDestinations", "title": "Applications", "items": [{ "id": "sapSuccessFactors", "title": "SAP SuccessFactors" }] },
+                        { "id": "databaseDataDestinations", "title": "Databases", "items": [{ "id": "faunaDB", "title": "FaunaDB" }] },
+                        { "id": "fileStoreDataDestinations", "title": "File Stores", "items": [{ "id": "dropbox", "title": "Dropbox" }] }
                     ]
                 },
                 {
@@ -118,7 +118,7 @@
                     "iconName": "fa-code-commit-thin",
                     "items": [
                         { "id": "browserNexusNodes", "title": "Browser" },
-                        { "id": "cloudNexusNodes", "title": "Cloud" }
+                        { "id": "cloudNexusNodes", "title": "Cloud", "items": [] }
                     ]
                 }
             ]
