@@ -84,9 +84,9 @@
                     "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
                     "items": [
-                        { "id": "applicationDataSources", "title": "Applications", "items": [] },
-                        { "id": "databasesDataSources", "title": "Databases", "items": [] },
-                        { "id": "fileStoreDataSources", "title": "File Stores", "items": [] }
+                        { "id": "applicationDataSources", "title": "Applications", "items": [{ "id": "sapSuccessFactorsWorkforce", "title": "SAP SuccessFactors - Workforce" }] },
+                        { "id": "databasesDataSources", "title": "Databases", "items": [{ "id": "faunaDB", "title": "FaunaDB" }] },
+                        { "id": "fileStoreDataSources", "title": "File Stores", "items": [{ "id": "dropbox", "title": "Dropbox" }] }
                     ]
                 },
                 {
@@ -94,10 +94,15 @@
                     "title": "Context Models",
                     "iconName": "fa-diagram-subtask-thin",
                     "items": [
-                        { "id": "generalModels", "title": "General Models" },
+                        { "id": "commonModels", "title": "Common Models" },
+                        {
+                            "id": "customerServiceModels",
+                            "title": "Customer Service Models (CS)",
+                            "items": [{ "id": "customerServiceModel", "title": "Customer Service Model" }]
+                        },
                         {
                             "id": "humanResourceModels",
-                            "title": "Human Resource Models",
+                            "title": "Human Resource Models (HR)",
                             "items": [{ "id": "hrWorkforceModel", "title": "HR Workforce Model" }]
                         }
                     ]
@@ -107,7 +112,7 @@
                     "title": "Data Destinations",
                     "iconName": "fa-file-export-thin",
                     "items": [
-                        { "id": "applicationDataDestinations", "title": "Applications", "items": [{ "id": "sapSuccessFactors", "title": "SAP SuccessFactors" }] },
+                        { "id": "applicationDataDestinations", "title": "Applications", "items": [{ "id": "bigML", "title": "BigML" }] },
                         { "id": "databaseDataDestinations", "title": "Databases", "items": [{ "id": "faunaDB", "title": "FaunaDB" }] },
                         { "id": "fileStoreDataDestinations", "title": "File Stores", "items": [{ "id": "dropbox", "title": "Dropbox" }] }
                     ]
