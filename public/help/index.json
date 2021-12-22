@@ -84,7 +84,7 @@
                 {
                     "id": "contextModels",
                     "title": "Context Models",
-                    "iconName": "fa-diagram-project-thin",
+                    "iconName": "fa-diagram-subtask-thin",
                     "items": [
                         { "id": "generalModels", "title": "General Models" },
                         {
