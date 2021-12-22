@@ -50,8 +50,8 @@
                     "iconName": "fa-timeline-arrow-thin",
                     "stepNumber": 3,
                     "items": [
-                        { "id": "configureQuery", "title": "Configure Query" },
-                        { "id": "verifyResults", "title": "Verify Results" }
+                        { "id": "configureEventQuery", "title": "Configure Event Query" },
+                        { "id": "verifyEventQueryResults", "title": "Verify Results" }
                     ]
                 },
                 { "id": "exploringResults", "title": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
