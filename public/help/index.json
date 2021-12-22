@@ -16,8 +16,8 @@
                     ]
                 },
                 { "id": "helpFeedback", "title": "Getting Help & Providing Feedback" },
-                { "id": "glossary", "title": "Glossary of Terms & Concepts" },
-                { "id": "faqs", "title": "Frequently Asked Questions" }
+                { "id": "faqs", "title": "Frequently Asked Questions" },
+                { "id": "glossary", "title": "Glossary of Terms & Concepts" }
             ]
         },
         {
@@ -107,7 +107,7 @@
                 {
                     "id": "nexusNodes",
                     "title": "Nexus Nodes",
-                    "iconName": "fa-chart-network-thin",
+                    "iconName": "fa-code-commit-thin",
                     "items": [
                         { "id": "browserNexusNodes", "title": "Browser" },
                         { "id": "cloudNexusNodes", "title": "Cloud" }
