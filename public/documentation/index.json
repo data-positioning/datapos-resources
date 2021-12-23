@@ -90,8 +90,8 @@
                             "items": [
                                 { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud - Workforce Source" },
                                 { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft - Workforce Source" },
-                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors - Workforce Source" },
-                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce - Customer Service Source" }
+                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce - Customer Service Source" },
+                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors - Workforce Source" }
                             ]
                         },
                         {
@@ -225,10 +225,18 @@
                     "title": "Usage Kits",
                     "iconName": "fa-object-group-thin",
                     "items": [
-                        { "id": "appUsageKits", "title": "App Usage Kits" },
-                        { "id": "machineLearningUsageKits", "title": "Machine Learning Usage Kits", "items": [] },
-                        { "id": "NotebookUsageKits", "title": "Notebook Usage Kits", "items": [] },
-                        { "id": "webSiteUsageKits", "title": "Web Site Usage Kits", "items": [] }
+                        {
+                            "id": "appUsageKits",
+                            "title": "App Usage Kits",
+                            "items": [
+                                { "id": "adaloDestination", "title": "Adalo Usage Kit" },
+                                { "id": "poryDestination", "title": "Pory Usage Kit" },
+                                { "id": "softrDestination", "title": "Softr Usage Kit" }
+                            ]
+                        },
+                        { "id": "machineLearningUsageKits", "title": "Machine Learning Usage Kits", "items": [{ "id": "bigMLUsageKit", "title": "BigML Usage Kit" }] },
+                        { "id": "NotebookUsageKits", "title": "Notebook Usage Kits", "items": [{ "id": "observableUsageKit", "title": "Observable Usage Kit" }] },
+                        { "id": "webSiteUsageKits", "title": "Web Site Usage Kits", "items": [{ "id": "vuePressUsageKit", "title": "VuePress Usage Kit" }] }
                     ]
                 }
             ]
