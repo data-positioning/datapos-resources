@@ -79,7 +79,7 @@
         {
             "id": "dataComponents",
             "title": "The Component Library",
-            "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "items": [
                 { "id": "introducingDataComponents", "title": "Introducing the Component Library", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
