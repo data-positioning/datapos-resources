@@ -170,7 +170,7 @@
                         { "id": "entityIndex", "title": "Entity Index" },
                         { "id": "dimensionIndex", "title": "Dimension Index" },
                         { "id": "measureIndex", "title": "Measure Index" },
-                        { "id": "viewIndex", "title": "View Index" }
+                        { "id": "presentationIndex", "title": "Presentation Index" }
                     ]
                 },
                 {
