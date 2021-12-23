@@ -74,7 +74,7 @@
             "items": [
                 { "id": "introducingDataComponents", "title": "Introducing the Component Library", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
-                    "id": "dataSources",
+                    "id": "sources",
                     "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
                     "items": [
