@@ -68,11 +68,11 @@
             ]
         },
         {
-            "id": "dataComponents",
+            "id": "componentLibrary",
             "title": "The Component Library",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "items": [
-                { "id": "introducingDataComponents", "title": "Introducing the Component Library", "iconName": "fa-diagram-project-thin", "items": [] },
+                { "id": "introducingComponentLibrary", "title": "Introducing the Component Library", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
                     "id": "sources",
                     "title": "Data Sources",
