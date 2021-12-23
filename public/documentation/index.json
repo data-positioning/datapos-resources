@@ -226,7 +226,7 @@
                     "items": [
                         {
                             "id": "appBuildKits",
-                            "title": "App Build Kits",
+                            "title": "App",
                             "items": [
                                 { "id": "adaloBuildKit", "title": "Adalo" },
                                 { "id": "poryBuildKit", "title": "Pory" },
