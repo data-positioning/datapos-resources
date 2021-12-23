@@ -83,9 +83,9 @@
                             "title": "Application",
                             "items": [
                                 { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud (Workforce)" },
-                                { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft - Workforce" },
-                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce - Customer Service" },
-                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors - Workforce" }
+                                { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft (Workforce)" },
+                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce (Customer Service)" },
+                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors (Workforce)" }
                             ]
                         },
                         {
@@ -180,7 +180,7 @@
                     "iconName": "fa-code-commit-thin",
                     "items": [
                         { "id": "browserNexusNodes", "title": "Browser" },
-                        { "id": "cloudNexusNodes", "title": "Cloud", "items": [] }
+                        { "id": "cloudNexusNodes", "title": "Cloud", "items": [{ "id": "faunaDBNexusNode", "title": "FaunaDB" }] }
                     ]
                 },
                 {
@@ -220,22 +220,22 @@
                     ]
                 },
                 {
-                    "id": "usageKits",
+                    "id": "dataApplicationBuildKits",
                     "title": "Data Application Build Kits",
                     "iconName": "fa-object-group-thin",
                     "items": [
                         {
-                            "id": "appUsageKits",
-                            "title": "App Usage Kits",
+                            "id": "appBuildKits",
+                            "title": "App Build Kits",
                             "items": [
-                                { "id": "adaloDestination", "title": "Adalo Usage Kit" },
-                                { "id": "poryDestination", "title": "Pory Usage Kit" },
-                                { "id": "softrDestination", "title": "Softr Usage Kit" }
+                                { "id": "adaloBuildKit", "title": "Adalo" },
+                                { "id": "poryBuildKit", "title": "Pory" },
+                                { "id": "softrBuildKit", "title": "Softr" }
                             ]
                         },
-                        { "id": "machineLearningUsageKits", "title": "Machine Learning Usage Kits", "items": [{ "id": "bigMLUsageKit", "title": "BigML Usage Kit" }] },
-                        { "id": "notebookUsageKits", "title": "Notebook Usage Kits", "items": [{ "id": "observableUsageKit", "title": "Observable Usage Kit" }] },
-                        { "id": "webSiteUsageKits", "title": "Web Site Usage Kits", "items": [{ "id": "vuePressUsageKit", "title": "VuePress Usage Kit" }] }
+                        { "id": "machineLearningBuildKits", "title": "Machine Learning", "items": [{ "id": "bigMLBuildKit", "title": "BigML" }] },
+                        { "id": "notebookBuildKits", "title": "Notebook", "items": [{ "id": "observableBuildKit", "title": "Observable" }] },
+                        { "id": "webSiteBuildKits", "title": "Web Site", "items": [{ "id": "vuePressBuildKit", "title": "VuePress" }] }
                     ]
                 }
             ]
