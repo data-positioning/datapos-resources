@@ -70,6 +70,7 @@
         {
             "id": "housekeeping",
             "title": "Housekeeping",
+            "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
                 { "id": "managingAccount", "title": "Managing your Account" },
                 { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
@@ -78,6 +79,7 @@
         {
             "id": "dataComponents",
             "title": "Component Library",
+            "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
                 { "id": "introducingDataComponents", "title": "Introducing Data Components", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
