@@ -84,9 +84,36 @@
                     "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
                     "items": [
-                        { "id": "applicationDataSources", "title": "Applications", "items": [{ "id": "sapSuccessFactorsWorkforce", "title": "SAP SuccessFactors - Workforce" }] },
-                        { "id": "databasesDataSources", "title": "Databases", "items": [{ "id": "faunaDB", "title": "FaunaDB" }] },
-                        { "id": "fileStoreDataSources", "title": "File Stores", "items": [{ "id": "dropbox", "title": "Dropbox" }] }
+                        {
+                            "id": "applicationDataSources",
+                            "title": "Applications",
+                            "items": [
+                                { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud - Workforce Source" },
+                                { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft - Workforce Source" },
+                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors - Workforce Source" },
+                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce - Customer Service Source" }
+                            ]
+                        },
+                        {
+                            "id": "databasesDataSources",
+                            "title": "Databases",
+                            "items": [
+                                { "id": "faunaDBSource", "title": "FaunaDB Source" },
+                                { "id": "postgreSQLSource", "title": "PostgreSQL Source" }
+                            ]
+                        },
+                        {
+                            "id": "fileStoreDataSources",
+                            "title": "File Stores",
+                            "items": [
+                                { "id": "amazonS3Source", "title": "Amazon S3 Source" },
+                                { "id": "boxSource", "title": "Box Source" },
+                                { "id": "citrixShareFileSource", "title": "Citrix Share File Source" },
+                                { "id": "dropboxSource", "title": "Dropbox Source" },
+                                { "id": "googleDriveSource", "title": "Google Drive Source" },
+                                { "id": "microsoftOneDriveSource", "title": "Microsoft OneDrive Source" }
+                            ]
+                        }
                     ]
                 },
                 {
@@ -94,7 +121,16 @@
                     "title": "Context Models",
                     "iconName": "fa-diagram-subtask-thin",
                     "items": [
-                        { "id": "commonModels", "title": "Common Models" },
+                        {
+                            "id": "commonModels",
+                            "title": "Common Models",
+                            "items": [
+                                { "id": "assetModel", "title": "Asset Model" },
+                                { "id": "locationModel", "title": "Location Model" },
+                                { "id": "partyModel", "title": "Party Model" },
+                                { "id": "productModel", "title": "Product Model" }
+                            ]
+                        },
                         {
                             "id": "customerServiceModels",
                             "title": "Customer Service Models (CS)",
@@ -103,7 +139,39 @@
                         {
                             "id": "humanResourceModels",
                             "title": "Human Resource Models (HR)",
-                            "items": [{ "id": "hrWorkforceModel", "title": "HR Workforce Model" }]
+                            "items": [
+                                { "id": "hrWorkforceModel", "title": "HR Workforce Model" },
+                                { "id": "hrRecruitmentOnboardingModel", "title": "HR Recruitment & Onboarding Model" },
+                                { "id": "hrLearningModel", "title": "HR Learning Model" },
+                                { "id": "hrTalentManagementModel", "title": "HR Talent Management Model" },
+                                { "id": "hrAttendanceModel", "title": "HR Attendance Model" },
+                                { "id": "hrCompensationModel", "title": "HR Compensation Model" }
+                            ]
+                        },
+                        {
+                            "id": "inventoryManagementModels",
+                            "title": "Inventory Management Models (IM)",
+                            "items": [{ "id": "inventoryManagementModel", "title": "Inventory Management Model" }]
+                        },
+                        {
+                            "id": "orderManagementModels",
+                            "title": "Order Management Models (OM)",
+                            "items": [{ "id": "orderManagementModel", "title": "Order Management Model" }]
+                        },
+                        {
+                            "id": "salesManagementModels",
+                            "title": "Sales Management Models (SM)",
+                            "items": [{ "id": "salesManagementModel", "title": "Sales Management Model" }]
+                        },
+                        {
+                            "id": "socialNetworkingModels",
+                            "title": "Social Networking Models (SN)",
+                            "items": [{ "id": "socialNetworkingModel", "title": "Social Networking Model" }]
+                        },
+                        {
+                            "id": "workEffortModels",
+                            "title": "Work Effort Models (WE)",
+                            "items": [{ "id": "workEffortModel", "title": "Planning & Work Effort Model" }]
                         }
                     ]
                 },
@@ -112,9 +180,35 @@
                     "title": "Data Destinations",
                     "iconName": "fa-file-export-thin",
                     "items": [
-                        { "id": "applicationDataDestinations", "title": "Applications", "items": [{ "id": "bigML", "title": "BigML" }] },
-                        { "id": "databaseDataDestinations", "title": "Databases", "items": [{ "id": "faunaDB", "title": "FaunaDB" }] },
-                        { "id": "fileStoreDataDestinations", "title": "File Stores", "items": [{ "id": "dropbox", "title": "Dropbox" }] }
+                        {
+                            "id": "applicationDataDestinations",
+                            "title": "Applications",
+                            "items": [
+                                { "id": "bigMLDestination", "title": "BigML" },
+                                { "id": "cyfeDestination", "title": "Cyfe" }
+                            ]
+                        },
+                        {
+                            "id": "databaseDataDestinations",
+                            "title": "Databases",
+                            "items": [
+                                { "id": "faunaDBDestination", "title": "FaunaDB Destination" },
+                                { "id": "mongoDBAtlasDestination", "title": "MongoDB Atlas Destination" },
+                                { "id": "postgreSQLDestination", "title": "PostgreSQL Destination" }
+                            ]
+                        },
+                        {
+                            "id": "fileStoreDataDestinations",
+                            "title": "File Stores",
+                            "items": [
+                                { "id": "amazonS3Destination", "title": "Amazon S3 Destination" },
+                                { "id": "boxDestination", "title": "Box Destination" },
+                                { "id": "citrixShareFileDestination", "title": "Citrix Share File Destination" },
+                                { "id": "dropboxDestination", "title": "Dropbox Destination" },
+                                { "id": "googleDriveDestination", "title": "Google Drive Destination" },
+                                { "id": "microsoftOneDriveDestination", "title": "Microsoft OneDrive Destination" }
+                            ]
+                        }
                     ]
                 },
                 {
@@ -124,6 +218,17 @@
                     "items": [
                         { "id": "browserNexusNodes", "title": "Browser" },
                         { "id": "cloudNexusNodes", "title": "Cloud", "items": [] }
+                    ]
+                },
+                {
+                    "id": "usageKits",
+                    "title": "Usage Kits",
+                    "iconName": "fa-object-group-thin",
+                    "items": [
+                        { "id": "appUsageKits", "title": "App Usage Kits" },
+                        { "id": "machineLearningUsageKits", "title": "Machine Learning Usage Kits", "items": [] },
+                        { "id": "NotebookUsageKits", "title": "Notebook Usage Kits", "items": [] },
+                        { "id": "webSiteUsageKits", "title": "Web Site Usage Kits", "items": [] }
                     ]
                 }
             ]
