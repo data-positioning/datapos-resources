@@ -1,1 +1,1 @@
-# Application Data Destinations
+# Application Destinations

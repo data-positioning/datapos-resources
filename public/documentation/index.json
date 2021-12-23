@@ -210,7 +210,7 @@
                             "title": "File Store",
                             "items": [
                                 { "id": "amazonS3Destination", "title": "Amazon S3" },
-                                { "id": "boxDestination", "title": "Box Destination" },
+                                { "id": "boxDestination", "title": "Box" },
                                 { "id": "citrixShareFileDestination", "title": "Citrix Share File" },
                                 { "id": "dropboxDestination", "title": "Dropbox" },
                                 { "id": "googleDriveDestination", "title": "Google Drive" },
