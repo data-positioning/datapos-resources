@@ -76,7 +76,7 @@
         },
         {
             "id": "dataComponents",
-            "title": "Data Components",
+            "title": "Component References",
             "items": [
                 { "id": "introducingDataComponents", "title": "Introducing Data Components", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
@@ -172,7 +172,11 @@
                             "id": "workEffortModels",
                             "title": "Work Effort Models (WE)",
                             "items": [{ "id": "workEffortModel", "title": "Planning & Work Effort Model" }]
-                        }
+                        },
+                        { "id": "entityIndex", "title": "Entity Index" },
+                        { "id": "dimensionIndex", "title": "Dimension Index" },
+                        { "id": "measureIndex", "title": "Measure Index" },
+                        { "id": "viewIndex", "title": "View Index" }
                     ]
                 },
                 {
@@ -222,7 +226,7 @@
                 },
                 {
                     "id": "usageKits",
-                    "title": "Usage Kits",
+                    "title": "Build Kits",
                     "iconName": "fa-object-group-thin",
                     "items": [
                         {
@@ -235,7 +239,7 @@
                             ]
                         },
                         { "id": "machineLearningUsageKits", "title": "Machine Learning Usage Kits", "items": [{ "id": "bigMLUsageKit", "title": "BigML Usage Kit" }] },
-                        { "id": "NotebookUsageKits", "title": "Notebook Usage Kits", "items": [{ "id": "observableUsageKit", "title": "Observable Usage Kit" }] },
+                        { "id": "notebookUsageKits", "title": "Notebook Usage Kits", "items": [{ "id": "observableUsageKit", "title": "Observable Usage Kit" }] },
                         { "id": "webSiteUsageKits", "title": "Web Site Usage Kits", "items": [{ "id": "vuePressUsageKit", "title": "VuePress Usage Kit" }] }
                     ]
                 }
