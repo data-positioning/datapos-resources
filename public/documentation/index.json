@@ -82,7 +82,7 @@
                             "id": "applicationSources",
                             "title": "Application",
                             "items": [
-                                { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud - Workforce" },
+                                { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud (Workforce)" },
                                 { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft - Workforce" },
                                 { "id": "salesforceCustomerServiceSource", "title": "Salesforce - Customer Service" },
                                 { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors - Workforce" }
@@ -93,6 +93,7 @@
                             "title": "Database",
                             "items": [
                                 { "id": "faunaDBSource", "title": "FaunaDB" },
+                                { "id": "mongoDBAtlasSource", "title": "MongoDB Atlas" },
                                 { "id": "postgreSQLSource", "title": "PostgreSQL" }
                             ]
                         },
@@ -189,7 +190,7 @@
                     "items": [
                         {
                             "id": "applicationDestinations",
-                            "title": "Applications",
+                            "title": "Application",
                             "items": [
                                 { "id": "bigMLDestination", "title": "BigML" },
                                 { "id": "cyfeDestination", "title": "Cyfe" }
@@ -197,23 +198,23 @@
                         },
                         {
                             "id": "databaseDestinations",
-                            "title": "Databases",
+                            "title": "Database",
                             "items": [
-                                { "id": "faunaDBDestination", "title": "FaunaDB Destination" },
-                                { "id": "mongoDBAtlasDestination", "title": "MongoDB Atlas Destination" },
-                                { "id": "postgreSQLDestination", "title": "PostgreSQL Destination" }
+                                { "id": "faunaDBDestination", "title": "FaunaDB" },
+                                { "id": "mongoDBAtlasDestination", "title": "MongoDB Atlas" },
+                                { "id": "postgreSQLDestination", "title": "PostgreSQL" }
                             ]
                         },
                         {
                             "id": "fileStoreDestinations",
-                            "title": "File Stores",
+                            "title": "File Store",
                             "items": [
-                                { "id": "amazonS3Destination", "title": "Amazon S3 Destination" },
+                                { "id": "amazonS3Destination", "title": "Amazon S3" },
                                 { "id": "boxDestination", "title": "Box Destination" },
-                                { "id": "citrixShareFileDestination", "title": "Citrix Share File Destination" },
-                                { "id": "dropboxDestination", "title": "Dropbox Destination" },
-                                { "id": "googleDriveDestination", "title": "Google Drive Destination" },
-                                { "id": "microsoftOneDriveDestination", "title": "Microsoft OneDrive Destination" }
+                                { "id": "citrixShareFileDestination", "title": "Citrix Share File" },
+                                { "id": "dropboxDestination", "title": "Dropbox" },
+                                { "id": "googleDriveDestination", "title": "Google Drive" },
+                                { "id": "microsoftOneDriveDestination", "title": "Microsoft OneDrive" }
                             ]
                         }
                     ]
