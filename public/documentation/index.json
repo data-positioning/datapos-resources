@@ -78,7 +78,7 @@
         },
         {
             "id": "dataComponents",
-            "title": "Component Library",
+            "title": "The Component Library",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
                 { "id": "introducingDataComponents", "title": "Introducing Data Components", "iconName": "fa-diagram-project-thin", "items": [] },
@@ -183,6 +183,15 @@
                     ]
                 },
                 {
+                    "id": "nexusNodes",
+                    "title": "Nexus Nodes",
+                    "iconName": "fa-code-commit-thin",
+                    "items": [
+                        { "id": "browserNexusNodes", "title": "Browser" },
+                        { "id": "cloudNexusNodes", "title": "Cloud", "items": [] }
+                    ]
+                },
+                {
                     "id": "dataDestinations",
                     "title": "Data Destinations",
                     "iconName": "fa-file-export-thin",
@@ -219,17 +228,8 @@
                     ]
                 },
                 {
-                    "id": "nexusNodes",
-                    "title": "Nexus Nodes",
-                    "iconName": "fa-code-commit-thin",
-                    "items": [
-                        { "id": "browserNexusNodes", "title": "Browser" },
-                        { "id": "cloudNexusNodes", "title": "Cloud", "items": [] }
-                    ]
-                },
-                {
                     "id": "usageKits",
-                    "title": "Build Kits",
+                    "title": "Data Application Build Kits",
                     "iconName": "fa-object-group-thin",
                     "items": [
                         {
