@@ -79,33 +79,33 @@
                     "iconName": "fa-file-import-thin",
                     "items": [
                         {
-                            "id": "applicationDataSources",
-                            "title": "Applications",
+                            "id": "applicationSources",
+                            "title": "Application",
                             "items": [
-                                { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud - Workforce Source" },
-                                { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft - Workforce Source" },
-                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce - Customer Service Source" },
-                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors - Workforce Source" }
+                                { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud - Workforce" },
+                                { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft - Workforce" },
+                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce - Customer Service" },
+                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors - Workforce" }
                             ]
                         },
                         {
-                            "id": "databasesDataSources",
-                            "title": "Databases",
+                            "id": "databaseSources",
+                            "title": "Database",
                             "items": [
-                                { "id": "faunaDBSource", "title": "FaunaDB Source" },
-                                { "id": "postgreSQLSource", "title": "PostgreSQL Source" }
+                                { "id": "faunaDBSource", "title": "FaunaDB" },
+                                { "id": "postgreSQLSource", "title": "PostgreSQL" }
                             ]
                         },
                         {
-                            "id": "fileStoreDataSources",
-                            "title": "File Stores",
+                            "id": "fileStoreSources",
+                            "title": "File Store",
                             "items": [
-                                { "id": "amazonS3Source", "title": "Amazon S3 Source" },
-                                { "id": "boxSource", "title": "Box Source" },
-                                { "id": "citrixShareFileSource", "title": "Citrix Share File Source" },
-                                { "id": "dropboxSource", "title": "Dropbox Source" },
-                                { "id": "googleDriveSource", "title": "Google Drive Source" },
-                                { "id": "microsoftOneDriveSource", "title": "Microsoft OneDrive Source" }
+                                { "id": "amazonS3Source", "title": "Amazon S3" },
+                                { "id": "boxSource", "title": "Box" },
+                                { "id": "citrixShareFileSource", "title": "Citrix Share File" },
+                                { "id": "dropboxSource", "title": "Dropbox" },
+                                { "id": "googleDriveSource", "title": "Google Drive" },
+                                { "id": "microsoftOneDriveSource", "title": "Microsoft OneDrive" }
                             ]
                         }
                     ]
@@ -183,12 +183,12 @@
                     ]
                 },
                 {
-                    "id": "dataDestinations",
+                    "id": "destinations",
                     "title": "Data Destinations",
                     "iconName": "fa-file-export-thin",
                     "items": [
                         {
-                            "id": "applicationDataDestinations",
+                            "id": "applicationDestinations",
                             "title": "Applications",
                             "items": [
                                 { "id": "bigMLDestination", "title": "BigML" },
@@ -196,7 +196,7 @@
                             ]
                         },
                         {
-                            "id": "databaseDataDestinations",
+                            "id": "databaseDestinations",
                             "title": "Databases",
                             "items": [
                                 { "id": "faunaDBDestination", "title": "FaunaDB Destination" },
@@ -205,7 +205,7 @@
                             ]
                         },
                         {
-                            "id": "fileStoreDataDestinations",
+                            "id": "fileStoreDestinations",
                             "title": "File Stores",
                             "items": [
                                 { "id": "amazonS3Destination", "title": "Amazon S3 Destination" },
