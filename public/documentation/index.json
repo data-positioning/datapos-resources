@@ -68,15 +68,6 @@
             ]
         },
         {
-            "id": "housekeeping",
-            "title": "Housekeeping",
-            "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "items": [
-                { "id": "managingAccount", "title": "Managing your Account" },
-                { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
-            ]
-        },
-        {
             "id": "dataComponents",
             "title": "The Component Library",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -246,6 +237,15 @@
                         { "id": "webSiteUsageKits", "title": "Web Site Usage Kits", "items": [{ "id": "vuePressUsageKit", "title": "VuePress Usage Kit" }] }
                     ]
                 }
+            ]
+        },
+        {
+            "id": "housekeeping",
+            "title": "Housekeeping",
+            "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "items": [
+                { "id": "managingAccount", "title": "Managing your Account" },
+                { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
             ]
         }
     ]
