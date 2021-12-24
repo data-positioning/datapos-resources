@@ -1,1 +1,1 @@
-# Human Resources Models
+# Human Resource Models
