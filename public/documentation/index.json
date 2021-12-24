@@ -25,7 +25,6 @@
             "title": "Using the Databench",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
-                { "id": "introducingDatabench", "title": "Introducing the Databench", "iconName": "fa-keynote-thin", "items": [] },
                 {
                     "id": "cataloguingData",
                     "title": "Cataloguing Data",
@@ -72,7 +71,6 @@
             "title": "The Component Library",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "items": [
-                { "id": "introducingComponentLibrary", "title": "Introducing the Component Library", "iconName": "fa-diagram-project-thin", "items": [] },
                 {
                     "id": "sources",
                     "title": "Data Sources",
