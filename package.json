@@ -4,7 +4,10 @@
     "author": "Jonathan Terrell <jonathan.terrell@springbrook.es>",
     "license": "ISC",
     "private": true,
-    "version": "0.1.131",
+    "version": "0.1.132",
+    "keywords": [
+        "nectis"
+    ],
     "devDependencies": {
         "grunt": "^1.4.1",
         "grunt-bump": "^0.8.0",
