@@ -16,7 +16,15 @@ module.exports = function init(grunt) {
         },
 
         run: {
-            deploy: { args: ['deploy'], cmd: 'firebase' }
+            audit: { args: ['npm', 'audit'], cmd: 'npx' },
+            build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
+            deploy: { args: ['deploy'], cmd: 'firebase' },
+            identifyLicensesUsingLicenseChecker: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json', '--start', 'functions'], cmd: 'npx' },
+            identifyLicensesUsingNLF: { args: ['nlf', '-d'], cmd: 'npx', options: { cwd: 'functions' } },
+            lint: { args: ['WARNING: Lint is NOT implemented.'], cmd: 'echo' },
+            outdated: { args: ['npm', 'outdated'], cmd: 'npx' },
+            publish: { args: ['WARNING: Publish is NOT implemented.'], cmd: 'echo' },
+            test: { args: ['WARNING: No tests implemented.'], cmd: 'echo' }
         }
     });
 
@@ -25,6 +33,13 @@ module.exports = function init(grunt) {
     grunt.loadNpmTasks('grunt-run');
 
     // Register local tasks.
-    grunt.registerTask('sync', ['bump']); // cmd shift S
-    grunt.registerTask('release', ['bump', 'run:deploy']); // cmd shift R
+    grunt.registerTask('audit', ['run:audit']);
+    grunt.registerTask('build', ['run:build']);
+    grunt.registerTask('identifyLicenses', ['run:identifyLicensesUsingLicenseChecker', 'run:identifyLicensesUsingNLF']);
+    grunt.registerTask('lint', ['run:lint']);
+    grunt.registerTask('outdated', ['run:outdated']);
+    grunt.registerTask('publish', ['run:publish']);
+    grunt.registerTask('release', ['bump', 'run:deploy']);
+    grunt.registerTask('synchronise', ['bump']);
+    grunt.registerTask('test', ['run:test']);
 };
