@@ -1,53 +1,74 @@
 [
-    { "label": "Customer Services", "items": [] },
+    { "id": "cs", "label": "Customer Services", "items": [] },
     {
+        "id": "hr",
         "label": "Human Resources",
         "items": [
             {
+                "id": "hr-wf",
                 "label": "Workforce",
                 "items": [
                     { "label": "Size", "id": "workforce-size-2" },
-                    { "label": "Hires & Terminations" },
-                    { "label": "Movements" },
-                    { "label": "Movement Flows" },
+                    { "label": "Hires & Terminations", "id": "" },
+                    { "label": "Movements", "id": "" },
+                    { "label": "Movement Flows", "id": "" },
                     {
+                        "id": "hr-wf-prof",
                         "label": "Profiles",
                         "items": [
-                            { "label": "Age", "items": [] },
-                            { "label": "Gender", "items": [] },
-                            { "label": "Nationality", "items": [] },
-                            { "label": "Payment", "items": [] },
-                            { "label": "Residential Location", "items": [] },
-                            { "label": "Role", "items": [] },
-                            { "label": "Tenure", "items": [] }
+                            { "label": "Age", "id": "" },
+                            { "label": "Gender", "id": "" },
+                            { "label": "Nationality", "id": "" },
+                            { "label": "Payment", "id": "" },
+                            { "label": "Residential Location", "id": "" },
+                            { "label": "Role", "id": "" },
+                            { "label": "Tenure", "id": "" }
                         ]
                     }
                 ]
             },
-            { "label": "Recruitment & Onboarding", "items": [] },
-            { "label": "Learning", "items": [] },
             {
+                "id": "hr-r&o",
+                "label": "Recruitment & Onboarding",
+                "items": []
+            },
+            {
+                "id": "hr-learn",
+                "label": "Learning",
+                "items": []
+            },
+            {
+                "id": "hr-tm",
                 "label": "Talent Management (Performance)",
                 "items": [
-                    { "label": "Experience", "items": [] },
-                    { "label": "Management", "items": [] },
-                    { "label": "Sourcing", "items": [] }
+                    { "id": "hr-tm-exp", "label": "Experience", "items": [] },
+                    { "id": "hr-tm-mgt", "label": "Management", "items": [] },
+                    { "id": "hr-tm-source", "label": "Sourcing", "items": [] }
                 ]
             },
-            { "label": "Attendance", "items": [] },
-            { "label": "Compensation", "items": [] }
+            {
+                "id": "hr-att",
+                "label": "Attendance",
+                "items": []
+            },
+            {
+                "id": "hr-comp",
+                "label": "Compensation",
+                "items": []
+            }
         ]
     },
-    { "label": "Inventory Management", "items": [] },
-    { "label": "Order Management", "items": [] },
+    { "id": "im", "label": "Inventory Management", "items": [] },
+    { "id": "om", "label": "Order Management", "items": [] },
     {
+        "id": "sm",
         "label": "Sales Management",
         "items": [
-            { "label": "Contacts", "items": [] },
-            { "label": "Leads", "items": [] },
-            { "label": "Opportunities", "items": [] }
+            { "id": "cs-cont", "label": "Contacts", "items": [] },
+            { "id": "cs-lead", "label": "Leads", "items": [] },
+            { "id": "cs-opp", "label": "Opportunities", "items": [] }
         ]
     },
-    { "label": "Social Networking", "items": [] },
-    { "label": "Work Management", "items": [] }
+    { "id": "sn", "label": "Social Networking", "items": [] },
+    { "id": "wm", "label": "Work Management", "items": [] }
 ]
