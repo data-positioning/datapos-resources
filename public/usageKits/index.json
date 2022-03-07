@@ -1,5 +1,6 @@
 [
-    { "label": "Apps", "items": [{ "label": "Softr", "items": [] }] },
-    { "label": "Notebooks", "items": [] },
-    { "label": "Sites", "items": [] }
+    { "label": "Adalo", "typeIds": ["app", "site"], "sourceIds": [], "url": "https://www.adalo.com" },
+    { "label": "AppGyver", "typeIds": ["app", "site"], "sourceIds": ["firebase", "nectisNode"], "url": "https://appgyver.com/" },
+    { "label": "Softr", "typeIds": ["app", "site"], "sourceIds": ["airTable"], "url": "https://www.softr.io" },
+    { "label": "Observable", "typeIds": ["notebook"], "sourceIds": ["nectisNode"], "url": "https://observablehq.com" }
 ]
