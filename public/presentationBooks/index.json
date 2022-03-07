@@ -1,0 +1,53 @@
+[
+    { "label": "Customer Services", "items": [] },
+    {
+        "label": "Human Resources",
+        "items": [
+            {
+                "label": "Workforce",
+                "items": [
+                    { "label": "Size", "id": "workforce-size-2" },
+                    { "label": "Hires & Terminations" },
+                    { "label": "Movements" },
+                    { "label": "Movement Flows" },
+                    {
+                        "label": "Profiles",
+                        "items": [
+                            { "label": "Age", "items": [] },
+                            { "label": "Gender", "items": [] },
+                            { "label": "Nationality", "items": [] },
+                            { "label": "Payment", "items": [] },
+                            { "label": "Residential Location", "items": [] },
+                            { "label": "Role", "items": [] },
+                            { "label": "Tenure", "items": [] }
+                        ]
+                    }
+                ]
+            },
+            { "label": "Recruitment & Onboarding", "items": [] },
+            { "label": "Learning", "items": [] },
+            {
+                "label": "Talent Management (Performance)",
+                "items": [
+                    { "label": "Experience", "items": [] },
+                    { "label": "Management", "items": [] },
+                    { "label": "Sourcing", "items": [] }
+                ]
+            },
+            { "label": "Attendance", "items": [] },
+            { "label": "Compensation", "items": [] }
+        ]
+    },
+    { "label": "Inventory Management", "items": [] },
+    { "label": "Order Management", "items": [] },
+    {
+        "label": "Sales Management",
+        "items": [
+            { "label": "Contacts", "items": [] },
+            { "label": "Leads", "items": [] },
+            { "label": "Opportunities", "items": [] }
+        ]
+    },
+    { "label": "Social Networking", "items": [] },
+    { "label": "Work Management", "items": [] }
+]
