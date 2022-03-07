@@ -1,6 +1,6 @@
 [
-    { "label": "Adalo", "typeIds": ["app", "site"], "sourceIds": [], "url": "https://www.adalo.com" },
-    { "label": "AppGyver", "typeIds": ["app", "site"], "sourceIds": ["firebase", "nectisNode"], "url": "https://appgyver.com/" },
-    { "label": "Softr", "typeIds": ["app", "site"], "sourceIds": ["airTable"], "url": "https://www.softr.io" },
-    { "label": "Observable", "typeIds": ["notebook"], "sourceIds": ["nectisNode"], "url": "https://observablehq.com" }
+    { "id": "adalo", "label": "Adalo", "typeIds": ["app", "site"], "sourceIds": [], "url": "https://www.adalo.com" },
+    { "id": "appGyver", "label": "AppGyver", "typeIds": ["app", "site"], "sourceIds": ["firebase", "nectisNode"], "url": "https://appgyver.com/" },
+    { "id": "softr", "label": "Softr", "typeIds": ["app", "site"], "sourceIds": ["airTable"], "url": "https://www.softr.io" },
+    { "id": "observable", "label": "Observable", "typeIds": ["notebook"], "sourceIds": ["nectisNode"], "url": "https://observablehq.com" }
 ]
