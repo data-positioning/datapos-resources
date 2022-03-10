@@ -19,10 +19,13 @@
                             "label": "Profiles",
                             "items": [
                                 { "label": "Age", "id": "" },
+                                { "label": "Ethnic Background", "id": "" },
                                 { "label": "Gender", "id": "" },
                                 { "label": "Nationality", "id": "" },
-                                { "label": "Payment", "id": "" },
-                                { "label": "Residential Location", "id": "" },
+                                { "label": "Payment - Amount", "id": "" },
+                                { "label": "Payment - Grade", "id": "" },
+                                { "label": "Location - Residential", "id": "" },
+                                { "label": "Location - Work", "id": "" },
                                 { "label": "Role", "id": "" },
                                 { "label": "Tenure", "id": "" }
                             ]
