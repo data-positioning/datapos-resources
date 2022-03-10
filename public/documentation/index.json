@@ -75,39 +75,7 @@
                     "id": "sources",
                     "title": "Data Sources",
                     "iconName": "fa-file-import-thin",
-                    "items": [
-                        {
-                            "id": "applicationSources",
-                            "title": "Application",
-                            "items": [
-                                { "id": "oracleHCMCloudWorkforceSource", "title": "Oracle HCM Cloud (Workforce)" },
-                                { "id": "oraclePeopleSoftWorkforceSource", "title": "Oracle PeopleSoft (Workforce)" },
-                                { "id": "salesforceCustomerServiceSource", "title": "Salesforce (Customer Service)" },
-                                { "id": "sapSuccessFactorsWorkforceSource", "title": "SAP SuccessFactors (Workforce)" }
-                            ]
-                        },
-                        {
-                            "id": "databaseSources",
-                            "title": "Database",
-                            "items": [
-                                { "id": "faunaDBSource", "title": "FaunaDB" },
-                                { "id": "mongoDBAtlasSource", "title": "MongoDB Atlas" },
-                                { "id": "postgreSQLSource", "title": "PostgreSQL" }
-                            ]
-                        },
-                        {
-                            "id": "fileStoreSources",
-                            "title": "File Store",
-                            "items": [
-                                { "id": "amazonS3Source", "title": "Amazon S3" },
-                                { "id": "boxSource", "title": "Box" },
-                                { "id": "citrixShareFileSource", "title": "Citrix Share File" },
-                                { "id": "dropboxSource", "title": "Dropbox" },
-                                { "id": "googleDriveSource", "title": "Google Drive" },
-                                { "id": "microsoftOneDriveSource", "title": "Microsoft OneDrive" }
-                            ]
-                        }
-                    ]
+                    "items": []
                 },
                 {
                     "id": "contextModels",
