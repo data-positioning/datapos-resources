@@ -1,1 +1,0 @@
-# Verify Event Query Results

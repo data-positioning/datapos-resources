@@ -20,7 +20,11 @@ module.exports = function init(grunt) {
         run: {
             audit: { args: ['npm', 'audit'], cmd: 'npx' },
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
+            copyArticlesToFirebase: { args: ['cp', 'public/articles/*', `${firebaseStorageUrl}articles`], cmd: 'gsutil' },
             copyBuildKitsToFirebase: { args: ['cp', 'public/buildKits/*', `${firebaseStorageUrl}buildKits`], cmd: 'gsutil' },
+            copyEmulatorsToFirebase: { args: ['cp', 'public/emulators/*', `${firebaseStorageUrl}emulators`], cmd: 'gsutil' },
+            copyFileStoreToFirebase: { args: ['cp', 'public/fileStore/*', `${firebaseStorageUrl}fileStore`], cmd: 'gsutil' },
+            copyPresentationBooksToFirebase: { args: ['cp', 'public/presentationBooks/*', `${firebaseStorageUrl}presentationBooks`], cmd: 'gsutil' },
             deploy: { args: ['deploy'], cmd: 'firebase' },
             identifyLicensesUsingLicenseChecker: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
             identifyLicensesUsingNLF: { args: ['nlf', '-d'], cmd: 'npx' },
@@ -42,7 +46,14 @@ module.exports = function init(grunt) {
     grunt.registerTask('lint', ['run:lint']);
     grunt.registerTask('outdated', ['run:outdated']);
     grunt.registerTask('publish', ['run:publish']);
-    grunt.registerTask('release', ['bump', 'run:copyBuildKitsToFirebase' /*, 'run:deploy'*/]);
+    grunt.registerTask('release', [
+        'bump',
+        'run:copyArticlesToFirebase',
+        'run:copyBuildKitsToFirebase',
+        'run:copyEmulatorsToFirebase',
+        'run:copyFileStoreToFirebase',
+        'run:copyPresentationBooksToFirebase' /*, 'run:deploy' */
+    ]);
     grunt.registerTask('synchronise', ['bump']);
     grunt.registerTask('test', ['run:test']);
 };
