@@ -25,7 +25,7 @@ module.exports = function init(grunt) {
             copyEmulatorsToFirebase: { args: ['cp', '-r', 'public/emulators/*', `${firebaseStorageUrl}emulators`], cmd: 'gsutil' },
             copyFileStoreToFirebase: { args: ['cp', '-r', 'public/fileStore/*', `${firebaseStorageUrl}fileStore`], cmd: 'gsutil' },
             copyPresentationBooksToFirebase: { args: ['cp', '-r', 'public/presentationBooks/*', `${firebaseStorageUrl}presentationBooks`], cmd: 'gsutil' },
-            deploy: { args: ['deploy'], cmd: 'firebase' },
+            // deploy: { args: ['deploy'], cmd: 'firebase' },
             identifyLicensesUsingLicenseChecker: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
             identifyLicensesUsingNLF: { args: ['nlf', '-d'], cmd: 'npx' },
             lint: { args: ['WARNING: Lint is NOT implemented.'], cmd: 'echo' },
