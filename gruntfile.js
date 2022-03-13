@@ -52,7 +52,8 @@ module.exports = function init(grunt) {
         'run:copyBuildKitsToFirebase',
         'run:copyEmulatorsToFirebase',
         'run:copyFileStoreToFirebase',
-        'run:copyPresentationBooksToFirebase' /*, 'run:deploy' */
+        'run:copyPresentationBooksToFirebase'
+        /* 'run:deploy' */
     ]);
     grunt.registerTask('synchronise', ['bump']);
     grunt.registerTask('test', ['run:test']);
