@@ -4,6 +4,8 @@
  * @license "ISC"
  */
 
+const firebaseStorageUrl = 'gs://nectis-app-v00-dev-alpha.appspot.com/';
+
 module.exports = function init(grunt) {
     // Initialise configuration.
     grunt.initConfig({
@@ -18,6 +20,7 @@ module.exports = function init(grunt) {
         run: {
             audit: { args: ['npm', 'audit'], cmd: 'npx' },
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
+            copyBuildKitsToFirebase: { args: ['cp', 'public/buildKits/*', `${firebaseStorageUrl}buildKits`], cmd: 'gsutil' },
             deploy: { args: ['deploy'], cmd: 'firebase' },
             identifyLicensesUsingLicenseChecker: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
             identifyLicensesUsingNLF: { args: ['nlf', '-d'], cmd: 'npx' },
@@ -39,7 +42,7 @@ module.exports = function init(grunt) {
     grunt.registerTask('lint', ['run:lint']);
     grunt.registerTask('outdated', ['run:outdated']);
     grunt.registerTask('publish', ['run:publish']);
-    grunt.registerTask('release', ['bump', 'run:deploy']);
+    grunt.registerTask('release', ['bump', 'run:copyBuildKitsToFirebase' /*, 'run:deploy'*/]);
     grunt.registerTask('synchronise', ['bump']);
     grunt.registerTask('test', ['run:test']);
 };
