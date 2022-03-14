@@ -21,7 +21,7 @@ module.exports = function init(grunt) {
             audit: { args: ['npm', 'audit'], cmd: 'npx' },
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
             copyBuildKitsToFirebase: { args: ['cp', '-r', 'public/buildKits/*', `${firebaseStorageUrl}buildKits`], cmd: 'gsutil' },
-            copyDocumentationToFirebase: { args: ['cp', '-r', 'public/articles/*', `${firebaseStorageUrl}documentation`], cmd: 'gsutil' },
+            copyDocumentationToFirebase: { args: ['cp', '-r', 'public/documentation/*', `${firebaseStorageUrl}documentation`], cmd: 'gsutil' },
             copyEmulatorsToFirebase: { args: ['cp', '-r', 'public/emulators/*', `${firebaseStorageUrl}emulators`], cmd: 'gsutil' },
             copyFileStoreToFirebase: { args: ['cp', '-r', 'public/fileStore/*', `${firebaseStorageUrl}fileStore`], cmd: 'gsutil' },
             copyPresentationBooksToFirebase: { args: ['cp', '-r', 'public/presentationBooks/*', `${firebaseStorageUrl}presentationBooks`], cmd: 'gsutil' },
