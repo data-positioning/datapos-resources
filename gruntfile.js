@@ -21,14 +21,7 @@ module.exports = function init(grunt) {
             audit: { args: ['npm', 'audit'], cmd: 'npx' },
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
             copyBuildKitsToFirebase: { args: ['cp', '-r', 'public/buildKits/*', `${firebaseStorageUrl}buildKits/`], cmd: 'gsutil' },
-            copyDocumentation1ToFirebase: { args: ['cp', 'public/documentation/*', `${firebaseStorageUrl}documentation/`], cmd: 'gsutil' },
-            copyDocumentation2ToFirebase: { args: ['cp', '-r', 'public/documentation/componentLibrary/*', `${firebaseStorageUrl}documentation/componentLibrary/`], cmd: 'gsutil' },
-            copyDocumentation3ToFirebase: { args: ['cp', '-r', 'public/documentation/housekeeping/*', `${firebaseStorageUrl}documentation/housekeeping/`], cmd: 'gsutil' },
-            copyDocumentation4ToFirebase: { args: ['cp', '-r', 'public/documentation/introduction/*', `${firebaseStorageUrl}documentation/introduction/`], cmd: 'gsutil' },
-            copyDocumentation5ToFirebase: {
-                args: ['cp', '-r', 'public/documentation/usingTheDatabench/*', `${firebaseStorageUrl}documentation/usingTheDatabench/`],
-                cmd: 'gsutil'
-            },
+            copyDocumentationToFirebase: { args: ['cp', '-r', 'public/documentation/*', `${firebaseStorageUrl}documentation/`], cmd: 'gsutil' },
             copyEmulatorsToFirebase: { args: ['cp', '-r', 'public/emulators/*', `${firebaseStorageUrl}emulators/`], cmd: 'gsutil' },
             copyFileStoreToFirebase: { args: ['cp', '-r', 'public/fileStore/*', `${firebaseStorageUrl}fileStore/`], cmd: 'gsutil' },
             copyPresentationBooksToFirebase: { args: ['cp', '-r', 'public/presentationBooks/*', `${firebaseStorageUrl}presentationBooks/`], cmd: 'gsutil' },
@@ -55,11 +48,7 @@ module.exports = function init(grunt) {
     grunt.registerTask('release', [
         'bump',
         'run:copyBuildKitsToFirebase',
-        'run:copyDocumentation1ToFirebase',
-        'run:copyDocumentation2ToFirebase',
-        'run:copyDocumentation3ToFirebase',
-        'run:copyDocumentation4ToFirebase',
-        'run:copyDocumentation5ToFirebase',
+        'run:copyDocumentationToFirebase',
         'run:copyEmulatorsToFirebase',
         'run:copyFileStoreToFirebase',
         'run:copyPresentationBooksToFirebase'
