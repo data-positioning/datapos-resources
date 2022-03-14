@@ -22,13 +22,10 @@ module.exports = function init(grunt) {
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
             copyBuildKitsToFirebase: { args: ['cp', '-r', 'public/buildKits/*', `${firebaseStorageUrl}buildKits`], cmd: 'gsutil' },
             copyDocumentation1ToFirebase: { args: ['cp', 'public/documentation/*', `${firebaseStorageUrl}documentation`], cmd: 'gsutil' },
-            copyDocumentation2ToFirebase: { args: ['cp', '-r', 'public/documentation/componentLibrary/*', `${firebaseStorageUrl}documentation%2FcomponentLibrary`], cmd: 'gsutil' },
-            copyDocumentation3ToFirebase: { args: ['cp', '-r', 'public/documentation/housekeeping/*', `${firebaseStorageUrl}documentation%2Fhousekeeping`], cmd: 'gsutil' },
-            copyDocumentation4ToFirebase: { args: ['cp', '-r', 'public/documentation/introduction/*', `${firebaseStorageUrl}documentation%2Fintroduction`], cmd: 'gsutil' },
-            copyDocumentation5ToFirebase: {
-                args: ['cp', '-r', 'public/documentation/usingTheDatabench/*', `${firebaseStorageUrl}documentation%2FusingTheDatabench`],
-                cmd: 'gsutil'
-            },
+            copyDocumentation2ToFirebase: { args: ['cp', '-r', 'public/documentation/componentLibrary/*', `${firebaseStorageUrl}documentation/componentLibrary`], cmd: 'gsutil' },
+            copyDocumentation3ToFirebase: { args: ['cp', '-r', 'public/documentation/housekeeping/*', `${firebaseStorageUrl}documentation/housekeeping`], cmd: 'gsutil' },
+            copyDocumentation4ToFirebase: { args: ['cp', '-r', 'public/documentation/introduction/*', `${firebaseStorageUrl}documentation/introduction`], cmd: 'gsutil' },
+            copyDocumentation5ToFirebase: { args: ['cp', '-r', 'public/documentation/usingTheDatabench/*', `${firebaseStorageUrl}documentation/usingTheDatabench`], cmd: 'gsutil' },
             copyEmulatorsToFirebase: { args: ['cp', '-r', 'public/emulators/*', `${firebaseStorageUrl}emulators`], cmd: 'gsutil' },
             copyFileStoreToFirebase: { args: ['cp', '-r', 'public/fileStore/*', `${firebaseStorageUrl}fileStore`], cmd: 'gsutil' },
             copyPresentationBooksToFirebase: { args: ['cp', '-r', 'public/presentationBooks/*', `${firebaseStorageUrl}presentationBooks`], cmd: 'gsutil' },
