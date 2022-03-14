@@ -1,0 +1,80 @@
+{
+    "home": { "id": "workforce-size-2" },
+    "items": [
+        { "id": "cs", "label": "Customer Services", "items": [] },
+        {
+            "id": "hr",
+            "label": "Human Resources",
+            "items": [
+                {
+                    "id": "hr-wf",
+                    "label": "Workforce",
+                    "items": [
+                        { "label": "Size", "id": "workforce-size-2" },
+                        { "label": "Hires & Terminations", "id": "" },
+                        { "label": "Movements", "id": "" },
+                        { "label": "Movement Flows", "id": "" },
+                        {
+                            "id": "hr-wf-prof",
+                            "label": "Profiles",
+                            "items": [
+                                { "label": "Age", "id": "" },
+                                { "label": "Ethnic Background", "id": "" },
+                                { "label": "Gender", "id": "" },
+                                { "label": "Nationality", "id": "" },
+                                { "label": "Payment - Amount", "id": "" },
+                                { "label": "Payment - Grade", "id": "" },
+                                { "label": "Location - Residential", "id": "" },
+                                { "label": "Location - Work", "id": "" },
+                                { "label": "Role", "id": "" },
+                                { "label": "Tenure", "id": "" }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "hr-r&o",
+                    "label": "Recruitment & Onboarding",
+                    "items": []
+                },
+                {
+                    "id": "hr-learn",
+                    "label": "Learning",
+                    "items": []
+                },
+                {
+                    "id": "hr-tm",
+                    "label": "Talent Management (Performance)",
+                    "items": [
+                        { "id": "hr-tm-exp", "label": "Experience", "items": [] },
+                        { "id": "hr-tm-mgt", "label": "Management", "items": [] },
+                        { "id": "hr-tm-source", "label": "Sourcing", "items": [] }
+                    ]
+                },
+                {
+                    "id": "hr-att",
+                    "label": "Attendance",
+                    "items": []
+                },
+                {
+                    "id": "hr-comp",
+                    "label": "Compensation",
+                    "items": []
+                }
+            ]
+        },
+        { "id": "im", "label": "Inventory Management", "items": [] },
+        { "id": "om", "label": "Order Management", "items": [] },
+        {
+            "id": "sm",
+            "label": "Sales Management",
+            "items": [
+                { "id": "cs-cont", "label": "Contacts", "items": [] },
+                { "id": "cs-lead", "label": "Leads", "items": [] },
+                { "id": "cs-opp", "label": "Opportunities", "items": [] }
+            ]
+        },
+        { "id": "sn", "label": "Social Networking", "items": [] },
+        { "id": "wm", "label": "Work Management", "items": [] }
+    ]
+}
