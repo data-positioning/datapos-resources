@@ -1,1 +1,0 @@
-# Configure an Event Query

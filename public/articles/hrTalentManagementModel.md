@@ -1,1 +1,0 @@
-# HR Talent Management Model
