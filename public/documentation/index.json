@@ -145,7 +145,7 @@
                 {
                     "id": "nexusNodes",
                     "title": "Nexus Nodes",
-                    "loadContexts": true,
+                    "loadConnectors": true,
                     "iconName": "fa-code-commit-thin",
                     "items": [
                         { "id": "browserNexusNodes", "title": "Browser" },
