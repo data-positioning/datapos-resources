@@ -2,226 +2,253 @@
     "items": [
         {
             "id": "introduction",
-            "title": "Introduction",
+            "label": "Introduction",
             "items": [
-                { "id": "whatIsNectis", "title": "What is Nectis?" },
+                { "id": "whatIsNectis", "label": "What is Nectis?" },
                 {
                     "id": "gettingStarted",
-                    "title": "Getting Started",
+                    "label": "Getting Started",
                     "items": [
-                        { "id": "checkBrowserCompatibility", "title": "Check Browser Compatibility" },
-                        { "id": "exploreSampleData", "title": "Explore the Sample Data" },
-                        { "id": "createAccount", "title": "Create an Account" },
-                        { "id": "signingInOut", "title": "Signing In & Out of Your Account" }
+                        { "id": "checkBrowserCompatibility", "label": "Check Browser Compatibility" },
+                        { "id": "exploreSampleData", "label": "Explore the Sample Data" },
+                        { "id": "createAccount", "label": "Create an Account" },
+                        { "id": "signingInOut", "label": "Signing In & Out of Your Account" }
                     ]
                 },
-                { "id": "helpFeedback", "title": "Getting Help & Providing Feedback" },
-                { "id": "faqs", "title": "Frequently Asked Questions" },
-                { "id": "glossary", "title": "Glossary of Terms & Concepts" }
+                { "id": "helpFeedback", "label": "Getting Help & Providing Feedback" },
+                { "id": "faqs", "label": "Frequently Asked Questions" },
+                { "id": "glossary", "label": "Glossary of Terms & Concepts" }
             ]
         },
         {
             "id": "usingTheDatabench",
-            "title": "Using the Databench",
+            "label": "Using the Databench",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
                 {
                     "id": "cataloguingData",
-                    "title": "Cataloguing Data",
+                    "label": "Cataloguing Data",
                     "iconName": "fa-table-thin",
                     "stepNumber": 1,
                     "items": [
-                        { "id": "createSourceView", "title": "Create a View" },
-                        { "id": "configureSelection", "title": "Configure View Selection" },
-                        { "id": "auditContent", "title": "Audit View Content" },
-                        { "id": "auditRelationships", "title": "Audit View Relationships" },
-                        { "id": "investigateTransform", "title": "Investigate/Transform View Data" },
-                        { "id": "reviewApproveSourceView", "title": "Review/Approve a View", "draft": true },
-                        { "id": "disburseSourceViewData", "title": "Disburse Data (Optional)", "draft": true },
-                        { "id": "cancelSaveSourceViewChanges", "title": "Cancel/Save View Changes" },
-                        { "id": "groupSourceViewsIntoFolders", "title": "Group Views into Folders", "draft": true },
-                        { "id": "renameSourceView", "title": "Rename a View" },
-                        { "id": "deleteSourceView", "title": "Delete a View" }
+                        { "id": "createSourceView", "label": "Create a View" },
+                        { "id": "configureSelection", "label": "Configure View Selection" },
+                        { "id": "auditContent", "label": "Audit View Content" },
+                        { "id": "auditRelationships", "label": "Audit View Relationships" },
+                        { "id": "investigateTransform", "label": "Investigate/Transform View Data" },
+                        { "id": "reviewApproveSourceView", "label": "Review/Approve a View", "draft": true },
+                        { "id": "disburseSourceViewData", "label": "Disburse Data (Optional)", "draft": true },
+                        { "id": "cancelSaveSourceViewChanges", "label": "Cancel/Save View Changes" },
+                        { "id": "groupSourceViewsIntoFolders", "label": "Group Views into Folders", "draft": true },
+                        { "id": "renameSourceView", "label": "Rename a View" },
+                        { "id": "deleteSourceView", "label": "Delete a View" }
                     ]
                 },
-                { "id": "assemblingDimensions", "title": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "stepNumber": 2, "items": [] },
+                { "id": "assemblingDimensions", "label": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "stepNumber": 2, "items": [] },
                 {
                     "id": "contextualisingData",
-                    "title": "Contextualising Data",
+                    "label": "Contextualising Data",
                     "iconName": "fa-timeline-arrow-thin",
                     "stepNumber": 3,
                     "items": [
-                        { "id": "createEventQuery", "title": "Create an Event Query" },
-                        { "id": "configureEventQuery", "title": "Configure Event Query" },
-                        { "id": "verifyEventQueryResults", "title": "Verify Results" },
-                        { "id": "reviewApproveEventQuery", "title": "Review/Approve an Event Query", "draft": true },
-                        { "id": "disburseEventQueryData", "title": "Disburse Data (Optional)", "draft": true },
-                        { "id": "cancelSaveEventQueryChanges", "title": "Cancel/Save Event Query Changes" },
-                        { "id": "groupEventQueriesIntoFolders", "title": "Group Event Queries into Folders", "draft": true },
-                        { "id": "renameEventQuery", "title": "Rename an Event Query" },
-                        { "id": "deleteEvent Query", "title": "Delete an Event Query" }
+                        { "id": "createEventQuery", "label": "Create an Event Query" },
+                        { "id": "configureEventQuery", "label": "Configure Event Query" },
+                        { "id": "verifyEventQueryResults", "label": "Verify Results" },
+                        { "id": "reviewApproveEventQuery", "label": "Review/Approve an Event Query", "draft": true },
+                        { "id": "disburseEventQueryData", "label": "Disburse Data (Optional)", "draft": true },
+                        { "id": "cancelSaveEventQueryChanges", "label": "Cancel/Save Event Query Changes" },
+                        { "id": "groupEventQueriesIntoFolders", "label": "Group Event Queries into Folders", "draft": true },
+                        { "id": "renameEventQuery", "label": "Rename an Event Query" },
+                        { "id": "deleteEvent Query", "label": "Delete an Event Query" }
                     ]
                 },
-                { "id": "exploringResults", "title": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
-                { "id": "buildingDataApplications", "title": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "stepNumber": 5, "items": [] }
+                { "id": "exploringResults", "label": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
+                { "id": "buildingDataApplications", "label": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "stepNumber": 5, "items": [] }
             ]
         },
         {
             "id": "componentLibrary",
-            "title": "The Component Library",
+            "label": "The Component Library",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "items": [
                 {
                     "id": "dataSources",
-                    "title": "Data Sources",
+                    "label": "Data Sources",
                     "loadConnectors": true,
                     "iconName": "fa-file-import-thin",
                     "typeId": "dataSourceCategories",
-                    "items": []
+                    "items": [
+                        {
+                            "id": "applicationDataSources",
+                            "label": "Application Data Sources",
+                            "typeId": "dataSourceCategory",
+                            "items": []
+                        },
+                        {
+                            "id": "databaseDataSources",
+                            "label": "Database Data Sources",
+                            "typeId": "dataSourceCategory",
+                            "items": []
+                        },
+                        {
+                            "id": "fileStoreDataSources",
+                            "label": "File Store Data Sources",
+                            "typeId": "dataSourceCategory",
+                            "items": []
+                        }
+                    ]
                 },
                 {
                     "id": "contextModels",
-                    "title": "Context Models",
+                    "label": "Context Models",
                     "loadContexts": true,
                     "iconName": "fa-diagram-subtask-thin",
                     "typeId": "contextModelCategories",
                     "items": [
                         {
                             "id": "commonModels",
-                            "title": "Common",
+                            "label": "Common",
+                            "typeId": "contextModelCategory",
                             "items": [
-                                { "id": "assetModel", "title": "Asset" },
-                                { "id": "locationModel", "title": "Location" },
-                                { "id": "partyModel", "title": "Party" },
-                                { "id": "productModel", "title": "Product" }
+                                { "id": "assetModel", "label": "Asset" },
+                                { "id": "locationModel", "label": "Location" },
+                                { "id": "partyModel", "label": "Party" },
+                                { "id": "productModel", "label": "Product" }
                             ]
                         },
                         {
                             "id": "customerServiceModels",
-                            "title": "Customer Service (CS)",
-                            "items": [{ "id": "customerServiceModel", "title": "Customer Service" }]
+                            "label": "Customer Service (CS)",
+                            "typeId": "contextModelCategory",
+                            "items": [{ "id": "customerServiceModel", "label": "Customer Service" }]
                         },
                         {
                             "id": "humanResourceModels",
-                            "title": "Human Resource (HR)",
+                            "label": "Human Resource (HR)",
+                            "typeId": "contextModelCategory",
                             "items": [
-                                { "id": "hrWorkforceModel", "title": "Workforce" },
-                                { "id": "hrRecruitmentOnboardingModel", "title": "Recruitment & Onboarding" },
-                                { "id": "hrLearningModel", "title": "Learning" },
-                                { "id": "hrTalentManagementModel", "title": "Talent Management" },
-                                { "id": "hrAttendanceModel", "title": "Attendance" },
-                                { "id": "hrCompensationModel", "title": "Compensation" }
+                                { "id": "hrWorkforceModel", "label": "Workforce" },
+                                { "id": "hrRecruitmentOnboardingModel", "label": "Recruitment & Onboarding" },
+                                { "id": "hrLearningModel", "label": "Learning" },
+                                { "id": "hrTalentManagementModel", "label": "Talent Management" },
+                                { "id": "hrAttendanceModel", "label": "Attendance" },
+                                { "id": "hrCompensationModel", "label": "Compensation" }
                             ]
                         },
                         {
                             "id": "inventoryManagementModels",
-                            "title": "Inventory Management (IM)",
-                            "items": [{ "id": "inventoryManagementModel", "title": "Inventory Management" }]
+                            "label": "Inventory Management (IM)",
+                            "typeId": "contextModelCategory",
+                            "items": [{ "id": "inventoryManagementModel", "label": "Inventory Management" }]
                         },
                         {
                             "id": "orderManagementModels",
-                            "title": "Order Management (OM)",
-                            "items": [{ "id": "orderManagementModel", "title": "Order Management" }]
+                            "label": "Order Management (OM)",
+                            "typeId": "contextModelCategory",
+                            "items": [{ "id": "orderManagementModel", "label": "Order Management" }]
                         },
                         {
                             "id": "salesManagementModels",
-                            "title": "Sales Management (SM)",
-                            "items": [{ "id": "salesManagementModel", "title": "Sales Management" }]
+                            "label": "Sales Management (SM)",
+                            "typeId": "contextModelCategory",
+                            "items": [{ "id": "salesManagementModel", "label": "Sales Management" }]
                         },
                         {
                             "id": "socialNetworkingModels",
-                            "title": "Social Networking (SN)",
-                            "items": [{ "id": "socialNetworkingModel", "title": "Social Networking" }]
+                            "label": "Social Networking (SN)",
+                            "typeId": "contextModelCategory",
+                            "items": [{ "id": "socialNetworkingModel", "label": "Social Networking" }]
                         },
                         {
                             "id": "workEffortModels",
-                            "title": "Work Effort (WE)",
-                            "items": [{ "id": "workEffortModel", "title": "Planning & Work Effort" }]
+                            "label": "Work Effort (WE)",
+                            "typeId": "contextModelCategory",
+                            "items": [{ "id": "workEffortModel", "label": "Planning & Work Effort" }]
                         },
-                        { "id": "entityIndex", "title": "Entity Index" },
-                        { "id": "dimensionIndex", "title": "Dimension Index" },
-                        { "id": "measureIndex", "title": "Measure Index" },
-                        { "id": "presentationIndex", "title": "Presentation Index" }
+                        { "id": "entityIndex", "label": "Entity Index", "typeId": "contextEntityIndex" },
+                        { "id": "dimensionIndex", "label": "Dimension Index", "typeId": "contextDimensionIndex" },
+                        { "id": "measureIndex", "label": "Measure Index", "typeId": "contextMeasureIndex" },
+                        { "id": "presentationIndex", "label": "Presentation Index", "typeId": "contextPresentationIndex" }
                     ]
                 },
                 {
                     "id": "nexusNodes",
-                    "title": "Nexus Nodes",
+                    "label": "Nexus Nodes",
                     "loadConnectors": true,
                     "iconName": "fa-code-commit-thin",
                     "typeId": "nexusNodeCategories",
                     "items": [
-                        { "id": "browserNexusNodes", "title": "Browser" },
-                        { "id": "cloudNexusNodes", "title": "Cloud", "items": [{ "id": "faunaDBNexusNode", "title": "FaunaDB" }] }
+                        { "id": "browserNexusNodes", "label": "Browser" },
+                        { "id": "cloudNexusNodes", "label": "Cloud", "items": [{ "id": "faunaDBNexusNode", "label": "FaunaDB" }] }
                     ]
                 },
                 {
                     "id": "dataDestinations",
-                    "title": "Data Destinations",
+                    "label": "Data Destinations",
                     "loadConnectors": true,
                     "iconName": "fa-file-export-thin",
                     "typeId": "dataDestinationCategories",
                     "items": [
                         {
                             "id": "applicationDestinations",
-                            "title": "Application",
+                            "label": "Application",
                             "items": [
-                                { "id": "bigMLDestination", "title": "BigML" },
-                                { "id": "cyfeDestination", "title": "Cyfe" }
+                                { "id": "bigMLDestination", "label": "BigML" },
+                                { "id": "cyfeDestination", "label": "Cyfe" }
                             ]
                         },
                         {
                             "id": "databaseDestinations",
-                            "title": "Database",
+                            "label": "Database",
                             "items": [
-                                { "id": "faunaDBDestination", "title": "FaunaDB" },
-                                { "id": "mongoDBAtlasDestination", "title": "MongoDB Atlas" },
-                                { "id": "postgreSQLDestination", "title": "PostgreSQL" }
+                                { "id": "faunaDBDestination", "label": "FaunaDB" },
+                                { "id": "mongoDBAtlasDestination", "label": "MongoDB Atlas" },
+                                { "id": "postgreSQLDestination", "label": "PostgreSQL" }
                             ]
                         },
                         {
                             "id": "fileStoreDestinations",
-                            "title": "File Store",
+                            "label": "File Store",
                             "items": [
-                                { "id": "amazonS3Destination", "title": "Amazon S3" },
-                                { "id": "boxDestination", "title": "Box" },
-                                { "id": "citrixShareFileDestination", "title": "Citrix Share File" },
-                                { "id": "dropboxDestination", "title": "Dropbox" },
-                                { "id": "googleDriveDestination", "title": "Google Drive" },
-                                { "id": "microsoftOneDriveDestination", "title": "Microsoft OneDrive" }
+                                { "id": "amazonS3Destination", "label": "Amazon S3" },
+                                { "id": "boxDestination", "label": "Box" },
+                                { "id": "citrixShareFileDestination", "label": "Citrix Share File" },
+                                { "id": "dropboxDestination", "label": "Dropbox" },
+                                { "id": "googleDriveDestination", "label": "Google Drive" },
+                                { "id": "microsoftOneDriveDestination", "label": "Microsoft OneDrive" }
                             ]
                         }
                     ]
                 },
                 {
                     "id": "dataApplicationBuildKits",
-                    "title": "Data Application Build Kits",
+                    "label": "Data Application Build Kits",
                     "iconName": "fa-object-group-thin",
                     "typeId": "dataApplicationBuildCategories",
                     "items": [
                         {
                             "id": "appBuildKits",
-                            "title": "App",
+                            "label": "App",
                             "items": [
-                                { "id": "adaloBuildKit", "title": "Adalo" },
-                                { "id": "poryBuildKit", "title": "Pory" },
-                                { "id": "softrBuildKit", "title": "Softr" }
+                                { "id": "adaloBuildKit", "label": "Adalo" },
+                                { "id": "poryBuildKit", "label": "Pory" },
+                                { "id": "softrBuildKit", "label": "Softr" }
                             ]
                         },
-                        { "id": "machineLearningBuildKits", "title": "Machine Learning", "items": [{ "id": "bigMLBuildKit", "title": "BigML" }] },
-                        { "id": "notebookBuildKits", "title": "Notebook", "items": [{ "id": "observableBuildKit", "title": "Observable" }] },
-                        { "id": "webSiteBuildKits", "title": "Web Site", "items": [{ "id": "vuePressBuildKit", "title": "VuePress" }] }
+                        { "id": "machineLearningBuildKits", "label": "Machine Learning", "items": [{ "id": "bigMLBuildKit", "label": "BigML" }] },
+                        { "id": "notebookBuildKits", "label": "Notebook", "items": [{ "id": "observableBuildKit", "label": "Observable" }] },
+                        { "id": "webSiteBuildKits", "label": "Web Site", "items": [{ "id": "vuePressBuildKit", "label": "VuePress" }] }
                     ]
                 }
             ]
         },
         {
             "id": "housekeeping",
-            "title": "Housekeeping",
+            "label": "Housekeeping",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
-                { "id": "managingAccount", "title": "Managing your Account" },
-                { "id": "dataGovernanceSecurity", "title": "Data Governance & Security" }
+                { "id": "managingAccount", "label": "Managing your Account" },
+                { "id": "dataGovernanceSecurity", "label": "Data Governance & Security" }
             ]
         }
     ]
