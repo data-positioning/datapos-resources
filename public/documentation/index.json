@@ -72,10 +72,11 @@
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "items": [
                 {
-                    "id": "sources",
+                    "id": "dataSources",
                     "title": "Data Sources",
                     "loadConnectors": true,
                     "iconName": "fa-file-import-thin",
+                    "typeId": "dataSourceCategories",
                     "items": []
                 },
                 {
@@ -83,6 +84,7 @@
                     "title": "Context Models",
                     "loadContexts": true,
                     "iconName": "fa-diagram-subtask-thin",
+                    "typeId": "contextModelCategories",
                     "items": [
                         {
                             "id": "commonModels",
@@ -147,16 +149,18 @@
                     "title": "Nexus Nodes",
                     "loadConnectors": true,
                     "iconName": "fa-code-commit-thin",
+                    "typeId": "nexusNodeCategories",
                     "items": [
                         { "id": "browserNexusNodes", "title": "Browser" },
                         { "id": "cloudNexusNodes", "title": "Cloud", "items": [{ "id": "faunaDBNexusNode", "title": "FaunaDB" }] }
                     ]
                 },
                 {
-                    "id": "destinations",
+                    "id": "dataDestinations",
                     "title": "Data Destinations",
                     "loadConnectors": true,
                     "iconName": "fa-file-export-thin",
+                    "typeId": "dataDestinationCategories",
                     "items": [
                         {
                             "id": "applicationDestinations",
@@ -193,6 +197,7 @@
                     "id": "dataApplicationBuildKits",
                     "title": "Data Application Build Kits",
                     "iconName": "fa-object-group-thin",
+                    "typeId": "dataApplicationBuildCategories",
                     "items": [
                         {
                             "id": "appBuildKits",
