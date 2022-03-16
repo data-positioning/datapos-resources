@@ -86,66 +86,6 @@
                     "iconName": "fa-diagram-subtask-thin",
                     "typeId": "contextModelCategories",
                     "items": [
-                        {
-                            "id": "commonModels",
-                            "label": "Common",
-                            "typeId": "contextModelCategory",
-                            "items": [
-                                { "id": "assetModel", "label": "Asset" },
-                                { "id": "locationModel", "label": "Location" },
-                                { "id": "partyModel", "label": "Party" },
-                                { "id": "productModel", "label": "Product" }
-                            ]
-                        },
-                        {
-                            "id": "customerServiceModels",
-                            "label": "Customer Service (CS)",
-                            "typeId": "contextModelCategory",
-                            "items": [{ "id": "customerServiceModel", "label": "Customer Service" }]
-                        },
-                        {
-                            "id": "humanResourceModels",
-                            "label": "Human Resource (HR)",
-                            "typeId": "contextModelCategory",
-                            "items": [
-                                { "id": "hrWorkforceModel", "label": "Workforce" },
-                                { "id": "hrRecruitmentOnboardingModel", "label": "Recruitment & Onboarding" },
-                                { "id": "hrLearningModel", "label": "Learning" },
-                                { "id": "hrTalentManagementModel", "label": "Talent Management" },
-                                { "id": "hrAttendanceModel", "label": "Attendance" },
-                                { "id": "hrCompensationModel", "label": "Compensation" }
-                            ]
-                        },
-                        {
-                            "id": "inventoryManagementModels",
-                            "label": "Inventory Management (IM)",
-                            "typeId": "contextModelCategory",
-                            "items": [{ "id": "inventoryManagementModel", "label": "Inventory Management" }]
-                        },
-                        {
-                            "id": "orderManagementModels",
-                            "label": "Order Management (OM)",
-                            "typeId": "contextModelCategory",
-                            "items": [{ "id": "orderManagementModel", "label": "Order Management" }]
-                        },
-                        {
-                            "id": "salesManagementModels",
-                            "label": "Sales Management (SM)",
-                            "typeId": "contextModelCategory",
-                            "items": [{ "id": "salesManagementModel", "label": "Sales Management" }]
-                        },
-                        {
-                            "id": "socialNetworkingModels",
-                            "label": "Social Networking (SN)",
-                            "typeId": "contextModelCategory",
-                            "items": [{ "id": "socialNetworkingModel", "label": "Social Networking" }]
-                        },
-                        {
-                            "id": "workEffortModels",
-                            "label": "Work Effort (WE)",
-                            "typeId": "contextModelCategory",
-                            "items": [{ "id": "workEffortModel", "label": "Planning & Work Effort" }]
-                        },
                         { "id": "entityIndex", "label": "Entity Index", "typeId": "contextEntityIndex" },
                         { "id": "dimensionIndex", "label": "Dimension Index", "typeId": "contextDimensionIndex" },
                         { "id": "measureIndex", "label": "Measure Index", "typeId": "contextMeasureIndex" },
@@ -158,10 +98,7 @@
                     "loadConnectors": true,
                     "iconName": "fa-code-commit-thin",
                     "typeId": "nexusNodeCategories",
-                    "items": [
-                        { "id": "browserNexusNodes", "label": "Browser" },
-                        { "id": "cloudNexusNodes", "label": "Cloud", "items": [{ "id": "faunaDBNexusNode", "label": "FaunaDB" }] }
-                    ]
+                    "items": []
                 },
                 {
                     "id": "dataDestinations",
@@ -169,57 +106,14 @@
                     "loadConnectors": true,
                     "iconName": "fa-file-export-thin",
                     "typeId": "dataDestinationCategories",
-                    "items": [
-                        {
-                            "id": "applicationDestinations",
-                            "label": "Application",
-                            "items": [
-                                { "id": "bigMLDestination", "label": "BigML" },
-                                { "id": "cyfeDestination", "label": "Cyfe" }
-                            ]
-                        },
-                        {
-                            "id": "databaseDestinations",
-                            "label": "Database",
-                            "items": [
-                                { "id": "faunaDBDestination", "label": "FaunaDB" },
-                                { "id": "mongoDBAtlasDestination", "label": "MongoDB Atlas" },
-                                { "id": "postgreSQLDestination", "label": "PostgreSQL" }
-                            ]
-                        },
-                        {
-                            "id": "fileStoreDestinations",
-                            "label": "File Store",
-                            "items": [
-                                { "id": "amazonS3Destination", "label": "Amazon S3" },
-                                { "id": "boxDestination", "label": "Box" },
-                                { "id": "citrixShareFileDestination", "label": "Citrix Share File" },
-                                { "id": "dropboxDestination", "label": "Dropbox" },
-                                { "id": "googleDriveDestination", "label": "Google Drive" },
-                                { "id": "microsoftOneDriveDestination", "label": "Microsoft OneDrive" }
-                            ]
-                        }
-                    ]
+                    "items": []
                 },
                 {
-                    "id": "dataApplicationBuildKits",
+                    "id": "usageKits",
                     "label": "Data Application Build Kits",
                     "iconName": "fa-object-group-thin",
-                    "typeId": "dataApplicationBuildCategories",
-                    "items": [
-                        {
-                            "id": "appBuildKits",
-                            "label": "App",
-                            "items": [
-                                { "id": "adaloBuildKit", "label": "Adalo" },
-                                { "id": "poryBuildKit", "label": "Pory" },
-                                { "id": "softrBuildKit", "label": "Softr" }
-                            ]
-                        },
-                        { "id": "machineLearningBuildKits", "label": "Machine Learning", "items": [{ "id": "bigMLBuildKit", "label": "BigML" }] },
-                        { "id": "notebookBuildKits", "label": "Notebook", "items": [{ "id": "observableBuildKit", "label": "Observable" }] },
-                        { "id": "webSiteBuildKits", "label": "Web Site", "items": [{ "id": "vuePressBuildKit", "label": "VuePress" }] }
-                    ]
+                    "typeId": "usageKitCategories",
+                    "items": []
                 }
             ]
         },
