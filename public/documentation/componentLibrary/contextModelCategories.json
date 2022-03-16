@@ -1,0 +1,58 @@
+[
+    {
+        "id": "commonModels",
+        "label": "Common",
+        "items": [
+            { "id": "assetModel", "label": "Asset" },
+            { "id": "locationModel", "label": "Location" },
+            { "id": "partyModel", "label": "Party" },
+            { "id": "productModel", "label": "Product" }
+        ]
+    },
+    {
+        "id": "customerServiceModels",
+        "label": "Customer Service (CS)",
+        "items": [{ "id": "customerServiceModel", "label": "Customer Service" }]
+    },
+    {
+        "id": "humanResourceModels",
+        "label": "Human Resource (HR)",
+        "items": [
+            { "id": "hrWorkforceModel", "label": "Workforce" },
+            { "id": "hrRecruitmentOnboardingModel", "label": "Recruitment & Onboarding" },
+            { "id": "hrLearningModel", "label": "Learning" },
+            { "id": "hrTalentManagementModel", "label": "Talent Management" },
+            { "id": "hrAttendanceModel", "label": "Attendance" },
+            { "id": "hrCompensationModel", "label": "Compensation" }
+        ]
+    },
+    {
+        "id": "inventoryManagementModels",
+        "label": "Inventory Management (IM)",
+        "items": [{ "id": "inventoryManagementModel", "label": "Inventory Management" }]
+    },
+    {
+        "id": "orderManagementModels",
+        "label": "Order Management (OM)",
+        "items": [{ "id": "orderManagementModel", "label": "Order Management" }]
+    },
+    {
+        "id": "salesManagementModels",
+        "label": "Sales Management (SM)",
+        "items": [{ "id": "salesManagementModel", "label": "Sales Management" }]
+    },
+    {
+        "id": "socialNetworkingModels",
+        "label": "Social Networking (SN)",
+        "items": [{ "id": "socialNetworkingModel", "label": "Social Networking" }]
+    },
+    {
+        "id": "workEffortModels",
+        "label": "Work Effort (WE)",
+        "items": [{ "id": "workEffortModel", "label": "Planning & Work Effort" }]
+    },
+    { "id": "entityIndex", "label": "Entity Index" },
+    { "id": "dimensionIndex", "label": "Dimension Index" },
+    { "id": "measureIndex", "label": "Measure Index" },
+    { "id": "presentationIndex", "label": "Presentation Index" }
+]
