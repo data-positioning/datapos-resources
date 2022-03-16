@@ -44,14 +44,7 @@ module.exports = function init(grunt) {
     grunt.registerTask('lint', ['run:lint']);
     grunt.registerTask('outdated', ['run:outdated']);
     grunt.registerTask('publish', ['run:publish']);
-    grunt.registerTask('release', [
-        'bump',
-        'run:copyBuildKitsToFirebase',
-        'run:copyDocumentationToFirebase',
-        'run:copyEmulatorsToFirebase',
-        'run:copyFileStoreToFirebase',
-        'run:copyPresentationBooksToFirebase'
-    ]);
+    grunt.registerTask('release', ['bump', 'run:copyDocumentationToFirebase', 'run:copyEmulatorsToFirebase', 'run:copyFileStoreToFirebase', 'run:copyPresentationBooksToFirebase']);
     grunt.registerTask('synchronise', ['bump']);
     grunt.registerTask('test', ['run:test']);
 };
