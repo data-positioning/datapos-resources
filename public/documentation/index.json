@@ -72,7 +72,6 @@
                 {
                     "id": "dataSources",
                     "label": "Data Sources",
-                    "doLoadConnectors": true,
                     "iconName": "fa-file-import-thin",
                     "typeId": "dataSourceCategories",
                     "items": []
@@ -80,7 +79,6 @@
                 {
                     "id": "contextModels",
                     "label": "Context Models",
-                    "doLoadContextModels": true,
                     "iconName": "fa-diagram-subtask-thin",
                     "typeId": "contextModelCategories",
                     "items": [
@@ -93,7 +91,6 @@
                 {
                     "id": "nexusNodes",
                     "label": "Nexus Nodes",
-                    "doLoadConnectors": true,
                     "iconName": "fa-code-commit-thin",
                     "typeId": "nexusNodeCategories",
                     "items": []
@@ -101,7 +98,6 @@
                 {
                     "id": "dataDestinations",
                     "label": "Data Destinations",
-                    "doLoadConnectors": true,
                     "iconName": "fa-file-export-thin",
                     "typeId": "dataDestinationCategories",
                     "items": []
@@ -109,7 +105,6 @@
                 {
                     "id": "usageKits",
                     "label": "Usage Kits",
-                    "doLoadUsageKits": true,
                     "iconName": "fa-object-group-thin",
                     "typeId": "usageKitCategories",
                     "items": []
