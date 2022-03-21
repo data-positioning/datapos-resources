@@ -108,7 +108,7 @@
                 },
                 {
                     "id": "usageKits",
-                    "label": "Data Application Build Kits",
+                    "label": "Usage Kits",
                     "doLoadUsageKits": true,
                     "iconName": "fa-object-group-thin",
                     "typeId": "usageKitCategories",
