@@ -29,7 +29,6 @@
                     "id": "cataloguingData",
                     "label": "Cataloguing Data",
                     "iconName": "fa-table-thin",
-                    "stepNumber": 1,
                     "items": [
                         { "id": "createSourceView", "label": "Create a View" },
                         { "id": "configureSelection", "label": "Configure View Selection" },
@@ -44,12 +43,11 @@
                         { "id": "deleteSourceView", "label": "Delete a View" }
                     ]
                 },
-                { "id": "assemblingDimensions", "label": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "stepNumber": 2, "items": [] },
+                { "id": "assemblingDimensions", "label": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "items": [] },
                 {
                     "id": "contextualisingData",
                     "label": "Contextualising Data",
                     "iconName": "fa-timeline-arrow-thin",
-                    "stepNumber": 3,
                     "items": [
                         { "id": "createEventQuery", "label": "Create an Event Query" },
                         { "id": "configureEventQuery", "label": "Configure Event Query" },
@@ -62,8 +60,8 @@
                         { "id": "deleteEvent Query", "label": "Delete an Event Query" }
                     ]
                 },
-                { "id": "exploringResults", "label": "Exploring Results", "iconName": "fa-chart-mixed-thin", "stepNumber": 4, "items": [] },
-                { "id": "buildingDataApplications", "label": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "stepNumber": 5, "items": [] }
+                { "id": "exploringResults", "label": "Exploring Results", "iconName": "fa-chart-mixed-thin", "items": [] },
+                { "id": "buildingDataApplications", "label": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "items": [] }
             ]
         },
         {
@@ -74,7 +72,7 @@
                 {
                     "id": "dataSources",
                     "label": "Data Sources",
-                    "loadConnectors": true,
+                    "doLoadConnectors": true,
                     "iconName": "fa-file-import-thin",
                     "typeId": "dataSourceCategories",
                     "items": []
@@ -82,7 +80,7 @@
                 {
                     "id": "contextModels",
                     "label": "Context Models",
-                    "loadContexts": true,
+                    "doLoadContextModels": true,
                     "iconName": "fa-diagram-subtask-thin",
                     "typeId": "contextModelCategories",
                     "items": [
@@ -95,7 +93,7 @@
                 {
                     "id": "nexusNodes",
                     "label": "Nexus Nodes",
-                    "loadConnectors": true,
+                    "doLoadConnectors": true,
                     "iconName": "fa-code-commit-thin",
                     "typeId": "nexusNodeCategories",
                     "items": []
@@ -103,7 +101,7 @@
                 {
                     "id": "dataDestinations",
                     "label": "Data Destinations",
-                    "loadConnectors": true,
+                    "doLoadConnectors": true,
                     "iconName": "fa-file-export-thin",
                     "typeId": "dataDestinationCategories",
                     "items": []
@@ -111,7 +109,7 @@
                 {
                     "id": "usageKits",
                     "label": "Data Application Build Kits",
-                    "loadUsageKits": true,
+                    "doLoadUsageKits": true,
                     "iconName": "fa-object-group-thin",
                     "typeId": "usageKitCategories",
                     "items": []
