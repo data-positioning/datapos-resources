@@ -81,12 +81,7 @@
                     "label": "Context Models",
                     "iconName": "fa-diagram-subtask-thin",
                     "typeId": "contextModelCategories",
-                    "items": [
-                        { "id": "entityIndex", "label": "Entity Index", "typeId": "contextEntityIndex" },
-                        { "id": "dimensionIndex", "label": "Dimension Index", "typeId": "contextDimensionIndex" },
-                        { "id": "measureIndex", "label": "Measure Index", "typeId": "contextMeasureIndex" },
-                        { "id": "presentationIndex", "label": "Presentation Index", "typeId": "contextPresentationIndex" }
-                    ]
+                    "items": []
                 },
                 {
                     "id": "nexusNodes",
