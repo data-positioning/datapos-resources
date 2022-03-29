@@ -1,4 +1,4 @@
-# nectis-resources
+# Data Positioning Resources
 
 ## See CORS policy on firebase storage bucket
 

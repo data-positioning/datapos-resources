@@ -4,7 +4,7 @@
             "id": "introduction",
             "label": "Introduction",
             "items": [
-                { "id": "whatIsDataPositioning", "label": "What is Data Positioning?" },
+                { "id": "overview", "label": "Overview" },
                 {
                     "id": "gettingStarted",
                     "label": "Getting Started",
