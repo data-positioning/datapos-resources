@@ -4,7 +4,7 @@
             "id": "introduction",
             "label": "Introduction",
             "items": [
-                { "id": "whatIsNectis", "label": "What is Nectis?" },
+                { "id": "whatIsDataPositioning", "label": "What is Data Positioning?" },
                 {
                     "id": "gettingStarted",
                     "label": "Getting Started",
