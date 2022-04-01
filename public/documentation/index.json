@@ -15,7 +15,7 @@
                         { "id": "signingInOut", "label": "Signing In & Out of Your Account" }
                     ]
                 },
-                { "id": "helpFeedback", "label": "Getting Help & Giving Feedback" },
+                { "id": "helpFeedback", "label": "Getting Help, Giving Feedback" },
                 { "id": "faqs", "label": "Frequently Asked Questions" },
                 { "id": "glossary", "label": "Glossary of Terms & Concepts" }
             ]
