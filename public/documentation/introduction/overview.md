@@ -2,7 +2,7 @@
 
 Nectis is a collaboration seeking to make it easier to position and present data for analysis. We are currently developing the first versions of a Data Positioning Workbench and a library of Usage Kits.
 
-# What is the Data Positioning App?
+## What is the Data Positioning App?
 
 ## Data Analysis Workflow
 
