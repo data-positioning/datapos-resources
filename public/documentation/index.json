@@ -68,7 +68,7 @@
             "id": "componentLibrary",
             "label": "The Component Library",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "typeId": "library",
+            "typeId": "componentLibrary",
             "items": [
                 {
                     "id": "dataSources",
