@@ -22,7 +22,7 @@
         },
         {
             "id": "databench",
-            "brief": "DataBench",
+            "brief": "Data Bench",
             "label": "Data Workbench",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
@@ -67,7 +67,7 @@
         },
         {
             "id": "adminbench",
-            "brief": "AdminBench",
+            "brief": "Admin Bench",
             "label": "Admin Workbench",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": []
