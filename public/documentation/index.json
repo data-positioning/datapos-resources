@@ -21,8 +21,9 @@
             ]
         },
         {
-            "id": "usingTheDatabench",
-            "label": "Using the Data Workbench",
+            "id": "databench",
+            "brief": "DataBench",
+            "label": "Data Workbench",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
                 {
@@ -35,10 +36,10 @@
                         { "id": "auditContent", "label": "Audit View Content" },
                         { "id": "auditRelationships", "label": "Audit View Relationships" },
                         { "id": "investigateTransform", "label": "Investigate/Transform View Data" },
-                        { "id": "reviewApproveSourceView", "label": "Review/Approve a View", "draft": true },
-                        { "id": "disburseSourceViewData", "label": "Disburse Data (Optional)", "draft": true },
+                        { "id": "reviewApproveSourceView", "label": "Review/Approve a View" },
+                        { "id": "disburseSourceViewData", "label": "Disburse Data (Optional)" },
                         { "id": "cancelSaveSourceViewChanges", "label": "Cancel/Save View Changes" },
-                        { "id": "groupSourceViewsIntoFolders", "label": "Group Views into Folders", "draft": true },
+                        { "id": "groupSourceViewsIntoFolders", "label": "Group Views into Folders" },
                         { "id": "renameSourceView", "label": "Rename a View" },
                         { "id": "deleteSourceView", "label": "Delete a View" }
                     ]
@@ -52,10 +53,10 @@
                         { "id": "createEventQuery", "label": "Create an Event Query" },
                         { "id": "configureEventQuery", "label": "Configure Event Query" },
                         { "id": "verifyEventQueryResults", "label": "Verify Results" },
-                        { "id": "reviewApproveEventQuery", "label": "Review/Approve an Event Query", "draft": true },
-                        { "id": "disburseEventQueryData", "label": "Disburse Data (Optional)", "draft": true },
+                        { "id": "reviewApproveEventQuery", "label": "Review/Approve an Event Query" },
+                        { "id": "disburseEventQueryData", "label": "Disburse Data (Optional)" },
                         { "id": "cancelSaveEventQueryChanges", "label": "Cancel/Save Event Query Changes" },
-                        { "id": "groupEventQueriesIntoFolders", "label": "Group Event Queries into Folders", "draft": true },
+                        { "id": "groupEventQueriesIntoFolders", "label": "Group Event Queries into Folders" },
                         { "id": "renameEventQuery", "label": "Rename an Event Query" },
                         { "id": "deleteEvent Query", "label": "Delete an Event Query" }
                     ]
@@ -66,7 +67,8 @@
         },
         {
             "id": "componentLibrary",
-            "label": "The Component Library",
+            "brief": "Component Library",
+            "label": "Component Library",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "typeId": "componentLibrary",
             "items": [
@@ -109,6 +111,7 @@
         },
         {
             "id": "housekeeping",
+            "brief": "Housekeeping",
             "label": "Housekeeping",
             "narrative": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "items": [
