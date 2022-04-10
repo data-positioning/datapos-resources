@@ -3,6 +3,7 @@
         {
             "id": "introduction",
             "label": "Introduction",
+            "moduleId": "introduction",
             "items": [
                 { "id": "overview", "label": "Overview" },
                 {
@@ -24,6 +25,7 @@
             "id": "databench",
             "brief": "Data Bench",
             "label": "Data Workbench",
+            "moduleId": "databench",
             "summary": "Summary goes here...",
             "items": [
                 {
@@ -69,12 +71,14 @@
             "id": "adminbench",
             "brief": "Admin Bench",
             "label": "Admin Workbench",
+            "moduleId": "adminbench",
             "summary": "Summary goes here...",
             "items": []
         },
         {
             "id": "componentLibrary",
             "label": "Component Library",
+            "moduleId": "componentLibrary",
             "summary": "Summary goes here...",
             "typeId": "componentLibrary",
             "items": [
@@ -118,6 +122,7 @@
         {
             "id": "housekeeping",
             "label": "Housekeeping",
+            "moduleId": "housekeeping",
             "summary": "Summary goes here...",
             "items": [
                 { "id": "managingAccount", "label": "Managing your Account" },
