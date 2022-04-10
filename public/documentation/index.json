@@ -4,20 +4,20 @@
             "id": "introduction",
             "label": "Introduction",
             "items": [
-                { "id": "overview", "label": "Overview" },
+                { "id": "introduction.overview", "label": "Overview" },
                 {
-                    "id": "gettingStarted",
+                    "id": "introduction.gettingStarted",
                     "label": "Getting Started",
                     "items": [
-                        { "id": "checkBrowserCompatibility", "label": "Check Browser Compatibility" },
-                        { "id": "exploreSampleData", "label": "Explore the Sample Data" },
-                        { "id": "createAccount", "label": "Create an Account" },
-                        { "id": "signingInOut", "label": "Signing In & Out of Your Account" }
+                        { "id": "introduction.checkBrowserCompatibility", "label": "Check Browser Compatibility" },
+                        { "id": "introduction.exploreSampleData", "label": "Explore the Sample Data" },
+                        { "id": "introduction.createAccount", "label": "Create an Account" },
+                        { "id": "introduction.signingInOut", "label": "Signing In & Out of Your Account" }
                     ]
                 },
-                { "id": "helpFeedback", "label": "Getting Help, Giving Feedback" },
-                { "id": "faqs", "label": "Frequently Asked Questions" },
-                { "id": "glossary", "label": "Glossary of Terms & Concepts" }
+                { "id": "introduction.helpFeedback", "label": "Getting Help, Giving Feedback" },
+                { "id": "introduction.faqs", "label": "Frequently Asked Questions" },
+                { "id": "introduction.glossary", "label": "Glossary of Terms & Concepts" }
             ]
         },
         {
@@ -27,42 +27,42 @@
             "summary": "Summary goes here...",
             "items": [
                 {
-                    "id": "cataloguingData",
+                    "id": "databench.cataloguingData",
                     "label": "Cataloguing Data",
                     "iconName": "fa-table-thin",
                     "items": [
-                        { "id": "createSourceView", "label": "Create a View" },
-                        { "id": "configureSelection", "label": "Configure View Selection" },
-                        { "id": "auditContent", "label": "Audit View Content" },
-                        { "id": "auditRelationships", "label": "Audit View Relationships" },
-                        { "id": "investigateTransform", "label": "Investigate/Transform View Data" },
-                        { "id": "reviewApproveSourceView", "label": "Review/Approve a View" },
-                        { "id": "disburseSourceViewData", "label": "Disburse Data (Optional)" },
-                        { "id": "cancelSaveSourceViewChanges", "label": "Cancel/Save View Changes" },
-                        { "id": "groupSourceViewsIntoFolders", "label": "Group Views into Folders" },
-                        { "id": "renameSourceView", "label": "Rename a View" },
-                        { "id": "deleteSourceView", "label": "Delete a View" }
+                        { "id": "databench.createSourceView", "label": "Create a View" },
+                        { "id": "databench.configureSelection", "label": "Configure View Selection" },
+                        { "id": "databench.auditContent", "label": "Audit View Content" },
+                        { "id": "databench.auditRelationships", "label": "Audit View Relationships" },
+                        { "id": "databench.investigateTransform", "label": "Investigate/Transform View Data" },
+                        { "id": "databench.reviewApproveSourceView", "label": "Review/Approve a View" },
+                        { "id": "databench.disburseSourceViewData", "label": "Disburse Data (Optional)" },
+                        { "id": "databench.cancelSaveSourceViewChanges", "label": "Cancel/Save View Changes" },
+                        { "id": "databench.groupSourceViewsIntoFolders", "label": "Group Views into Folders" },
+                        { "id": "databench.renameSourceView", "label": "Rename a View" },
+                        { "id": "databench.deleteSourceView", "label": "Delete a View" }
                     ]
                 },
-                { "id": "assemblingDimensions", "label": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "items": [] },
+                { "id": "databench.assemblingDimensions", "label": "Assembling Dimensions", "iconName": "fa-network-wired-thin", "items": [] },
                 {
-                    "id": "contextualisingData",
+                    "id": "databench.contextualisingData",
                     "label": "Contextualising Data",
                     "iconName": "fa-timeline-arrow-thin",
                     "items": [
-                        { "id": "createEventQuery", "label": "Create an Event Query" },
-                        { "id": "configureEventQuery", "label": "Configure Event Query" },
-                        { "id": "verifyEventQueryResults", "label": "Verify Results" },
-                        { "id": "reviewApproveEventQuery", "label": "Review/Approve an Event Query" },
-                        { "id": "disburseEventQueryData", "label": "Disburse Data (Optional)" },
-                        { "id": "cancelSaveEventQueryChanges", "label": "Cancel/Save Event Query Changes" },
-                        { "id": "groupEventQueriesIntoFolders", "label": "Group Event Queries into Folders" },
-                        { "id": "renameEventQuery", "label": "Rename an Event Query" },
-                        { "id": "deleteEvent Query", "label": "Delete an Event Query" }
+                        { "id": "databench.createEventQuery", "label": "Create an Event Query" },
+                        { "id": "databench.configureEventQuery", "label": "Configure Event Query" },
+                        { "id": "databench.verifyEventQueryResults", "label": "Verify Results" },
+                        { "id": "databench.reviewApproveEventQuery", "label": "Review/Approve an Event Query" },
+                        { "id": "databench.disburseEventQueryData", "label": "Disburse Data (Optional)" },
+                        { "id": "databench.cancelSaveEventQueryChanges", "label": "Cancel/Save Event Query Changes" },
+                        { "id": "databench.groupEventQueriesIntoFolders", "label": "Group Event Queries into Folders" },
+                        { "id": "databench.renameEventQuery", "label": "Rename an Event Query" },
+                        { "id": "databench.deleteEvent Query", "label": "Delete an Event Query" }
                     ]
                 },
-                { "id": "exploringResults", "label": "Exploring Results", "iconName": "fa-chart-mixed-thin", "items": [] },
-                { "id": "buildingDataApplications", "label": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "items": [] }
+                { "id": "databench.exploringResults", "label": "Exploring Results", "iconName": "fa-chart-mixed-thin", "items": [] },
+                { "id": "databench.buildingDataApplications", "label": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "items": [] }
             ]
         },
         {
@@ -79,35 +79,35 @@
             "typeId": "componentLibrary",
             "items": [
                 {
-                    "id": "dataSources",
+                    "id": "componentLibrary.dataSources",
                     "label": "Data Sources",
                     "iconName": "fa-file-import-thin",
                     "typeId": "dataSourceCategories",
                     "items": []
                 },
                 {
-                    "id": "contextModels",
+                    "id": "componentLibrary.contextModels",
                     "label": "Context Models",
                     "iconName": "fa-diagram-subtask-thin",
                     "typeId": "contextModelCategories",
                     "items": []
                 },
                 {
-                    "id": "nexusNodes",
+                    "id": "componentLibrary.nexusNodes",
                     "label": "Nexus Nodes",
                     "iconName": "fa-code-commit-thin",
                     "typeId": "nexusNodeCategories",
                     "items": []
                 },
                 {
-                    "id": "dataDestinations",
+                    "id": "componentLibrary.dataDestinations",
                     "label": "Data Destinations",
                     "iconName": "fa-file-export-thin",
                     "typeId": "dataDestinationCategories",
                     "items": []
                 },
                 {
-                    "id": "usageKits",
+                    "id": "componentLibrary.usageKits",
                     "label": "Usage Kits",
                     "iconName": "fa-object-group-thin",
                     "typeId": "usageKitCategories",
@@ -120,8 +120,8 @@
             "label": "Housekeeping",
             "summary": "Summary goes here...",
             "items": [
-                { "id": "managingAccount", "label": "Managing your Account" },
-                { "id": "dataGovernanceSecurity", "label": "Data Governance & Security" }
+                { "id": "housekeeping.managingAccount", "label": "Managing your Account" },
+                { "id": "housekeeping.dataGovernanceSecurity", "label": "Data Governance & Security" }
             ]
         }
     ]
