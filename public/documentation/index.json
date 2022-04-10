@@ -24,7 +24,7 @@
             "id": "databench",
             "brief": "Data Bench",
             "label": "Data Workbench",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "summary": "Summary goes here...",
             "items": [
                 {
                     "id": "cataloguingData",
@@ -69,13 +69,13 @@
             "id": "adminbench",
             "brief": "Admin Bench",
             "label": "Admin Workbench",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "summary": "Summary goes here...",
             "items": []
         },
         {
             "id": "componentLibrary",
             "label": "Component Library",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "summary": "Summary goes here...",
             "typeId": "componentLibrary",
             "items": [
                 {
@@ -118,7 +118,7 @@
         {
             "id": "housekeeping",
             "label": "Housekeeping",
-            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "summary": "Summary goes here...",
             "items": [
                 { "id": "managingAccount", "label": "Managing your Account" },
                 { "id": "dataGovernanceSecurity", "label": "Data Governance & Security" }
