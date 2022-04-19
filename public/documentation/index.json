@@ -27,13 +27,13 @@
             "summary": "Summary goes here...",
             "items": [
                 {
-                    "id": "adminBenchtop",
+                    "id": "adminbench",
                     "brief": "Admin Benchtop",
                     "label": "Administration Benchtop",
                     "items": []
                 },
                 {
-                    "id": "dataBenchtop",
+                    "id": "databench",
                     "label": "Data Benchtop",
                     "items": [
                         {
