@@ -81,6 +81,7 @@
             "id": "componentLibrary",
             "label": "Component Library",
             "summary": "Summary goes here...",
+            "typeId": "componentLibrary",
             "items": [
                 {
                     "id": "dataSources",
