@@ -1,10 +1,10 @@
 {
-  "@nectis/nectis-resources@0.1.130": {
+  "@nectis/nectis-resources@0.1.242": {
     "licenses": "UNLICENSED",
     "private": true,
     "publisher": "Jonathan Terrell",
-    "email": "jonathan.terrell@springbrook.es",
+    "email": "terrell.jm@gmail.com",
     "path": "/Users/jonathanterrell/Nectis/GitHub/nectis-resources",
-    "licenseFile": "/Users/jonathanterrell/Nectis/GitHub/nectis-resources/README.md"
+    "licenseFile": "/Users/jonathanterrell/Nectis/GitHub/nectis-resources/LICENSE.md"
   }
 }
