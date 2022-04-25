@@ -1,10 +1,10 @@
 {
-    "name": "@nectis/nectis-resources",
-    "description": "Nectis resources.",
+    "name": "@datapos/nectis-resources",
+    "description": "Data positioning resources.",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",
     "license": "ISC",
     "private": true,
-    "version": "0.1.243",
+    "version": "0.1.244",
     "devDependencies": {
         "grunt": "^1.4.1",
         "grunt-bump": "^0.8.0",
