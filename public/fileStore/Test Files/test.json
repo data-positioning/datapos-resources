@@ -147,9 +147,9 @@
     {
         "authenticationTypeId": "basic",
         "iconName": "fal fa-arrow-from-left",
-        "id": "nectisDepot",
+        "id": "dataposappDepot",
         "isEnabled": true,
-        "label": "Nectis Depot",
+        "label": "Data Position Application Depot",
         "parameters": [
             {
                 "id": "userName",

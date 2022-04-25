@@ -1,12 +1,6 @@
 [
     {
-        "origin": [
-            "https://datapositioning.app",
-            "https://nectis.io",
-            "https://nectis-app-v00-dev-alpha.firebaseapp.com",
-            "https://nectis-app-v00-dev-alpha.web.app",
-            "http://localhost:8080"
-        ],
+        "origin": ["https://datapositioning.app", "https://nectis-app-v00-dev-alpha.firebaseapp.com", "https://nectis-app-v00-dev-alpha.web.app", "http://localhost:8080"],
         "method": ["GET"],
         "maxAgeSeconds": 3600
     }
