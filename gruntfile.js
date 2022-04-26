@@ -4,7 +4,7 @@
  * @license "ISC"
  */
 
-const firebaseStorageUrl = 'gs://nectis-app-v00-dev-alpha.appspot.com/';
+const firebaseStorageUrl = 'gs://dataposapp-v00-dev-alpha.appspot.com/';
 
 module.exports = function init(grunt) {
     // Initialise configuration.
