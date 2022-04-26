@@ -4,7 +4,7 @@
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",
     "license": "ISC",
     "private": true,
-    "version": "0.1.247",
+    "version": "0.1.248",
     "devDependencies": {
         "grunt": "^1.4.1",
         "grunt-bump": "^0.8.0",

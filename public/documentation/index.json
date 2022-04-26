@@ -22,19 +22,17 @@
         },
         {
             "id": "workbench",
-            "brief": "Workbench",
             "label": "Workbench",
             "summary": "Summary goes here...",
             "items": [
                 {
                     "id": "adminbench",
-                    "brief": "Admin Benchtop",
-                    "label": "Admin Benchtop",
+                    "label": "Administration Benchtop",
                     "items": []
                 },
                 {
                     "id": "databench",
-                    "label": "Data Benchtop",
+                    "label": "Workflow Benchtop",
                     "items": [
                         {
                             "id": "cataloguingData",
