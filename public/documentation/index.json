@@ -69,12 +69,12 @@
                     ]
                 },
                 {
-                    "id": "dataBenchtop",
-                    "label": "Data Benchtop",
+                    "id": "dataManagementBenchtop",
+                    "label": "Data Management Benchtop",
                     "items": []
                 },
                 {
-                    "id": "adminBenchtop",
+                    "id": "administrationBenchtop",
                     "label": "Administration Benchtop",
                     "items": []
                 }
