@@ -26,12 +26,7 @@
             "summary": "Summary goes here...",
             "items": [
                 {
-                    "id": "adminbench",
-                    "label": "Administration Benchtop",
-                    "items": []
-                },
-                {
-                    "id": "databench",
+                    "id": "workflowBenchtop",
                     "label": "Workflow Benchtop",
                     "items": [
                         {
@@ -72,6 +67,16 @@
                         { "id": "exploringResults", "label": "Exploring Results", "iconName": "fa-chart-mixed-thin", "items": [] },
                         { "id": "buildingDataApplications", "label": "Building Data Applications", "iconName": "fa-chart-tree-map-thin", "items": [] }
                     ]
+                },
+                {
+                    "id": "dataBenchtop",
+                    "label": "Data Benchtop",
+                    "items": []
+                },
+                {
+                    "id": "adminBenchtop",
+                    "label": "Administration Benchtop",
+                    "items": []
                 }
             ]
         },
