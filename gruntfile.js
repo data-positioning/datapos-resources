@@ -1,6 +1,6 @@
 /**
  * @author Jonathan Terrell <terrell.jm@gmail.com>
- * @copyright 2022 Springbrook S.L.
+ * @copyright 2022 Jonathan Terrell
  * @license "ISC"
  */
 
