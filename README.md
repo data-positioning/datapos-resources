@@ -1,4 +1,4 @@
-# Data Positioning Resources
+# Data Positioning Application Resources
 
 ## See CORS policy on firebase storage bucket
 
