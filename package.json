@@ -3,7 +3,7 @@
     "description": "Data positioning application resources.",
     "author": "Jonathan Terrell <terrell.jm@gmail.com>",
     "license": "ISC",
-    "version": "0.1.255",
+    "version": "0.1.256",
     "devDependencies": {
         "grunt": "^1.4.1",
         "grunt-bump": "^0.8.0",
