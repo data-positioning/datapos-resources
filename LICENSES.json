@@ -1,10 +1,10 @@
 {
-  "@dataposapp/dataposapp-resources@0.1.246": {
+  "@dataposapp/dataposapp-resources@0.1.254": {
     "licenses": "UNLICENSED",
     "private": true,
     "publisher": "Jonathan Terrell",
     "email": "terrell.jm@gmail.com",
     "path": "/Users/jonathanterrell/Data Positioning App/GitHub/dataposapp-resources",
-    "licenseFile": "/Users/jonathanterrell/Data Positioning App/GitHub/dataposapp-resources/LICENSE.md"
+    "licenseFile": "/Users/jonathanterrell/Data Positioning App/GitHub/dataposapp-resources/LICENSE"
   }
 }
