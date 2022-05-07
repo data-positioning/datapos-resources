@@ -230,9 +230,9 @@
     },
     {
         "iconName": "fab fa-salesforce",
-        "id": "salesforceEmulator",
+        "id": "salesforce",
         "isEnabled": true,
-        "label": "Salesforce Emulator"
+        "label": "Salesforce"
     },
     {
         "authenticationTypeId": "oauth2",
@@ -282,9 +282,9 @@
     },
     {
         "iconName": "fal fa-server",
-        "id": "sapSuccessFactorsEmulator",
+        "id": "sapSuccessFactors",
         "isEnabled": true,
-        "label": "SAP SuccessFactors Emulator"
+        "label": "SAP SuccessFactors"
     },
     {
         "authenticationTypeId": "apiKey",

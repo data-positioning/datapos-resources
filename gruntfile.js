@@ -21,7 +21,7 @@ module.exports = function init(grunt) {
             audit: { args: ['npm', 'audit'], cmd: 'npx' },
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
             copyDocumentationToFirebase: { args: ['cp', '-r', 'public/documentation/*', `${firebaseStorageUrl}documentation/`], cmd: 'gsutil' },
-            copyEmulatorsToFirebase: { args: ['cp', '-r', 'public/emulators/*', `${firebaseStorageUrl}emulators/`], cmd: 'gsutil' },
+            copySandboxesToFirebase: { args: ['cp', '-r', 'public/sandboxes/*', `${firebaseStorageUrl}sandboxes/`], cmd: 'gsutil' },
             copyFileStoreToFirebase: { args: ['cp', '-r', 'public/fileStore/*', `${firebaseStorageUrl}fileStore/`], cmd: 'gsutil' },
             copyPresentationBooksToFirebase: { args: ['cp', '-r', 'public/presentationBooks/*', `${firebaseStorageUrl}presentationBooks/`], cmd: 'gsutil' },
             identifyLicensesUsingLicenseChecker: { args: ['license-checker', '--production', '--json', '--out', 'LICENSES.json'], cmd: 'npx' },
@@ -44,7 +44,7 @@ module.exports = function init(grunt) {
     grunt.registerTask('lint', ['run:lint']); // cmd+shift+l.
     grunt.registerTask('outdated', ['run:outdated']); // cmd+shift+o.
     grunt.registerTask('publish', ['run:publish']); // cmd+shift+u.
-    grunt.registerTask('release', ['bump', 'run:copyDocumentationToFirebase', 'run:copyEmulatorsToFirebase', 'run:copyFileStoreToFirebase', 'run:copyPresentationBooksToFirebase']); // cmd+shift+r.
+    grunt.registerTask('release', ['bump', 'run:copyDocumentationToFirebase', 'run:copySandboxesToFirebase', 'run:copyFileStoreToFirebase', 'run:copyPresentationBooksToFirebase']); // cmd+shift+r.
     grunt.registerTask('synchronise', ['bump']); // cmd+shift+s.
     grunt.registerTask('test', ['run:test']); // cmd+shift+t.
 };
