@@ -1,7 +1,7 @@
 [
     {
         "origin": ["https://datapositioning.app", "https://dataposapp-v00-dev-alpha.firebaseapp.com", "https://dataposapp-v00-dev-alpha.web.app", "http://localhost:8080"],
-        "method": ["GET"],
+        "method": ["GET","OPTIONS"],
         "maxAgeSeconds": 3600,
         "responseHeader": ["Access-Control-Allow-Origin", "Content-Range"]
     }
