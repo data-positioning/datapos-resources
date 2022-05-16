@@ -3,6 +3,6 @@
         "origin": ["https://datapositioning.app", "https://dataposapp-v00-dev-alpha.firebaseapp.com", "https://dataposapp-v00-dev-alpha.web.app", "http://localhost:8080"],
         "method": ["GET"],
         "maxAgeSeconds": 3600,
-        "responseHeader": ["Content-Range", "Content-Type"]
+        "responseHeader": [ "Content-Type"]
     }
 ]
