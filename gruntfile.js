@@ -1,7 +1,8 @@
 /**
  * @author Jonathan Terrell <terrell.jm@gmail.com>
  * @copyright 2022 Jonathan Terrell
- * @license "ISC"
+ * @file dataposapp-resources/gruntfile.js
+ * @license ISC
  */
 
 const firebaseStorageUrl = 'gs://dataposapp-v00-dev-alpha.appspot.com/';
