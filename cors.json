@@ -1,6 +1,12 @@
 [
     {
-        "origin": ["https://datapositioning.app", "https://dataposapp-v00-dev-alpha.firebaseapp.com", "https://dataposapp-v00-dev-alpha.web.app", "http://localhost:8080"],
+        "origin": [
+            "https://datapositioning.app",
+            "https://dataposapp-v00-dev-alpha.firebaseapp.com",
+            "https://dataposapp-v00-dev-alpha.web.app",
+            "http://localhost:8080",
+            "https://jonathan-terrell.static.observableusercontent.com"
+        ],
         "method": ["GET"],
         "maxAgeSeconds": 3600
     }
