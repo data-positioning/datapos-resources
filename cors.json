@@ -5,6 +5,7 @@
             "https://dataposapp-v00-dev-alpha.firebaseapp.com",
             "https://dataposapp-v00-dev-alpha.web.app",
             "http://localhost:8080",
+            "http://localhost:3000",
             "https://jonathan-terrell.static.observableusercontent.com"
         ],
         "method": ["GET"],
