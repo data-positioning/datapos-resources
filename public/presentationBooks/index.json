@@ -1,5 +1,5 @@
 {
-    "home": { "key": "workforce-size-2" },
+    "home": { "id": "workforce-size-2" },
     "children": [
         { "key": "cs", "label": "Customer Services", "children": [] },
         {
