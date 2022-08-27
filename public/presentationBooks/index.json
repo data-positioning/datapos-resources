@@ -1,80 +1,80 @@
 {
-    "home": { "key": "workforce-size-2" },
-    "children": [
-        { "key": "cs", "label": "Customer Services", "children": [] },
+    "home": { "id": "workforce-size-2" },
+    "items": [
+        { "id": "cs", "label": "Customer Services", "items": [] },
         {
-            "key": "hr",
+            "id": "hr",
             "label": "Human Resources",
-            "children": [
+            "items": [
                 {
-                    "key": "hr-wf",
+                    "id": "hr-wf",
                     "label": "Workforce",
-                    "children": [
-                        { "label": "Size", "key": "workforce-size-2" },
-                        { "label": "Hires & Terminations", "key": "" },
-                        { "label": "Movements", "key": "" },
-                        { "label": "Movement Flows", "key": "" },
+                    "items": [
+                        { "label": "Size", "id": "workforce-size-2" },
+                        { "label": "Hires & Terminations", "id": "" },
+                        { "label": "Movements", "id": "" },
+                        { "label": "Movement Flows", "id": "" },
                         {
-                            "key": "hr-wf-prof",
+                            "id": "hr-wf-prof",
                             "label": "Profiles",
-                            "children": [
-                                { "label": "Age", "key": "" },
-                                { "label": "Ethnic Background", "key": "" },
-                                { "label": "Gender", "key": "" },
-                                { "label": "Nationality", "key": "" },
-                                { "label": "Payment - Amount", "key": "" },
-                                { "label": "Payment - Grade", "key": "" },
-                                { "label": "Location - Residential", "key": "" },
-                                { "label": "Location - Work", "key": "" },
-                                { "label": "Role", "key": "" },
-                                { "label": "Tenure", "key": "" }
+                            "items": [
+                                { "label": "Age", "id": "" },
+                                { "label": "Ethnic Background", "id": "" },
+                                { "label": "Gender", "id": "" },
+                                { "label": "Nationality", "id": "" },
+                                { "label": "Payment - Amount", "id": "" },
+                                { "label": "Payment - Grade", "id": "" },
+                                { "label": "Location - Residential", "id": "" },
+                                { "label": "Location - Work", "id": "" },
+                                { "label": "Role", "id": "" },
+                                { "label": "Tenure", "id": "" }
                             ]
                         }
                     ]
                 },
                 {
-                    "key": "hr-r&o",
+                    "id": "hr-r&o",
                     "label": "Recruitment & Onboarding",
-                    "children": []
+                    "items": []
                 },
                 {
-                    "key": "hr-learn",
+                    "id": "hr-learn",
                     "label": "Learning",
-                    "children": []
+                    "items": []
                 },
                 {
-                    "key": "hr-tm",
+                    "id": "hr-tm",
                     "label": "Talent Management (Performance)",
-                    "children": [
-                        { "key": "hr-tm-exp", "label": "Experience", "children": [] },
-                        { "key": "hr-tm-mgt", "label": "Management", "children": [] },
-                        { "key": "hr-tm-source", "label": "Sourcing", "children": [] }
+                    "items": [
+                        { "id": "hr-tm-exp", "label": "Experience", "items": [] },
+                        { "id": "hr-tm-mgt", "label": "Management", "items": [] },
+                        { "id": "hr-tm-source", "label": "Sourcing", "items": [] }
                     ]
                 },
                 {
-                    "key": "hr-att",
+                    "id": "hr-att",
                     "label": "Attendance",
-                    "children": []
+                    "items": []
                 },
                 {
-                    "key": "hr-comp",
+                    "id": "hr-comp",
                     "label": "Compensation",
-                    "children": []
+                    "items": []
                 }
             ]
         },
-        { "key": "im", "label": "Inventory Management", "children": [] },
-        { "key": "om", "label": "Order Management", "children": [] },
+        { "id": "im", "label": "Inventory Management", "items": [] },
+        { "id": "om", "label": "Order Management", "items": [] },
         {
-            "key": "sm",
+            "id": "sm",
             "label": "Sales Management",
-            "children": [
-                { "key": "cs-cont", "label": "Contacts", "children": [] },
-                { "key": "cs-lead", "label": "Leads", "children": [] },
-                { "key": "cs-opp", "label": "Opportunities", "children": [] }
+            "items": [
+                { "id": "cs-cont", "label": "Contacts", "items": [] },
+                { "id": "cs-lead", "label": "Leads", "items": [] },
+                { "id": "cs-opp", "label": "Opportunities", "items": [] }
             ]
         },
-        { "key": "sn", "label": "Social Networking", "children": [] },
-        { "key": "wm", "label": "Work Management", "children": [] }
+        { "id": "sn", "label": "Social Networking", "items": [] },
+        { "id": "wm", "label": "Work Management", "items": [] }
     ]
 }
