@@ -6,6 +6,8 @@
             "https://dataposapp-v00-dev-alpha.web.app",
             "http://localhost:8080",
             "http://localhost:3000",
+            "http://localhost:9000",
+            "http://localhost:9001",
             "https://jonathan-terrell.static.observableusercontent.com"
         ],
         "method": ["GET"],
