@@ -1,0 +1,27 @@
+[
+    { "label": "Introduction", "children": [{ "label": "What is a Context Model?" }, { "label": "Getting Started" }] },
+    { "label": "Common Models", "children": [{ "label": "Asset" }, { "label": "Location" }, { "label": "Party" }, { "label": "Product" }] },
+    { "label": "Customer Service Models", "children": [{ "label": "..." }] },
+    {
+        "label": "Human Resources Models",
+        "children": [
+            { "label": "Workforce" },
+            { "label": "Recruitment & Onboarding" },
+            { "label": "Compensation" },
+            { "label": "Learning" },
+            { "label": "Attendance" },
+            { "label": "Talent Management" }
+        ]
+    },
+    {
+        "label": "Inventory Management Models",
+        "children": [{ "label": "..." }]
+    },
+    { "label": "Order Management Models", "children": [{ "label": "..." }] },
+    { "label": "Sales Management Models", "children": [{ "label": "..." }] },
+    {
+        "label": "Inventory Management Models",
+        "children": [{ "label": "..." }]
+    },
+    { "label": "Work Effort Models", "children": [{ "label": "..." }] }
+]
