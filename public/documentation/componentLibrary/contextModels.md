@@ -13,7 +13,7 @@
     -   Compensation
     -   Learning
     -   Attendance
--   Talent Management
+    -   Talent Management
 -   Inventory Management
     -   Inventory Management
 -   Order Management
