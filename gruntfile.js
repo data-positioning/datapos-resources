@@ -21,6 +21,7 @@ module.exports = function init(grunt) {
         run: {
             audit: { args: ['npm', 'audit'], cmd: 'npx' },
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
+            copyContextModelsToFirebase: { args: ['cp', '-r', 'public/contextModels/*', `${firebaseStorageUrl}contextModels/`], cmd: 'gsutil' },
             copyDocumentationToFirebase: { args: ['cp', '-r', 'public/documentation/*', `${firebaseStorageUrl}documentation/`], cmd: 'gsutil' },
             copySandboxesToFirebase: { args: ['cp', '-r', 'public/sandboxes/*', `${firebaseStorageUrl}sandboxes/`], cmd: 'gsutil' },
             copyFileStoreToFirebase: { args: ['cp', '-r', 'public/fileStore/*', `${firebaseStorageUrl}fileStore/`], cmd: 'gsutil' },
@@ -45,7 +46,14 @@ module.exports = function init(grunt) {
     grunt.registerTask('lint', ['run:lint']); // cmd+shift+l.
     grunt.registerTask('outdated', ['run:outdated']); // cmd+shift+o.
     grunt.registerTask('publish', ['run:publish']); // cmd+shift+u.
-    grunt.registerTask('release', ['bump', 'run:copyDocumentationToFirebase', 'run:copySandboxesToFirebase', 'run:copyFileStoreToFirebase', 'run:copyPresentationBooksToFirebase']); // cmd+shift+r.
+    grunt.registerTask('release', [
+        'bump',
+        'run:copyContextModelsToFirebase',
+        'run:copyDocumentationToFirebase',
+        'run:copySandboxesToFirebase',
+        'run:copyFileStoreToFirebase',
+        'run:copyPresentationBooksToFirebase'
+    ]); // cmd+shift+r.
     grunt.registerTask('synchronise', ['bump']); // cmd+shift+s.
     grunt.registerTask('test', ['run:test']); // cmd+shift+t.
 };
