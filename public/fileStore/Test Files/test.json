@@ -147,7 +147,7 @@
     {
         "authenticationTypeId": "basic",
         "iconName": "fal fa-arrow-from-left",
-        "id": "dataposappDepot",
+        "id": "dataposDepot",
         "isEnabled": true,
         "label": "Data Position Application Depot",
         "parameters": [
