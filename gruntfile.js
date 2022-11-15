@@ -13,6 +13,7 @@ module.exports = function init(grunt) {
         bump: { options: { commitFiles: ['-a'], commitMessage: 'Release v%VERSION%', pushTo: 'origin' } },
         run: {
             build: { args: ['WARNING: Build is NOT implemented.'], cmd: 'echo' },
+            copyRoot: { args: ['cp', '-r', 'public/singlePixel.png', `${firebaseStorageUrl}`], cmd: 'gsutil' },
             copyContextModelsToFirebase: { args: ['cp', '-r', 'public/contextModels/*', `${firebaseStorageUrl}contextModels/`], cmd: 'gsutil' },
             copyDocumentationToFirebase: { args: ['cp', '-r', 'public/documentation/*', `${firebaseStorageUrl}documentation/`], cmd: 'gsutil' },
             copySandboxesToFirebase: { args: ['cp', '-r', 'public/sandboxes/*', `${firebaseStorageUrl}sandboxes/`], cmd: 'gsutil' },
@@ -37,6 +38,7 @@ module.exports = function init(grunt) {
     grunt.registerTask('npmPublish', ['run:npmPublish']); // cmd+shift+n.
     grunt.registerTask('release', [
         'bump',
+        'run:copyRoot',
         'run:copyContextModelsToFirebase',
         'run:copyDocumentationToFirebase',
         'run:copySandboxesToFirebase',
