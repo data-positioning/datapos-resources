@@ -1,0 +1,1 @@
+A kódolás szinte minden adatátviteli és kommunikációs rendszerben használható, és a következõ európai nyelvek megjelenítésére alkalmas: bosnyák, cseh, horvát, lengyel, magyar, román, szerb (a latinbetûs írásmóddal), szerbhorvát, szlovák, szlovén, alsó-szorb és felsõ-szorb.
