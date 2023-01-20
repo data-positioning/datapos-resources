@@ -1,5 +1,5 @@
 [
-    { "label": "Introduction", "children": [{ "label": "What is a Context Model?" }, { "label": "Getting Started" }] },
+    { "label": "Overview", "children": [{ "label": "What is a Context Model?" }, { "label": "Getting Started" }] },
     { "label": "Common Models", "children": [{ "label": "Asset" }, { "label": "Location" }, { "label": "Party" }, { "label": "Product" }] },
     { "label": "Customer Service Models", "children": [{ "label": "..." }] },
     {
