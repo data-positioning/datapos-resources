@@ -6,3 +6,5 @@ See: https://firebase.google.com/docs/storage/web/download-files#cors_configurat
 See: https://stackoverflow.com/questions/37760695/firebase-storage-and-access-control-allow-origin/37765371
 
 gsutil cors set cors.json gs://datapos-v00-dev-alpha.appspot.com
+
+To list: gsutil cors get gs://datapos-v00-dev-alpha.appspot.com
