@@ -59,7 +59,8 @@ module.exports = function init(grunt) {
         for (const childPath of grunt.file.expand({ filter: 'isFile' }, searchPath)) {
             parentItem.push({ path: childPath.substr(path.length + 1), typeId: 'file' });
         }
-        index[path.substr(topLevelPath.length + 1)] = parentItem;
+        console.log(path);
+        index[path === topLevelPath ? '/' : `/${path.substr(topLevelPath.length + 1)}`] = parentItem;
     }
 
     // // Register local tasks.
