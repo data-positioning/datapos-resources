@@ -19,6 +19,9 @@ const {
     updateDataPosDependencies
 } = require('@datapos/datapos-operations/commonHelpers');
 
+const fs = require('fs');
+const path = require('path');
+
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Configuration
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -57,8 +60,10 @@ module.exports = function init(grunt) {
             parentItem.push({ path: childPath.substr(path.length + 1), typeId: 'folder' });
         }
         for (const childPath of grunt.file.expand({ filter: 'isFile' }, searchPath)) {
-            parentItem.push({ path: childPath.substr(path.length + 1), typeId: 'file' });
+            var stats = fs.statSync(childPath);
+            parentItem.push({ lastModifiedAt: stats.mtimeMs, path: childPath.substr(path.length + 1), size: stats.size, typeId: 'file' });
         }
+
         console.log(path);
         index[path === topLevelPath ? '/' : `/${path.substr(topLevelPath.length + 1)}`] = parentItem;
     }
