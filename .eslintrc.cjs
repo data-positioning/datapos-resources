@@ -11,10 +11,8 @@
 // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 module.exports = {
-    env: { browser: true, node: true },
+    env: { browser: true, node: true, es2022: true },
     extends: ['eslint:recommended'],
-    globals: {},
-    parserOptions: { ecmaVersion: 'latest' },
     root: true,
     rules: {
         'no-unused-vars': 'warn'
