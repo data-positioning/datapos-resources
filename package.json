@@ -1,10 +1,8 @@
 {
     "name": "@datapos/datapos-resources",
-    "author": "Jonathan Terrell <terrell.jm@gmail.com>",
-    "license": "ISC",
-    "version": "0.1.331",
+    "version": "0.1.332",
     "devDependencies": {
-        "@datapos/datapos-operations": "^0.1.108",
+        "@datapos/datapos-operations": "^0.1.122",
         "eslint": "^8.41.0",
         "grunt": "^1.6.1",
         "grunt-bump": "^0.8.0",

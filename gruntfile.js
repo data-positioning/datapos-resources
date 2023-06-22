@@ -1,16 +1,8 @@
-/**
- * @file datapos-resources/gruntfile.js
- * @license ISC Licensed under the ISC license, Version 2.0. See the LICENSE.md file for details.
- * @author Jonathan Terrell <terrell.jm@gmail.com>
- * @copyright 2022 Jonathan Terrell
- */
-
-// Constants
-// const firebaseStorageUrl = 'gs://datapos-v00-dev-alpha.appspot.com/';
-
 // Dependencies - Framework/Vendor
+const fs = require('fs');
 const {
     auditDependencies,
+    buildDataIndex,
     checkDependencies,
     identifyLicenses,
     lintCode,
@@ -19,61 +11,24 @@ const {
     updateDataPosDependencies
 } = require('@datapos/datapos-operations/commonHelpers');
 
-const fs = require('fs');
-const path = require('path');
-
-// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// Configuration
-// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+// Grunt configuration.
 module.exports = function init(grunt) {
     // Set external task configuration.
     grunt.initConfig({
         bump: { options: { commitFiles: ['-a'], commitMessage: 'v%VERSION%', pushTo: 'origin' } },
         gitadd: { task: { options: { all: true } } }
-        // run: {
-        //     copyRoot: { args: ['cp', '-r', 'public/singlePixel.png', `${firebaseStorageUrl}`], cmd: 'gsutil' },
-        //     copyContextModelsToFirebase: { args: ['cp', '-r', 'public/contextModels/*', `${firebaseStorageUrl}contextModels/`], cmd: 'gsutil' },
-        //     copyDocumentationToFirebase: { args: ['cp', '-r', 'public/documentation/*', `${firebaseStorageUrl}documentation/`], cmd: 'gsutil' },
-        //     copySandboxesToFirebase: { args: ['cp', '-r', 'public/sandboxes/*', `${firebaseStorageUrl}sandboxes/`], cmd: 'gsutil' },
-        //     copyFileStoreToFirebase: { args: ['cp', '-r', 'public/fileStore/*', `${firebaseStorageUrl}fileStore/`], cmd: 'gsutil' },
-        //     copyPresentationBooksToFirebase: { args: ['cp', '-r', 'public/presentationBooks/*', `${firebaseStorageUrl}presentationBooks/`], cmd: 'gsutil' },
-        // }
     });
 
     // Load external tasks.
     grunt.loadNpmTasks('grunt-bump');
     grunt.loadNpmTasks('grunt-git');
 
-    const index = {};
-
-    grunt.registerTask('buildDataIndex', function (dataPath) {
-        const folderPath = `public/${dataPath}`;
-        processDirectory(folderPath, folderPath, []);
-        grunt.file.write(`public/${dataPath}Index.json`, JSON.stringify(index));
-    });
-
-    function processDirectory(topLevelPath, path, parentItem) {
-        const searchPath = `${path}/*`;
-        for (const childPath of grunt.file.expand({ filter: 'isDirectory' }, searchPath)) {
-            processDirectory(topLevelPath, childPath, []);
-            parentItem.push({ path: childPath.substr(path.length + 1), typeId: 'folder' });
-        }
-        for (const childPath of grunt.file.expand({ filter: 'isFile' }, searchPath)) {
-            var stats = fs.statSync(childPath);
-            parentItem.push({ lastModifiedAt: stats.mtimeMs, path: childPath.substr(path.length + 1), size: stats.size, typeId: 'file' });
-        }
-
-        console.log(path);
-        index[path === topLevelPath ? '/' : `/${path.substr(topLevelPath.length + 1)}`] = parentItem;
-    }
-
-    // // Register local tasks.
-    // grunt.registerTask('release', ['bump', 'run:copyRoot', 'run:copyContextModelsToFirebase', 'run:copyDocumentationToFirebase', 'run:copySandboxesToFirebase', 'run:copyFileStoreToFirebase', 'run:copyPresentationBooksToFirebase']);
-
     // Register local tasks.
     grunt.registerTask('auditDependencies', function () {
         auditDependencies(grunt, this);
+    });
+    grunt.registerTask('buildDataIndex', function (dataPath) {
+        buildDataIndex(grunt, this, fs, dataPath);
     });
     grunt.registerTask('checkDependencies', function () {
         checkDependencies(grunt, this);
