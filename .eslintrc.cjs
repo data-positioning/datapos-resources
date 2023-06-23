@@ -4,6 +4,7 @@ module.exports = {
     extends: ['eslint:recommended'],
     root: true,
     rules: {
+        'no-empty': 'warn',
         'no-unused-vars': 'warn'
     }
 };
