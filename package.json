@@ -1,9 +1,9 @@
 {
     "name": "@datapos/datapos-resources",
-    "version": "0.1.333",
+    "version": "0.1.334",
     "devDependencies": {
-        "@datapos/datapos-operations": "^0.1.122",
-        "eslint": "^8.41.0",
+        "@datapos/datapos-operations": "^0.1.128",
+        "eslint": "^8.43.0",
         "grunt": "^1.6.1",
         "grunt-bump": "^0.8.0",
         "grunt-git": "^1.1.1"
