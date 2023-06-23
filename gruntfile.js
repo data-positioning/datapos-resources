@@ -11,7 +11,7 @@ const {
     updateDataPosDependencies
 } = require('@datapos/datapos-operations/commonHelpers');
 
-// Grunt configuration.
+// Configuration.
 module.exports = function init(grunt) {
     // Set external task configuration.
     grunt.initConfig({
