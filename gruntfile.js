@@ -8,21 +8,12 @@ const {
     lintCode,
     logNotImplementedMessage,
     migrateDependencies,
-    updateDataPosDependencies
+    updateDataPosDependencies,
+    syncRepoWithGithub
 } = require('@datapos/datapos-operations/commonHelpers');
 
 // Configuration.
 module.exports = function init(grunt) {
-    // Set external task configuration.
-    grunt.initConfig({
-        bump: { options: { commitFiles: ['-a'], commitMessage: 'v%VERSION%', pushTo: 'origin' } },
-        gitadd: { task: { options: { all: true } } }
-    });
-
-    // Load external tasks.
-    grunt.loadNpmTasks('grunt-bump');
-    grunt.loadNpmTasks('grunt-git');
-
     // Register local tasks.
     grunt.registerTask('auditDependencies', function () {
         auditDependencies(grunt, this);
@@ -46,6 +37,9 @@ module.exports = function init(grunt) {
     grunt.registerTask('updateDataPosDependencies', function (updateTypeId) {
         updateDataPosDependencies(grunt, this, updateTypeId);
     });
+    grunt.registerTask('syncRepoWithGithub', function () {
+        syncRepoWithGithub(grunt, this, 'package.json');
+    });
 
     // Register common repository management tasks. These tasks are all invoked by VSCode keyboard shortcuts identified in the comments.
     grunt.registerTask('audit', ['auditDependencies']); // alt+ctrl+shift+a.
@@ -56,8 +50,8 @@ module.exports = function init(grunt) {
     grunt.registerTask('lint', ['lintCode']); // alt+ctrl+shift+l.
     grunt.registerTask('migrate', ['migrateDependencies']); // alt+ctrl+shift+m.
     grunt.registerTask('publish', ['logNotImplementedMessage:Publish']); // alt+ctrl+shift+p.
-    grunt.registerTask('release', ['buildDataIndex:fileStore', 'gitadd', 'bump']); // alt+ctrl+shift+r.
-    grunt.registerTask('synchronise', ['gitadd', 'bump']); // alt+ctrl+shift+s.
+    grunt.registerTask('release', ['buildDataIndex:fileStore', 'syncRepoWithGithub']); // alt+ctrl+shift+r.
+    grunt.registerTask('synchronise', ['syncRepoWithGithub']); // alt+ctrl+shift+s.
     grunt.registerTask('test', ['logNotImplementedMessage:Test']); // alt+ctrl+shift+t.
     grunt.registerTask('update', ['updateDataPosDependencies']); // alt+ctrl+shift+u.
 };
