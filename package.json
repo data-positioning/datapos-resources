@@ -1,6 +1,6 @@
 {
     "name": "@datapos/datapos-resources",
-    "version": "0.1.343",
+    "version": "0.1.344",
     "devDependencies": {
         "@datapos/datapos-operations": "^0.1.177",
         "eslint": "^8.43.0",
