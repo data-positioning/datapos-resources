@@ -46,7 +46,7 @@ module.exports = function init(grunt) {
     // Register common repository management tasks. These tasks are all invoked by VSCode keyboard shortcuts identified in the comments.
     grunt.registerTask('audit', ['auditDependencies']); // alt+ctrl+shift+a.
     grunt.registerTask('build', ['buildDataIndex:fileStore']); // alt+ctrl+shift+b.
-    grunt.registerTask('check', ['checkDependencies']); // alt+ctrl+shift+c.≤
+    grunt.registerTask('check', ['checkDependencies']); // alt+ctrl+shift+c.
     grunt.registerTask('document', ['identifyLicenses']); // alt+ctrl+shift+d.
     grunt.registerTask('format', ['logNotImplementedMessage:Format']); // alt+ctrl+shift+f.
     grunt.registerTask('lint', ['lintCode']); // alt+ctrl+shift+l.
