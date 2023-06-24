@@ -1,5 +1,7 @@
 // Dependencies - Framework/Vendor
 const fs = require('fs');
+
+// Dependencies - Operations
 const {
     auditDependencies,
     buildDataIndex,
@@ -38,7 +40,7 @@ module.exports = function init(grunt) {
         updateDataPosDependencies(grunt, this, updateTypeId);
     });
     grunt.registerTask('syncRepoWithGithub', function () {
-        syncRepoWithGithub(grunt, this, 'package.json');
+        syncRepoWithGithub(grunt, this, ['package.json']);
     });
 
     // Register common repository management tasks. These tasks are all invoked by VSCode keyboard shortcuts identified in the comments.
