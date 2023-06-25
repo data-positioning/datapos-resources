@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T15:49:29.513Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8cka06dh91R4CDRwAFHv" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T15:50:11.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8342SFU00a7W_A71EQm3" version="20.8.13" type="github">
   <diagram name="Page-1" id="2O5--SVngWuGJgE4CyUk">
     <mxGraphModel dx="1189" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="rVQpOM1ecwW65xV5ou1y-1" value="Operations" style="rounded=0;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.13,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.38,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.63,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[0.88,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="140" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rVQpOM1ecwW65xV5ou1y-2" value="Resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="rVQpOM1ecwW65xV5ou1y-2" value="Resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="10" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVQpOM1ecwW65xV5ou1y-3" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="rVQpOM1ecwW65xV5ou1y-1" target="rVQpOM1ecwW65xV5ou1y-16">
@@ -58,7 +58,7 @@
             <mxPoint x="410" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rVQpOM1ecwW65xV5ou1y-16" value="Content Primary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="rVQpOM1ecwW65xV5ou1y-16" value="Content Primary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="10" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVQpOM1ecwW65xV5ou1y-17" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endFill=0;jumpStyle=arc;dashed=1;exitX=0.13;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="rVQpOM1ecwW65xV5ou1y-1" target="rVQpOM1ecwW65xV5ou1y-2">
@@ -126,7 +126,7 @@
             <mxPoint x="550" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rVQpOM1ecwW65xV5ou1y-30" value="Connectors..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="rVQpOM1ecwW65xV5ou1y-30" value="Connectors..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="260" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rVQpOM1ecwW65xV5ou1y-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;endFill=0;startArrow=classic;startFill=1;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="rVQpOM1ecwW65xV5ou1y-1" target="rVQpOM1ecwW65xV5ou1y-30">
