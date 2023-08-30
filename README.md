@@ -1,4 +1,4 @@
-# Data Positioning Resources
+# Datapos - Resources
 
 ## The 'fileStore' Folder
 
