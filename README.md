@@ -1,4 +1,4 @@
-# Datapos - Resources
+# Datapos - Data Resources
 
 ## The 'fileStore' Folder
 
