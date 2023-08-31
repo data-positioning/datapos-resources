@@ -1,5 +1,7 @@
 # Datapos - Resources
 
+A collection of Datapos resources.
+
 ## The 'fileStore' Folder
 
 ...
