@@ -14,10 +14,6 @@ A collection of Datapos resources.
 
 ...
 
-## The 'index.html' File
-
-...
-
 ## The 'singlePixel.png' File
 
 ...
