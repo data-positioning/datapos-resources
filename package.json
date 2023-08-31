@@ -1,9 +1,24 @@
 {
     "name": "@datapos/datapos-resources",
-    "version": "0.1.349",
+    "private": false,
+    "version": "0.1.350",
     "devDependencies": {
-        "@datapos/datapos-operations": "^0.1.177",
-        "eslint": "^8.43.0",
-        "grunt": "^1.6.1"
+        "@datapos/datapos-operations": "^0.1.232",
+        "eslint": "^8.48.0",
+        "prettier": "^3.0.3"
+    },
+    "scripts": {
+        "audit": "npm audit",
+        "build": "node -e \"require('./scriptHelpers').buildFileStoreIndex()\"",
+        "check": "npm outdated",
+        "document": "npx license-checker --production --json --out LICENSES.json",
+        "format": "echo \"***** FORMAT SCRIPT NOT IMPLEMENTED. *****\"",
+        "lint": "npx eslint *.js",
+        "publishToNPM": "npm publish",
+        "release": "npm run build && npm run syncWithGitHub && npm run publishToNPM",
+        "syncWithGitHub": "node -e \"require('@datapos/datapos-operations/scriptHelpers').syncWithGitHub(['package.json'])\"",
+        "test": "echo \"***** TEST SCRIPT NOT IMPLEMENTED. *****\"",
+        "updateDependencies": "npm run updateOperations",
+        "updateOperations": "npm install --save-dev @datapos/datapos-operations@latest"
     }
 }

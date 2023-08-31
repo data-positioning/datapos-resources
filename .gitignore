@@ -1,5 +1,3 @@
 node_modules
-*.log
+*.local
 **/.DS_Store
-
-public/fileStore/Test Files/WDI_CSV

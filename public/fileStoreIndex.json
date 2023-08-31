@@ -1,1 +1,1998 @@
-{"/AUDATACY Interchange Format/Coded Data":[{"lastModifiedAt":1673646700246.7998,"path":"01. Coded Data - All.csv","size":13002,"typeId":"file"},{"lastModifiedAt":1673646700247.012,"path":"02. Coded Types - All.csv","size":93,"typeId":"file"},{"lastModifiedAt":1673646700247.1973,"path":"03. Coded Types - Ids.csv","size":48,"typeId":"file"},{"lastModifiedAt":1673646700247.4795,"path":"04. Coded Types - Labels - Linked by Id.csv","size":101,"typeId":"file"},{"lastModifiedAt":1673646700247.7068,"path":"05. Coded Types - Labels - Linked by Alternate Id.csv","size":96,"typeId":"file"},{"lastModifiedAt":1673646700248.0576,"path":"06. Coded Values - All - Linked by Id.csv","size":9502,"typeId":"file"},{"lastModifiedAt":1673646700248.3674,"path":"07. Coded Values - All - Linked by Alternate Id.csv","size":7269,"typeId":"file"},{"lastModifiedAt":1673646700248.6257,"path":"08. Coded Values - Ids - Linked by Id.csv","size":5524,"typeId":"file"},{"lastModifiedAt":1673646700248.8774,"path":"09. Coded Values - Ids - Linked by Alternate Id.csv","size":3291,"typeId":"file"},{"lastModifiedAt":1673646700249.065,"path":"10. Coded Values - Labels - Linked by Id.csv","size":9752,"typeId":"file"},{"lastModifiedAt":1673646700249.2708,"path":"11. Coded Values - Labels - Linked by Alternate Id.csv","size":7512,"typeId":"file"}],"/AUDATACY Interchange Format/Human Resources/Workforce":[{"lastModifiedAt":1673646700249.6208,"path":"Jobs.csv","size":13913,"typeId":"file"},{"lastModifiedAt":1673646700249.775,"path":"Work Contracts.csv","size":13931,"typeId":"file"}],"/AUDATACY Interchange Format/Human Resources":[{"childCount":2,"path":"Workforce","typeId":"folder"}],"/AUDATACY Interchange Format/Party":[{"lastModifiedAt":1673646700250.711,"path":"People.csv","size":139407,"typeId":"file"}],"/AUDATACY Interchange Format":[{"childCount":11,"path":"Coded Data","typeId":"folder"},{"childCount":1,"path":"Human Resources","typeId":"folder"},{"childCount":1,"path":"Party","typeId":"folder"}],"/Formula 1":[{"lastModifiedAt":1673646700251.0986,"path":"circuits.csv","size":9406,"typeId":"file"},{"lastModifiedAt":1673646700252.2334,"path":"constructor_results.csv","size":191446,"typeId":"file"},{"lastModifiedAt":1673646700254.545,"path":"constructor_standings.csv","size":280013,"typeId":"file"},{"lastModifiedAt":1673646700255.0295,"path":"constructors.csv","size":17021,"typeId":"file"},{"lastModifiedAt":1673646700261.1985,"path":"driver_standings.csv","size":801809,"typeId":"file"},{"lastModifiedAt":1673646700255.8557,"path":"driver.csv","size":92286,"typeId":"file"},{"lastModifiedAt":1673646700263.608,"path":"pit_stops.csv","size":244191,"typeId":"file"},{"lastModifiedAt":1673646700267.6204,"path":"qualifying.csv","size":323654,"typeId":"file"},{"lastModifiedAt":1673646700269.0186,"path":"races.csv","size":109577,"typeId":"file"},{"lastModifiedAt":1673646700285.217,"path":"results.csv","size":1492404,"typeId":"file"},{"lastModifiedAt":1673646700286.2786,"path":"seasons.csv","size":4158,"typeId":"file"},{"lastModifiedAt":1673646700286.7944,"path":"status.csv","size":2043,"typeId":"file"}],"/Salesforce API":[{"lastModifiedAt":1673646700365.7886,"path":"Account.csv","size":7383,"typeId":"file"},{"lastModifiedAt":1673646700366.0376,"path":"Campaign.csv","size":1655,"typeId":"file"},{"lastModifiedAt":1673646700366.3003,"path":"Contact.csv","size":8936,"typeId":"file"},{"lastModifiedAt":1673646700366.5571,"path":"Lead.csv","size":9606,"typeId":"file"},{"lastModifiedAt":1673646700366.955,"path":"Opportunity.csv","size":11811,"typeId":"file"},{"lastModifiedAt":1673646700367.2192,"path":"Product2.csv","size":2926,"typeId":"file"}],"/Salesforce Extract":[{"lastModifiedAt":1673646700367.6287,"path":"Account.csv","size":8778,"typeId":"file"},{"lastModifiedAt":1673646700367.909,"path":"AccountContactRole.csv","size":143,"typeId":"file"},{"lastModifiedAt":1673646700368.1428,"path":"ActionLinkTemplateBinding.csv","size":141,"typeId":"file"},{"lastModifiedAt":1673646700368.351,"path":"Announcement.csv","size":163,"typeId":"file"},{"lastModifiedAt":1673646700368.5586,"path":"Asset.csv","size":373,"typeId":"file"},{"lastModifiedAt":1673646700368.7583,"path":"AssetRelationship.csv","size":192,"typeId":"file"},{"lastModifiedAt":1673646700369.0674,"path":"AssistantInteraction.csv","size":167,"typeId":"file"},{"lastModifiedAt":1673646700369.3152,"path":"AssistantProgress.csv","size":136,"typeId":"file"},{"lastModifiedAt":1673646700369.5422,"path":"AssistantRecommendation.csv","size":228,"typeId":"file"},{"lastModifiedAt":1673646700369.7478,"path":"BusinessProcess.csv","size":136,"typeId":"file"},{"lastModifiedAt":1673646700369.9666,"path":"Campaign.csv","size":2510,"typeId":"file"},{"lastModifiedAt":1673646700370.1914,"path":"CampaignMember.csv","size":191,"typeId":"file"},{"lastModifiedAt":1673646700370.3853,"path":"CanvasFeedItem.csv","size":226,"typeId":"file"},{"lastModifiedAt":1673646700370.6401,"path":"Case.csv","size":11952,"typeId":"file"},{"lastModifiedAt":1673646700370.8933,"path":"CaseComment.csv","size":153,"typeId":"file"},{"lastModifiedAt":1673646700371.179,"path":"CaseContactRole.csv","size":129,"typeId":"file"},{"lastModifiedAt":1673646700371.408,"path":"CaseHistory2.csv","size":3263,"typeId":"file"},{"lastModifiedAt":1673646700371.6135,"path":"CaseSolution.csv","size":84,"typeId":"file"},{"lastModifiedAt":1673646700371.8218,"path":"CleanFactFieldClaim.csv","size":174,"typeId":"file"},{"lastModifiedAt":1673646700372.029,"path":"CollaborationGroupRank.csv","size":200,"typeId":"file"},{"lastModifiedAt":1673646700372.2563,"path":"CollaborationGroupRecord.csv","size":174,"typeId":"file"},{"lastModifiedAt":1673646700372.4688,"path":"ComponentResponseCache.csv","size":170,"typeId":"file"},{"lastModifiedAt":1673646700372.7146,"path":"Contact.csv","size":11188,"typeId":"file"},{"lastModifiedAt":1673646700372.9902,"path":"ContentDocumentLink.csv","size":304,"typeId":"file"},{"lastModifiedAt":1673646700373.2683,"path":"ContentFolder.csv","size":158,"typeId":"file"},{"lastModifiedAt":1673646700373.5203,"path":"ContentVersion.csv","size":1042,"typeId":"file"},{"lastModifiedAt":1673646700373.8582,"path":"Contract.csv","size":729,"typeId":"file"},{"lastModifiedAt":1673646700374.0657,"path":"ContractContactRole.csv","size":144,"typeId":"file"},{"lastModifiedAt":1673646700374.2725,"path":"CustomSettingNameIndex.csv","size":191,"typeId":"file"},{"lastModifiedAt":1673646700374.4963,"path":"Data__c.csv","size":136,"typeId":"file"},{"lastModifiedAt":1673646700374.722,"path":"DatacloudOwnedEntity.csv","size":187,"typeId":"file"},{"lastModifiedAt":1673646700374.9507,"path":"DatacloudPurchaseUsage.csv","size":186,"typeId":"file"},{"lastModifiedAt":1673646700375.1545,"path":"EmailDisclaimer.csv","size":174,"typeId":"file"},{"lastModifiedAt":1673646700375.3635,"path":"EmailMessage.csv","size":426,"typeId":"file"},{"lastModifiedAt":1673646700375.6108,"path":"EmailRoutingAddress.csv","size":237,"typeId":"file"},{"lastModifiedAt":1673646700375.9937,"path":"Endorsement.csv","size":189,"typeId":"file"},{"lastModifiedAt":1673646700376.2456,"path":"EngagementHistoryRollup.csv","size":219,"typeId":"file"},{"lastModifiedAt":1673646700376.4688,"path":"EntityHistory.csv","size":562,"typeId":"file"},{"lastModifiedAt":1673646700376.6812,"path":"EntitySubscription.csv","size":71,"typeId":"file"},{"lastModifiedAt":1673646700376.91,"path":"Event.csv","size":634,"typeId":"file"},{"lastModifiedAt":1673646700377.1375,"path":"EventDeliveryData.csv","size":152,"typeId":"file"},{"lastModifiedAt":1673646700377.379,"path":"EventParameterData.csv","size":161,"typeId":"file"},{"lastModifiedAt":1673646700377.5864,"path":"EventRelation.csv","size":203,"typeId":"file"},{"lastModifiedAt":1673646700377.83,"path":"EventSubscriptionData.csv","size":128,"typeId":"file"},{"lastModifiedAt":1673646700378.0369,"path":"EventSubscriptionHandleData.csv","size":145,"typeId":"file"},{"lastModifiedAt":1673646700378.291,"path":"ExchangeUserMapping.csv","size":177,"typeId":"file"},{"lastModifiedAt":1673646700378.5332,"path":"FeedComment.csv","size":294,"typeId":"file"},{"lastModifiedAt":1673646700378.8413,"path":"FeedFieldHistory.csv","size":5835,"typeId":"file"},{"lastModifiedAt":1673646700379.0876,"path":"FeedMute.csv","size":138,"typeId":"file"},{"lastModifiedAt":1673646700379.2974,"path":"FeedPost.csv","size":176,"typeId":"file"},{"lastModifiedAt":1673646700379.5105,"path":"FeedTrackedChange.csv","size":308,"typeId":"file"},{"lastModifiedAt":1673646700379.8345,"path":"FieldHistory.csv","size":8658,"typeId":"file"},{"lastModifiedAt":1673646700380.2346,"path":"FileInspectionResult.csv","size":265,"typeId":"file"},{"lastModifiedAt":1673646700380.499,"path":"FileSearchActivity.csv","size":1865,"typeId":"file"},{"lastModifiedAt":1673646700380.7239,"path":"FiscalYearSettings.csv","size":187,"typeId":"file"},{"lastModifiedAt":1673646700380.9495,"path":"FlowInterview.csv","size":233,"typeId":"file"},{"lastModifiedAt":1673646700381.1714,"path":"FlowRecordRelation.csv","size":136,"typeId":"file"},{"lastModifiedAt":1673646700381.409,"path":"FlowStageRelation.csv","size":153,"typeId":"file"},{"lastModifiedAt":1673646700381.6035,"path":"Goal.csv","size":236,"typeId":"file"},{"lastModifiedAt":1673646700381.8303,"path":"GoalLink.csv","size":134,"typeId":"file"},{"lastModifiedAt":1673646700382.2153,"path":"GroupSubscription.csv","size":71,"typeId":"file"},{"lastModifiedAt":1673646700382.4565,"path":"Idea.csv","size":233,"typeId":"file"},{"lastModifiedAt":1673646700382.693,"path":"IdeaComment.csv","size":122,"typeId":"file"},{"lastModifiedAt":1673646700382.8997,"path":"InboundSocialPost.csv","size":204,"typeId":"file"},{"lastModifiedAt":1673646700383.1147,"path":"InstalledMobileApp.csv","size":160,"typeId":"file"},{"lastModifiedAt":1673646700383.3308,"path":"InteractionCountReport.csv","size":194,"typeId":"file"},{"lastModifiedAt":1673646700383.5295,"path":"JigsawSavedSearch.csv","size":171,"typeId":"file"},{"lastModifiedAt":1673646700383.7312,"path":"JobTracker.csv","size":232,"typeId":"file"},{"lastModifiedAt":1673646700384.0579,"path":"Lead.csv","size":12692,"typeId":"file"},{"lastModifiedAt":1673646700384.532,"path":"LinkedInLeadGen.csv","size":545,"typeId":"file"},{"lastModifiedAt":1673646700384.3142,"path":"LinkReference.csv","size":118,"typeId":"file"},{"lastModifiedAt":1673646700384.7383,"path":"ListEmail.csv","size":307,"typeId":"file"},{"lastModifiedAt":1673646700384.958,"path":"ListEmailRecipientSource.csv","size":149,"typeId":"file"},{"lastModifiedAt":1673646700385.1882,"path":"ListEmailSentResult.csv","size":172,"typeId":"file"},{"lastModifiedAt":1673646700385.3958,"path":"Macro.csv","size":168,"typeId":"file"},{"lastModifiedAt":1673646700385.5962,"path":"MacroAction.csv","size":197,"typeId":"file"},{"lastModifiedAt":1673646700385.8022,"path":"MacroInstruction.csv","size":172,"typeId":"file"},{"lastModifiedAt":1673646700386.1064,"path":"ManagedContentBlock.csv","size":114,"typeId":"file"},{"lastModifiedAt":1673646700386.3093,"path":"ManagedContentBlockVersion.csv","size":276,"typeId":"file"},{"lastModifiedAt":1673646700386.4907,"path":"MatchingInformation.csv","size":194,"typeId":"file"},{"lastModifiedAt":1673646700386.6685,"path":"Metric.csv","size":301,"typeId":"file"},{"lastModifiedAt":1673646700386.8552,"path":"MetricDataLink.csv","size":181,"typeId":"file"},{"lastModifiedAt":1673646700387.0493,"path":"MetricsTransmissionHistory.csv","size":197,"typeId":"file"},{"lastModifiedAt":1673646700387.2532,"path":"NewsFeed.csv","size":316,"typeId":"file"},{"lastModifiedAt":1673646700387.4539,"path":"Note.csv","size":160,"typeId":"file"},{"lastModifiedAt":1673646700387.7134,"path":"NotifDeliveryUserPref.csv","size":165,"typeId":"file"},{"lastModifiedAt":1673646700387.9172,"path":"NotificationMember.csv","size":138,"typeId":"file"},{"lastModifiedAt":1673646700388.1667,"path":"Opportunity.csv","size":14323,"typeId":"file"},{"lastModifiedAt":1673646700388.3718,"path":"OpportunityCompetitor.csv","size":158,"typeId":"file"},{"lastModifiedAt":1673646700388.6072,"path":"OpportunityContactRole.csv","size":135,"typeId":"file"},{"lastModifiedAt":1673646700388.9812,"path":"OpportunityHistory.csv","size":7076,"typeId":"file"},{"lastModifiedAt":1673646700389.1965,"path":"OpportunityLineItem.csv","size":222,"typeId":"file"},{"lastModifiedAt":1673646700389.414,"path":"Order.csv","size":812,"typeId":"file"},{"lastModifiedAt":1673646700389.6514,"path":"OrderItem.csv","size":262,"typeId":"file"},{"lastModifiedAt":1673646700389.9407,"path":"OrgDeleteRequest.csv","size":131,"typeId":"file"},{"lastModifiedAt":1673646700390.1458,"path":"OrgWideEmailAddress.csv","size":167,"typeId":"file"},{"lastModifiedAt":1673646700390.3467,"path":"Partner.csv","size":184,"typeId":"file"},{"lastModifiedAt":1673646700390.5432,"path":"Period.csv","size":131,"typeId":"file"},{"lastModifiedAt":1673646700390.748,"path":"PersonalizationResource.csv","size":157,"typeId":"file"},{"lastModifiedAt":1673646700390.9612,"path":"PersonalizedUnswdQuestion.csv","size":213,"typeId":"file"},{"lastModifiedAt":1673646700391.1726,"path":"Pricebook2.csv","size":487,"typeId":"file"},{"lastModifiedAt":1673646700391.4263,"path":"PricebookEntry.csv","size":6815,"typeId":"file"},{"lastModifiedAt":1673646700391.7258,"path":"ProcessInstance.csv","size":210,"typeId":"file"},{"lastModifiedAt":1673646700391.954,"path":"ProcessInstanceNode.csv","size":186,"typeId":"file"},{"lastModifiedAt":1673646700392.1665,"path":"ProcessInstanceStep.csv","size":223,"typeId":"file"},{"lastModifiedAt":1673646700392.4053,"path":"ProcessInstanceWorkitem.csv","size":256,"typeId":"file"},{"lastModifiedAt":1673646700392.5925,"path":"Product2.csv","size":3569,"typeId":"file"},{"lastModifiedAt":1673646700392.7783,"path":"PushIntent.csv","size":170,"typeId":"file"},{"lastModifiedAt":1673646700392.958,"path":"PushProfileMapping.csv","size":180,"typeId":"file"},{"lastModifiedAt":1673646700393.1548,"path":"QuickText.csv","size":148,"typeId":"file"},{"lastModifiedAt":1673646700393.3784,"path":"RecommendationAudience.csv","size":183,"typeId":"file"},{"lastModifiedAt":1673646700393.665,"path":"RecommendationDefinition.csv","size":213,"typeId":"file"},{"lastModifiedAt":1673646700393.8884,"path":"RecommendationMetric.csv","size":238,"typeId":"file"},{"lastModifiedAt":1673646700394.1746,"path":"RecordAction.csv","size":179,"typeId":"file"},{"lastModifiedAt":1673646700394.4246,"path":"RecordOrigin.csv","size":168,"typeId":"file"},{"lastModifiedAt":1673646700394.6409,"path":"RecordType.csv","size":1730,"typeId":"file"},{"lastModifiedAt":1673646700394.8398,"path":"Scorecard.csv","size":146,"typeId":"file"},{"lastModifiedAt":1673646700395.0366,"path":"ScorecardAssociation.csv","size":138,"typeId":"file"},{"lastModifiedAt":1673646700395.2412,"path":"ScorecardMetric.csv","size":157,"typeId":"file"},{"lastModifiedAt":1673646700395.4692,"path":"SearchActivity.csv","size":245,"typeId":"file"},{"lastModifiedAt":1673646700395.669,"path":"SearchPromotionRule.csv","size":115,"typeId":"file"},{"lastModifiedAt":1673646700395.91,"path":"SetupAssistantAnswer.csv","size":130,"typeId":"file"},{"lastModifiedAt":1673646700396.1487,"path":"SetupAssistantProgress.csv","size":143,"typeId":"file"},{"lastModifiedAt":1673646700396.3433,"path":"SetupFlowProgress.csv","size":265,"typeId":"file"},{"lastModifiedAt":1673646700396.5305,"path":"SocialPersona.csv","size":200,"typeId":"file"},{"lastModifiedAt":1673646700396.7778,"path":"Solution.csv","size":5877,"typeId":"file"},{"lastModifiedAt":1673646700397.1714,"path":"StreamingChannel.csv","size":143,"typeId":"file"},{"lastModifiedAt":1673646700397.3816,"path":"SystemStreamingChannel.csv","size":133,"typeId":"file"},{"lastModifiedAt":1673646700397.61,"path":"Task.csv","size":643,"typeId":"file"},{"lastModifiedAt":1673646700397.8032,"path":"TaskRelation.csv","size":143,"typeId":"file"},{"lastModifiedAt":1673646700398.0703,"path":"TodayGoal.csv","size":134,"typeId":"file"},{"lastModifiedAt":1673646700398.2764,"path":"Tombstone.csv","size":116,"typeId":"file"},{"lastModifiedAt":1673646700398.4993,"path":"TopicDataCategoryRule.csv","size":156,"typeId":"file"},{"lastModifiedAt":1673646700398.7085,"path":"TopicGroupActivity.csv","size":156,"typeId":"file"},{"lastModifiedAt":1673646700398.9275,"path":"TopicUserActivity.csv","size":142,"typeId":"file"},{"lastModifiedAt":1673646700399.1196,"path":"TransitionMessage.csv","size":134,"typeId":"file"},{"lastModifiedAt":1673646700399.33,"path":"TrendingTopic.csv","size":169,"typeId":"file"},{"lastModifiedAt":1673646700399.5537,"path":"User.csv","size":4166,"typeId":"file"},{"lastModifiedAt":1673646700399.8008,"path":"UserAppInfo.csv","size":147,"typeId":"file"},{"lastModifiedAt":1673646700400.0789,"path":"UserAppMenuCustomization.csv","size":145,"typeId":"file"},{"lastModifiedAt":1673646700400.3118,"path":"UserMetrics.csv","size":243,"typeId":"file"},{"lastModifiedAt":1673646700400.5283,"path":"UserNavItem.csv","size":229,"typeId":"file"},{"lastModifiedAt":1673646700400.7285,"path":"UserProvAccount.csv","size":283,"typeId":"file"},{"lastModifiedAt":1673646700400.9253,"path":"UserProvAccountStaging.csv","size":255,"typeId":"file"},{"lastModifiedAt":1673646700401.3203,"path":"UserProvisioningLog.csv","size":199,"typeId":"file"},{"lastModifiedAt":1673646700401.5266,"path":"UserProvisioningRequest.csv","size":324,"typeId":"file"},{"lastModifiedAt":1673646700401.1128,"path":"UserProvMockTarget.csv","size":198,"typeId":"file"},{"lastModifiedAt":1673646700401.8652,"path":"UserRole.csv","size":3826,"typeId":"file"},{"lastModifiedAt":1673646700402.119,"path":"UserSetupAppInfo.csv","size":129,"typeId":"file"},{"lastModifiedAt":1673646700402.3293,"path":"WorkCoaching.csv","size":152,"typeId":"file"},{"lastModifiedAt":1673646700402.531,"path":"WorkFeedback.csv","size":153,"typeId":"file"},{"lastModifiedAt":1673646700402.7146,"path":"WorkFeedbackQuestion.csv","size":233,"typeId":"file"},{"lastModifiedAt":1673646700402.9292,"path":"WorkFeedbackQuestionSet.csv","size":163,"typeId":"file"},{"lastModifiedAt":1673646700403.1233,"path":"WorkFeedbackRequest.csv","size":417,"typeId":"file"},{"lastModifiedAt":1673646700403.3213,"path":"WorkFeedbackTemplate.csv","size":133,"typeId":"file"},{"lastModifiedAt":1673646700403.534,"path":"WorkPerformanceCycle.csv","size":199,"typeId":"file"}],"/SAP Employee Central Extract":[{"lastModifiedAt":1673646700289.5388,"path":"ADDRESS_INFO.csv","size":208015,"typeId":"file"},{"lastModifiedAt":1673646700290.0598,"path":"COMP_CUR_CONV.csv","size":2245,"typeId":"file"},{"lastModifiedAt":1673646700303.775,"path":"EMP_COMP_INFO.csv","size":1665179,"typeId":"file"},{"lastModifiedAt":1673646700317.3489,"path":"EMP_PAYCOMP_RECURRING.csv","size":1551764,"typeId":"file"},{"lastModifiedAt":1673646700293.135,"path":"EMPLOYMENT_INFO_original.csv","size":128575,"typeId":"file"},{"lastModifiedAt":1673646700291.4246,"path":"EMPLOYMENT_INFO.csv","size":128533,"typeId":"file"},{"lastModifiedAt":1673646700318.0676,"path":"EVENT_REASONS.csv","size":7775,"typeId":"file"},{"lastModifiedAt":1673646700318.513,"path":"FREQUENCY.csv","size":1704,"typeId":"file"},{"lastModifiedAt":1673646700330.5269,"path":"GENERIC_OBJECTS.csv","size":1662477,"typeId":"file"},{"lastModifiedAt":1673646700332.2202,"path":"GENERIC_RELATIONSHIPS.csv","size":98782,"typeId":"file"},{"lastModifiedAt":1673646700335.5713,"path":"JOB_CLASS.csv","size":338260,"typeId":"file"},{"lastModifiedAt":1673646700346.275,"path":"JOB_INFO.csv","size":1546379,"typeId":"file"},{"lastModifiedAt":1673646700348.0605,"path":"LABELS.csv","size":126838,"typeId":"file"},{"lastModifiedAt":1673646700348.5544,"path":"LOCATIONS.csv","size":2995,"typeId":"file"},{"lastModifiedAt":1673646700348.9841,"path":"PAY_COMPONENT.csv","size":1234,"typeId":"file"},{"lastModifiedAt":1673646700352.1172,"path":"PERSON_INFO_GLOBAL.csv","size":82438,"typeId":"file"},{"lastModifiedAt":1673646700349.8506,"path":"PERSON.csv","size":44896,"typeId":"file"},{"lastModifiedAt":1673646700351.1755,"path":"PERSONAL_DATA.csv","size":105949,"typeId":"file"},{"lastModifiedAt":1673646700353.0532,"path":"PICKLISTS.csv","size":78044,"typeId":"file"},{"lastModifiedAt":1673646700353.5554,"path":"TERRITORY.csv","size":8541,"typeId":"file"}],"/SAP SuccessFactors API":[{"lastModifiedAt":1673646700356.206,"path":"empEmployment.csv","size":151656,"typeId":"file"},{"lastModifiedAt":1673646700363.1802,"path":"empJob.csv","size":1193715,"typeId":"file"},{"lastModifiedAt":1673646700364.15,"path":"perGlobalInfoGBR.csv","size":76314,"typeId":"file"},{"lastModifiedAt":1673646700364.4844,"path":"perGlobalInfoUSA.csv","size":4942,"typeId":"file"},{"lastModifiedAt":1673646700354.7493,"path":"PerPerson.csv","size":77318,"typeId":"file"},{"lastModifiedAt":1673646700365.3276,"path":"perPersonal.csv","size":119305,"typeId":"file"}],"/Test Files/Encoding":[{"lastModifiedAt":1673646700421.2185,"path":"big5","size":614,"typeId":"file"},{"lastModifiedAt":1673646700421.4253,"path":"euc-jp","size":3919,"typeId":"file"},{"lastModifiedAt":1673646700421.6177,"path":"euc-kr","size":2480,"typeId":"file"},{"lastModifiedAt":1673646700421.81,"path":"gb18030","size":1665,"typeId":"file"},{"lastModifiedAt":1673646700422.0327,"path":"iso-2022-jp","size":2924,"typeId":"file"},{"lastModifiedAt":1673646700422.2766,"path":"iso-8859-2","size":1600,"typeId":"file"},{"lastModifiedAt":1673646700422.4634,"path":"iso-8859-5","size":1024,"typeId":"file"},{"lastModifiedAt":1673646700422.654,"path":"iso-8859-6","size":2241,"typeId":"file"},{"lastModifiedAt":1673646700422.8516,"path":"iso-8859-7","size":1033,"typeId":"file"},{"lastModifiedAt":1673646700423.0337,"path":"koi8-r","size":1024,"typeId":"file"},{"lastModifiedAt":1673646700423.2366,"path":"shift_jis","size":2816,"typeId":"file"},{"lastModifiedAt":1673646700423.4434,"path":"utf-16be","size":1334,"typeId":"file"},{"lastModifiedAt":1673646700423.6462,"path":"utf-16le","size":1334,"typeId":"file"},{"lastModifiedAt":1673646700423.898,"path":"utf-8","size":1125,"typeId":"file"},{"lastModifiedAt":1673646700424.172,"path":"windows-1250","size":1617,"typeId":"file"},{"lastModifiedAt":1673646700424.4182,"path":"windows-1251","size":1024,"typeId":"file"},{"lastModifiedAt":1673646700424.7131,"path":"windows-1252","size":2976,"typeId":"file"},{"lastModifiedAt":1673646700424.9275,"path":"windows-1253","size":1052,"typeId":"file"},{"lastModifiedAt":1673646700425.1392,"path":"windows-1254","size":2445,"typeId":"file"},{"lastModifiedAt":1673646700425.3352,"path":"windows-1255","size":2405,"typeId":"file"},{"lastModifiedAt":1673646700425.5396,"path":"windows-1256","size":2241,"typeId":"file"}],"/Test Files/Encoding Test Files/encodings":[{"lastModifiedAt":1673646700405.288,"path":"big5","size":614,"typeId":"file"},{"lastModifiedAt":1673646700405.7314,"path":"euc_jp","size":3919,"typeId":"file"},{"lastModifiedAt":1673646700405.9575,"path":"euc_kr","size":2480,"typeId":"file"},{"lastModifiedAt":1673646700406.1729,"path":"gb18030","size":1665,"typeId":"file"},{"lastModifiedAt":1673646700406.4216,"path":"iso2022cn","size":1749,"typeId":"file"},{"lastModifiedAt":1673646700406.6802,"path":"iso2022jp","size":2924,"typeId":"file"},{"lastModifiedAt":1673646700406.9023,"path":"iso2022kr","size":3172,"typeId":"file"},{"lastModifiedAt":1673646700407.1213,"path":"iso88591_en","size":2955,"typeId":"file"},{"lastModifiedAt":1673646700407.3262,"path":"iso88592_cs","size":1600,"typeId":"file"},{"lastModifiedAt":1673646700407.5264,"path":"iso88595_ru","size":1024,"typeId":"file"},{"lastModifiedAt":1673646700407.7405,"path":"iso88596_ar","size":2241,"typeId":"file"},{"lastModifiedAt":1673646700407.948,"path":"iso88597_el","size":1033,"typeId":"file"},{"lastModifiedAt":1673646700408.1487,"path":"iso88598","size":2352,"typeId":"file"},{"lastModifiedAt":1673646700408.4731,"path":"iso88598_he","size":2353,"typeId":"file"},{"lastModifiedAt":1673646700408.7104,"path":"iso88599_tr","size":2424,"typeId":"file"},{"lastModifiedAt":1673646700408.9238,"path":"koi8r","size":1024,"typeId":"file"},{"lastModifiedAt":1673646700409.1726,"path":"lang_arabic","size":4059,"typeId":"file"},{"lastModifiedAt":1673646700409.3928,"path":"lang_chinese","size":916,"typeId":"file"},{"lastModifiedAt":1673646700409.6462,"path":"lang_czech","size":1795,"typeId":"file"},{"lastModifiedAt":1673646700409.8896,"path":"lang_greek","size":1895,"typeId":"file"},{"lastModifiedAt":1673646700410.1365,"path":"lang_hebrew","size":4124,"typeId":"file"},{"lastModifiedAt":1673646700410.433,"path":"lang_japanese","size":3978,"typeId":"file"},{"lastModifiedAt":1673646700410.6838,"path":"lang_korean","size":3466,"typeId":"file"},{"lastModifiedAt":1673646700410.8984,"path":"lang_russian","size":1873,"typeId":"file"},{"lastModifiedAt":1673646700411.1392,"path":"lang_turkish","size":2678,"typeId":"file"},{"lastModifiedAt":1673646700411.3582,"path":"shiftjis","size":2816,"typeId":"file"},{"lastModifiedAt":1673646700411.5664,"path":"utf16be","size":1334,"typeId":"file"},{"lastModifiedAt":1673646700411.7725,"path":"utf16le","size":1334,"typeId":"file"},{"lastModifiedAt":1673646700411.9963,"path":"utf32be","size":2664,"typeId":"file"},{"lastModifiedAt":1673646700412.2004,"path":"utf32le","size":2664,"typeId":"file"},{"lastModifiedAt":1673646700412.4822,"path":"utf8","size":1125,"typeId":"file"},{"lastModifiedAt":1673646700412.7083,"path":"windows_1250","size":1617,"typeId":"file"},{"lastModifiedAt":1673646700412.9336,"path":"windows_1251","size":1024,"typeId":"file"},{"lastModifiedAt":1673646700413.173,"path":"windows_1252","size":2976,"typeId":"file"},{"lastModifiedAt":1673646700413.4268,"path":"windows_1253","size":1052,"typeId":"file"},{"lastModifiedAt":1673646700413.733,"path":"windows_1254","size":2445,"typeId":"file"},{"lastModifiedAt":1673646700414.0107,"path":"windows_1255","size":2405,"typeId":"file"},{"lastModifiedAt":1673646700414.2456,"path":"windows_1256","size":2241,"typeId":"file"}],"/Test Files/Encoding Test Files":[{"childCount":38,"path":"encodings","typeId":"folder"},{"lastModifiedAt":1673646700404.7932,"path":"ascii.txt","size":44,"typeId":"file"},{"lastModifiedAt":1673646700404.9849,"path":"big5.txt","size":37,"typeId":"file"},{"lastModifiedAt":1673646700414.5337,"path":"euc-jp.txt","size":218,"typeId":"file"},{"lastModifiedAt":1673646700414.8079,"path":"euc-kr.txt","size":153,"typeId":"file"},{"lastModifiedAt":1673646700415.028,"path":"gb2312.txt","size":105,"typeId":"file"},{"lastModifiedAt":1673646700415.2537,"path":"hz-gb-2312.txt","size":117,"typeId":"file"},{"lastModifiedAt":1673646700415.459,"path":"ibm855.txt","size":290,"typeId":"file"},{"lastModifiedAt":1673646700415.6775,"path":"ibm866.txt","size":290,"typeId":"file"},{"lastModifiedAt":1673646700415.8887,"path":"iso-2022-jp.txt","size":224,"typeId":"file"},{"lastModifiedAt":1673646700416.0918,"path":"iso-2022-kr.txt","size":198,"typeId":"file"},{"lastModifiedAt":1673646700416.3499,"path":"iso-8859-2.txt","size":273,"typeId":"file"},{"lastModifiedAt":1673646700416.639,"path":"iso-8859-5-bulgarian.txt","size":304,"typeId":"file"},{"lastModifiedAt":1673646700416.8684,"path":"iso-8859-5-russian.txt","size":290,"typeId":"file"},{"lastModifiedAt":1673646700417.0835,"path":"iso-8859-7.txt","size":319,"typeId":"file"},{"lastModifiedAt":1673646700417.3013,"path":"iso-8859-8.txt","size":307,"typeId":"file"},{"lastModifiedAt":1673646700417.7385,"path":"koi8-r.txt","size":290,"typeId":"file"},{"lastModifiedAt":1673646700417.944,"path":"shift_jis.txt","size":216,"typeId":"file"},{"lastModifiedAt":1673646700418.1418,"path":"tis-620.txt","size":68,"typeId":"file"},{"lastModifiedAt":1673646700418.3245,"path":"utf-16be.txt","size":2,"typeId":"file"},{"lastModifiedAt":1673646700418.5647,"path":"utf-16le.txt","size":84,"typeId":"file"},{"lastModifiedAt":1673646700418.775,"path":"utf-32be.txt","size":4,"typeId":"file"},{"lastModifiedAt":1673646700418.969,"path":"utf-32le.txt","size":18,"typeId":"file"},{"lastModifiedAt":1673646700419.1602,"path":"utf-8-with-bom.txt","size":58,"typeId":"file"},{"lastModifiedAt":1673646700419.3765,"path":"utf-8-without-bom.txt","size":58,"typeId":"file"},{"lastModifiedAt":1673646700419.563,"path":"windows-1251.txt","size":290,"typeId":"file"},{"lastModifiedAt":1673646700419.7476,"path":"windows-1252.txt","size":433,"typeId":"file"},{"lastModifiedAt":1673646700419.935,"path":"windows-1255.txt","size":36,"typeId":"file"},{"lastModifiedAt":1673646700420.1772,"path":"x-iso-10646-ucs-4-2143.txt","size":20,"typeId":"file"},{"lastModifiedAt":1673646700420.4653,"path":"x-iso-10646-ucs-4-3412.txt","size":20,"typeId":"file"},{"lastModifiedAt":1673646700420.6646,"path":"x-mac-cyrillic.txt","size":290,"typeId":"file"}],"/Test Files/WDI_CSV":[{"lastModifiedAt":1685812175174.902,"path":"WDICountry-Series.csv","size":1050649,"typeId":"file"},{"lastModifiedAt":1685812175181.333,"path":"WDICountry.csv","size":157238,"typeId":"file"},{"lastModifiedAt":1685812176214.3,"path":"WDIData.csv","size":215237534,"typeId":"file"},{"lastModifiedAt":1685812176549.757,"path":"WDIFootNote.csv","size":69975952,"typeId":"file"},{"lastModifiedAt":1685812176571.581,"path":"WDISeries-Time.csv","size":19350,"typeId":"file"},{"lastModifiedAt":1685812176594.2378,"path":"WDISeries.csv","size":3910116,"typeId":"file"}],"/Test Files":[{"childCount":21,"path":"Encoding","typeId":"folder"},{"childCount":31,"path":"Encoding Test Files","typeId":"folder"},{"childCount":6,"path":"WDI_CSV","typeId":"folder"},{"lastModifiedAt":1673646700403.8845,"path":"Categories.csv","size":441,"typeId":"file"},{"lastModifiedAt":1673646700404.123,"path":"Conversion Data.csv","size":5338,"typeId":"file"},{"lastModifiedAt":1673646700404.486,"path":"Customers.csv","size":13295,"typeId":"file"},{"lastModifiedAt":1673646700426.6182,"path":"Receipts.xls","size":180736,"typeId":"file"},{"lastModifiedAt":1673646701290.6675,"path":"test.csv","size":2995,"typeId":"file"},{"lastModifiedAt":1673646701291.1199,"path":"test.json","size":7906,"typeId":"file"},{"lastModifiedAt":1673646701291.3694,"path":"test.spss","size":17,"typeId":"file"},{"lastModifiedAt":1673646701291.586,"path":"test.xls","size":16,"typeId":"file"},{"lastModifiedAt":1673646701291.835,"path":"test.xlsx","size":17,"typeId":"file"},{"lastModifiedAt":1673646701292.0867,"path":"test.xml","size":4429,"typeId":"file"},{"lastModifiedAt":1673646701266.6282,"path":"WDI_Data Part 1.csv","size":98362709,"typeId":"file"}],"/":[{"childCount":3,"path":"AUDATACY Interchange Format","typeId":"folder"},{"childCount":12,"path":"Formula 1","typeId":"folder"},{"childCount":6,"path":"Salesforce API","typeId":"folder"},{"childCount":156,"path":"Salesforce Extract","typeId":"folder"},{"childCount":20,"path":"SAP Employee Central Extract","typeId":"folder"},{"childCount":6,"path":"SAP SuccessFactors API","typeId":"folder"},{"childCount":14,"path":"Test Files","typeId":"folder"}]}
+{
+    "/": [
+        {
+            "childCount": 3,
+            "path": "AUDATACY Interchange Format",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 12,
+            "path": "Formula 1",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 20,
+            "path": "SAP Employee Central Extract",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 6,
+            "path": "SAP SuccessFactors API",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 6,
+            "path": "Salesforce API",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 156,
+            "path": "Salesforce Extract",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 14,
+            "path": "Test Files",
+            "typeId": "folder"
+        }
+    ],
+    "/AUDATACY Interchange Format": [
+        {
+            "childCount": 11,
+            "path": "Coded Data",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 1,
+            "path": "Human Resources",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 1,
+            "path": "Party",
+            "typeId": "folder"
+        }
+    ],
+    "/AUDATACY Interchange Format/Coded Data": [
+        {
+            "lastModifiedAt": 1693496548765.7979,
+            "path": "01. Coded Data - All.csv",
+            "size": 13002,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548766.0242,
+            "path": "02. Coded Types - All.csv",
+            "size": 93,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548766.253,
+            "path": "03. Coded Types - Ids.csv",
+            "size": 48,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548766.4556,
+            "path": "04. Coded Types - Labels - Linked by Id.csv",
+            "size": 101,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548766.6665,
+            "path": "05. Coded Types - Labels - Linked by Alternate Id.csv",
+            "size": 96,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548767.101,
+            "path": "06. Coded Values - All - Linked by Id.csv",
+            "size": 9502,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548767.4556,
+            "path": "07. Coded Values - All - Linked by Alternate Id.csv",
+            "size": 7269,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548767.7139,
+            "path": "08. Coded Values - Ids - Linked by Id.csv",
+            "size": 5524,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548768.0042,
+            "path": "09. Coded Values - Ids - Linked by Alternate Id.csv",
+            "size": 3291,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548768.2915,
+            "path": "10. Coded Values - Labels - Linked by Id.csv",
+            "size": 9752,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548768.6292,
+            "path": "11. Coded Values - Labels - Linked by Alternate Id.csv",
+            "size": 7512,
+            "typeId": "object"
+        }
+    ],
+    "/AUDATACY Interchange Format/Human Resources": [
+        {
+            "childCount": 2,
+            "path": "Workforce",
+            "typeId": "folder"
+        }
+    ],
+    "/AUDATACY Interchange Format/Human Resources/Workforce": [
+        {
+            "lastModifiedAt": 1693496548769.1804,
+            "path": "Jobs.csv",
+            "size": 13913,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548769.4524,
+            "path": "Work Contracts.csv",
+            "size": 13931,
+            "typeId": "object"
+        }
+    ],
+    "/AUDATACY Interchange Format/Party": [
+        {
+            "lastModifiedAt": 1693496548770.8513,
+            "path": "People.csv",
+            "size": 139407,
+            "typeId": "object"
+        }
+    ],
+    "/Formula 1": [
+        {
+            "lastModifiedAt": 1693496548771.3877,
+            "path": "circuits.csv",
+            "size": 9406,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548773.3362,
+            "path": "constructor_results.csv",
+            "size": 191446,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548775.953,
+            "path": "constructor_standings.csv",
+            "size": 280013,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548776.4397,
+            "path": "constructors.csv",
+            "size": 17021,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548777.2554,
+            "path": "driver.csv",
+            "size": 92286,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548782.8357,
+            "path": "driver_standings.csv",
+            "size": 801809,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548785.3823,
+            "path": "pit_stops.csv",
+            "size": 244191,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548788.132,
+            "path": "qualifying.csv",
+            "size": 323654,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548789.1885,
+            "path": "races.csv",
+            "size": 109577,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548805.7644,
+            "path": "results.csv",
+            "size": 1492404,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548807.2417,
+            "path": "seasons.csv",
+            "size": 4158,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548807.6704,
+            "path": "status.csv",
+            "size": 2043,
+            "typeId": "object"
+        }
+    ],
+    "/SAP Employee Central Extract": [
+        {
+            "lastModifiedAt": 1693496548809.6824,
+            "path": "ADDRESS_INFO.csv",
+            "size": 208015,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548810.1533,
+            "path": "COMP_CUR_CONV.csv",
+            "size": 2245,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548811.41,
+            "path": "EMPLOYMENT_INFO.csv",
+            "size": 128533,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548813.1548,
+            "path": "EMPLOYMENT_INFO_original.csv",
+            "size": 128575,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548823.1113,
+            "path": "EMP_COMP_INFO.csv",
+            "size": 1665179,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548840.0525,
+            "path": "EMP_PAYCOMP_RECURRING.csv",
+            "size": 1551764,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548840.9338,
+            "path": "EVENT_REASONS.csv",
+            "size": 7775,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548841.272,
+            "path": "FREQUENCY.csv",
+            "size": 1704,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548849.4663,
+            "path": "GENERIC_OBJECTS.csv",
+            "size": 1662477,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548857.393,
+            "path": "GENERIC_RELATIONSHIPS.csv",
+            "size": 98782,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548859.8499,
+            "path": "JOB_CLASS.csv",
+            "size": 338260,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548868.527,
+            "path": "JOB_INFO.csv",
+            "size": 1546379,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548869.9285,
+            "path": "LABELS.csv",
+            "size": 126838,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548870.2664,
+            "path": "LOCATIONS.csv",
+            "size": 2995,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548870.5647,
+            "path": "PAY_COMPONENT.csv",
+            "size": 1234,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548871.1191,
+            "path": "PERSON.csv",
+            "size": 44896,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548872.0652,
+            "path": "PERSONAL_DATA.csv",
+            "size": 105949,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548872.7852,
+            "path": "PERSON_INFO_GLOBAL.csv",
+            "size": 82438,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548873.4688,
+            "path": "PICKLISTS.csv",
+            "size": 78044,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548873.8552,
+            "path": "TERRITORY.csv",
+            "size": 8541,
+            "typeId": "object"
+        }
+    ],
+    "/SAP SuccessFactors API": [
+        {
+            "lastModifiedAt": 1693496548874.7778,
+            "path": "PerPerson.csv",
+            "size": 77318,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548875.9534,
+            "path": "empEmployment.csv",
+            "size": 151656,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548881.8508,
+            "path": "empJob.csv",
+            "size": 1193715,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548882.6377,
+            "path": "perGlobalInfoGBR.csv",
+            "size": 76314,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548883.1147,
+            "path": "perGlobalInfoUSA.csv",
+            "size": 4942,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548883.974,
+            "path": "perPersonal.csv",
+            "size": 119305,
+            "typeId": "object"
+        }
+    ],
+    "/Salesforce API": [
+        {
+            "lastModifiedAt": 1693496548884.5752,
+            "path": "Account.csv",
+            "size": 7383,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548884.8765,
+            "path": "Campaign.csv",
+            "size": 1655,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548885.249,
+            "path": "Contact.csv",
+            "size": 8936,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548885.6394,
+            "path": "Lead.csv",
+            "size": 9606,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548885.9954,
+            "path": "Opportunity.csv",
+            "size": 11811,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548886.3794,
+            "path": "Product2.csv",
+            "size": 2926,
+            "typeId": "object"
+        }
+    ],
+    "/Salesforce Extract": [
+        {
+            "lastModifiedAt": 1693496548886.8132,
+            "path": "Account.csv",
+            "size": 8778,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548887.1252,
+            "path": "AccountContactRole.csv",
+            "size": 143,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548887.414,
+            "path": "ActionLinkTemplateBinding.csv",
+            "size": 141,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548887.6777,
+            "path": "Announcement.csv",
+            "size": 163,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548887.9363,
+            "path": "Asset.csv",
+            "size": 373,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548888.184,
+            "path": "AssetRelationship.csv",
+            "size": 192,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548888.4702,
+            "path": "AssistantInteraction.csv",
+            "size": 167,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548888.7427,
+            "path": "AssistantProgress.csv",
+            "size": 136,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548889.044,
+            "path": "AssistantRecommendation.csv",
+            "size": 228,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548889.3914,
+            "path": "BusinessProcess.csv",
+            "size": 136,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548889.7886,
+            "path": "Campaign.csv",
+            "size": 2510,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548890.1108,
+            "path": "CampaignMember.csv",
+            "size": 191,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548890.9705,
+            "path": "CanvasFeedItem.csv",
+            "size": 226,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548891.2974,
+            "path": "Case.csv",
+            "size": 11952,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548891.5813,
+            "path": "CaseComment.csv",
+            "size": 153,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548891.8862,
+            "path": "CaseContactRole.csv",
+            "size": 129,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548892.184,
+            "path": "CaseHistory2.csv",
+            "size": 3263,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548892.467,
+            "path": "CaseSolution.csv",
+            "size": 84,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548892.7136,
+            "path": "CleanFactFieldClaim.csv",
+            "size": 174,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548893.0298,
+            "path": "CollaborationGroupRank.csv",
+            "size": 200,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548893.2812,
+            "path": "CollaborationGroupRecord.csv",
+            "size": 174,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548893.5278,
+            "path": "ComponentResponseCache.csv",
+            "size": 170,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548893.7415,
+            "path": "Contact.csv",
+            "size": 11188,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548893.9814,
+            "path": "ContentDocumentLink.csv",
+            "size": 304,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548894.9868,
+            "path": "ContentFolder.csv",
+            "size": 158,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548895.3289,
+            "path": "ContentVersion.csv",
+            "size": 1042,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548895.591,
+            "path": "Contract.csv",
+            "size": 729,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548895.8376,
+            "path": "ContractContactRole.csv",
+            "size": 144,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548896.0952,
+            "path": "CustomSettingNameIndex.csv",
+            "size": 191,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548896.4238,
+            "path": "Data__c.csv",
+            "size": 136,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548896.7087,
+            "path": "DatacloudOwnedEntity.csv",
+            "size": 187,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548896.9802,
+            "path": "DatacloudPurchaseUsage.csv",
+            "size": 186,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548897.235,
+            "path": "EmailDisclaimer.csv",
+            "size": 174,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548898.5688,
+            "path": "EmailMessage.csv",
+            "size": 426,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548898.8506,
+            "path": "EmailRoutingAddress.csv",
+            "size": 237,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548899.095,
+            "path": "Endorsement.csv",
+            "size": 189,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548899.6802,
+            "path": "EngagementHistoryRollup.csv",
+            "size": 219,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548899.9622,
+            "path": "EntityHistory.csv",
+            "size": 562,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548900.1982,
+            "path": "EntitySubscription.csv",
+            "size": 71,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548900.443,
+            "path": "Event.csv",
+            "size": 634,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548900.7078,
+            "path": "EventDeliveryData.csv",
+            "size": 152,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548900.9585,
+            "path": "EventParameterData.csv",
+            "size": 161,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548901.2063,
+            "path": "EventRelation.csv",
+            "size": 203,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548901.4631,
+            "path": "EventSubscriptionData.csv",
+            "size": 128,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548901.7007,
+            "path": "EventSubscriptionHandleData.csv",
+            "size": 145,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548901.9656,
+            "path": "ExchangeUserMapping.csv",
+            "size": 177,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548902.211,
+            "path": "FeedComment.csv",
+            "size": 294,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548902.4773,
+            "path": "FeedFieldHistory.csv",
+            "size": 5835,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548903.324,
+            "path": "FeedMute.csv",
+            "size": 138,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548903.5728,
+            "path": "FeedPost.csv",
+            "size": 176,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548903.8164,
+            "path": "FeedTrackedChange.csv",
+            "size": 308,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548904.1086,
+            "path": "FieldHistory.csv",
+            "size": 8658,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548907.871,
+            "path": "FileInspectionResult.csv",
+            "size": 265,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548908.186,
+            "path": "FileSearchActivity.csv",
+            "size": 1865,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548908.4368,
+            "path": "FiscalYearSettings.csv",
+            "size": 187,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548908.6917,
+            "path": "FlowInterview.csv",
+            "size": 233,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548908.9587,
+            "path": "FlowRecordRelation.csv",
+            "size": 136,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548909.2583,
+            "path": "FlowStageRelation.csv",
+            "size": 153,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548909.5115,
+            "path": "Goal.csv",
+            "size": 236,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548909.761,
+            "path": "GoalLink.csv",
+            "size": 134,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548909.993,
+            "path": "GroupSubscription.csv",
+            "size": 71,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548910.2246,
+            "path": "Idea.csv",
+            "size": 233,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548910.4548,
+            "path": "IdeaComment.csv",
+            "size": 122,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548910.705,
+            "path": "InboundSocialPost.csv",
+            "size": 204,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548910.9546,
+            "path": "InstalledMobileApp.csv",
+            "size": 160,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548911.2295,
+            "path": "InteractionCountReport.csv",
+            "size": 194,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548911.4626,
+            "path": "JigsawSavedSearch.csv",
+            "size": 171,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548911.6912,
+            "path": "JobTracker.csv",
+            "size": 232,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548911.97,
+            "path": "Lead.csv",
+            "size": 12692,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548912.2144,
+            "path": "LinkReference.csv",
+            "size": 118,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548912.4846,
+            "path": "LinkedInLeadGen.csv",
+            "size": 545,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548912.7207,
+            "path": "ListEmail.csv",
+            "size": 307,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548912.97,
+            "path": "ListEmailRecipientSource.csv",
+            "size": 149,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548913.215,
+            "path": "ListEmailSentResult.csv",
+            "size": 172,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548913.5222,
+            "path": "Macro.csv",
+            "size": 168,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548913.7717,
+            "path": "MacroAction.csv",
+            "size": 197,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548914.813,
+            "path": "MacroInstruction.csv",
+            "size": 172,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548915.078,
+            "path": "ManagedContentBlock.csv",
+            "size": 114,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548915.3062,
+            "path": "ManagedContentBlockVersion.csv",
+            "size": 276,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548915.5227,
+            "path": "MatchingInformation.csv",
+            "size": 194,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548915.7473,
+            "path": "Metric.csv",
+            "size": 301,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548915.9827,
+            "path": "MetricDataLink.csv",
+            "size": 181,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548916.2234,
+            "path": "MetricsTransmissionHistory.csv",
+            "size": 197,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548916.4568,
+            "path": "NewsFeed.csv",
+            "size": 316,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548916.738,
+            "path": "Note.csv",
+            "size": 160,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548916.9932,
+            "path": "NotifDeliveryUserPref.csv",
+            "size": 165,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548917.2314,
+            "path": "NotificationMember.csv",
+            "size": 138,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548917.5203,
+            "path": "Opportunity.csv",
+            "size": 14323,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548917.7817,
+            "path": "OpportunityCompetitor.csv",
+            "size": 158,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548918.0647,
+            "path": "OpportunityContactRole.csv",
+            "size": 135,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548918.3357,
+            "path": "OpportunityHistory.csv",
+            "size": 7076,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548918.6191,
+            "path": "OpportunityLineItem.csv",
+            "size": 222,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548918.9055,
+            "path": "Order.csv",
+            "size": 812,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548919.165,
+            "path": "OrderItem.csv",
+            "size": 262,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548919.4182,
+            "path": "OrgDeleteRequest.csv",
+            "size": 131,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548919.6597,
+            "path": "OrgWideEmailAddress.csv",
+            "size": 167,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548919.9138,
+            "path": "Partner.csv",
+            "size": 184,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548920.137,
+            "path": "Period.csv",
+            "size": 131,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548920.3665,
+            "path": "PersonalizationResource.csv",
+            "size": 157,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548920.596,
+            "path": "PersonalizedUnswdQuestion.csv",
+            "size": 213,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548920.832,
+            "path": "Pricebook2.csv",
+            "size": 487,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548921.2131,
+            "path": "PricebookEntry.csv",
+            "size": 6815,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548921.503,
+            "path": "ProcessInstance.csv",
+            "size": 210,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548921.8086,
+            "path": "ProcessInstanceNode.csv",
+            "size": 186,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548922.1013,
+            "path": "ProcessInstanceStep.csv",
+            "size": 223,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548922.3867,
+            "path": "ProcessInstanceWorkitem.csv",
+            "size": 256,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548922.648,
+            "path": "Product2.csv",
+            "size": 3569,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548922.9277,
+            "path": "PushIntent.csv",
+            "size": 170,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548923.1802,
+            "path": "PushProfileMapping.csv",
+            "size": 180,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548923.4668,
+            "path": "QuickText.csv",
+            "size": 148,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548923.717,
+            "path": "RecommendationAudience.csv",
+            "size": 183,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548923.9634,
+            "path": "RecommendationDefinition.csv",
+            "size": 213,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548924.2021,
+            "path": "RecommendationMetric.csv",
+            "size": 238,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548924.4277,
+            "path": "RecordAction.csv",
+            "size": 179,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548924.65,
+            "path": "RecordOrigin.csv",
+            "size": 168,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548930.1016,
+            "path": "RecordType.csv",
+            "size": 1730,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548930.4597,
+            "path": "Scorecard.csv",
+            "size": 146,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548930.7544,
+            "path": "ScorecardAssociation.csv",
+            "size": 138,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548931.0156,
+            "path": "ScorecardMetric.csv",
+            "size": 157,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548931.282,
+            "path": "SearchActivity.csv",
+            "size": 245,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548931.5234,
+            "path": "SearchPromotionRule.csv",
+            "size": 115,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548931.8071,
+            "path": "SetupAssistantAnswer.csv",
+            "size": 130,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548932.0789,
+            "path": "SetupAssistantProgress.csv",
+            "size": 143,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548932.3313,
+            "path": "SetupFlowProgress.csv",
+            "size": 265,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548932.579,
+            "path": "SocialPersona.csv",
+            "size": 200,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548932.8882,
+            "path": "Solution.csv",
+            "size": 5877,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548933.1887,
+            "path": "StreamingChannel.csv",
+            "size": 143,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548933.4734,
+            "path": "SystemStreamingChannel.csv",
+            "size": 133,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548933.7415,
+            "path": "Task.csv",
+            "size": 643,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548934.0002,
+            "path": "TaskRelation.csv",
+            "size": 143,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548934.2727,
+            "path": "TodayGoal.csv",
+            "size": 134,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548934.5286,
+            "path": "Tombstone.csv",
+            "size": 116,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548934.8232,
+            "path": "TopicDataCategoryRule.csv",
+            "size": 156,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548935.0837,
+            "path": "TopicGroupActivity.csv",
+            "size": 156,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548935.351,
+            "path": "TopicUserActivity.csv",
+            "size": 142,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548935.6191,
+            "path": "TransitionMessage.csv",
+            "size": 134,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548935.8992,
+            "path": "TrendingTopic.csv",
+            "size": 169,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548936.189,
+            "path": "User.csv",
+            "size": 4166,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548936.4915,
+            "path": "UserAppInfo.csv",
+            "size": 147,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548936.7617,
+            "path": "UserAppMenuCustomization.csv",
+            "size": 145,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548937.0664,
+            "path": "UserMetrics.csv",
+            "size": 243,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548937.3357,
+            "path": "UserNavItem.csv",
+            "size": 229,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548937.6245,
+            "path": "UserProvAccount.csv",
+            "size": 283,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548937.946,
+            "path": "UserProvAccountStaging.csv",
+            "size": 255,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548938.362,
+            "path": "UserProvMockTarget.csv",
+            "size": 198,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548938.693,
+            "path": "UserProvisioningLog.csv",
+            "size": 199,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548938.9937,
+            "path": "UserProvisioningRequest.csv",
+            "size": 324,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548939.3325,
+            "path": "UserRole.csv",
+            "size": 3826,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548939.6377,
+            "path": "UserSetupAppInfo.csv",
+            "size": 129,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548939.9238,
+            "path": "WorkCoaching.csv",
+            "size": 152,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548940.232,
+            "path": "WorkFeedback.csv",
+            "size": 153,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548940.514,
+            "path": "WorkFeedbackQuestion.csv",
+            "size": 233,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548941.2988,
+            "path": "WorkFeedbackQuestionSet.csv",
+            "size": 163,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548941.7188,
+            "path": "WorkFeedbackRequest.csv",
+            "size": 417,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548942.0798,
+            "path": "WorkFeedbackTemplate.csv",
+            "size": 133,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548942.3828,
+            "path": "WorkPerformanceCycle.csv",
+            "size": 199,
+            "typeId": "object"
+        }
+    ],
+    "/Test Files": [
+        {
+            "lastModifiedAt": 1693496548942.8262,
+            "path": ".DS_Store",
+            "size": 6148,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548943.1294,
+            "path": "Categories.csv",
+            "size": 441,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548943.4463,
+            "path": "Conversion Data.csv",
+            "size": 5338,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548943.8535,
+            "path": "Customers.csv",
+            "size": 13295,
+            "typeId": "object"
+        },
+        {
+            "childCount": 22,
+            "path": "Encoding",
+            "typeId": "folder"
+        },
+        {
+            "childCount": 31,
+            "path": "Encoding Test Files",
+            "typeId": "folder"
+        },
+        {
+            "lastModifiedAt": 1693496548979.5928,
+            "path": "Receipts.xls",
+            "size": 180736,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496549656.176,
+            "path": "WDI_Data Part 1.csv",
+            "size": 98362709,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496549680.5889,
+            "path": "test.csv",
+            "size": 2995,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496549680.8403,
+            "path": "test.json",
+            "size": 7906,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496549681.0217,
+            "path": "test.spss",
+            "size": 17,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496549681.2114,
+            "path": "test.xls",
+            "size": 16,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496549681.3933,
+            "path": "test.xlsx",
+            "size": 17,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496549681.5903,
+            "path": "test.xml",
+            "size": 4429,
+            "typeId": "object"
+        }
+    ],
+    "/Test Files/Encoding": [
+        {
+            "lastModifiedAt": 1693496548971.085,
+            "path": ".DS_Store",
+            "size": 6148,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548971.3987,
+            "path": "big5",
+            "size": 614,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548971.7205,
+            "path": "euc-jp",
+            "size": 3919,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548972.0256,
+            "path": "euc-kr",
+            "size": 2480,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548972.3247,
+            "path": "gb18030",
+            "size": 1665,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548972.6301,
+            "path": "iso-2022-jp",
+            "size": 2924,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548972.923,
+            "path": "iso-8859-2",
+            "size": 1600,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548973.2087,
+            "path": "iso-8859-5",
+            "size": 1024,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548973.5156,
+            "path": "iso-8859-6",
+            "size": 2241,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548973.808,
+            "path": "iso-8859-7",
+            "size": 1033,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548974.117,
+            "path": "koi8-r",
+            "size": 1024,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548974.4368,
+            "path": "shift_jis",
+            "size": 2816,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548974.7432,
+            "path": "utf-16be",
+            "size": 1334,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548975.0378,
+            "path": "utf-16le",
+            "size": 1334,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548975.353,
+            "path": "utf-8",
+            "size": 1125,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548975.6477,
+            "path": "windows-1250",
+            "size": 1617,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548976.063,
+            "path": "windows-1251",
+            "size": 1024,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548976.4612,
+            "path": "windows-1252",
+            "size": 2976,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548976.842,
+            "path": "windows-1253",
+            "size": 1052,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548977.1694,
+            "path": "windows-1254",
+            "size": 2445,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548977.5845,
+            "path": "windows-1255",
+            "size": 2405,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548977.9197,
+            "path": "windows-1256",
+            "size": 2241,
+            "typeId": "object"
+        }
+    ],
+    "/Test Files/Encoding Test Files": [
+        {
+            "lastModifiedAt": 1693496548944.2913,
+            "path": "ascii.txt",
+            "size": 44,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548944.5723,
+            "path": "big5.txt",
+            "size": 37,
+            "typeId": "object"
+        },
+        {
+            "childCount": 38,
+            "path": "encodings",
+            "typeId": "folder"
+        },
+        {
+            "lastModifiedAt": 1693496548960.8037,
+            "path": "euc-jp.txt",
+            "size": 218,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548961.1482,
+            "path": "euc-kr.txt",
+            "size": 153,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548961.4668,
+            "path": "gb2312.txt",
+            "size": 105,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548962.2007,
+            "path": "hz-gb-2312.txt",
+            "size": 117,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548962.8079,
+            "path": "ibm855.txt",
+            "size": 290,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548963.1594,
+            "path": "ibm866.txt",
+            "size": 290,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548963.535,
+            "path": "iso-2022-jp.txt",
+            "size": 224,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548963.8435,
+            "path": "iso-2022-kr.txt",
+            "size": 198,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548964.1516,
+            "path": "iso-8859-2.txt",
+            "size": 273,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548964.4885,
+            "path": "iso-8859-5-bulgarian.txt",
+            "size": 304,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548964.7957,
+            "path": "iso-8859-5-russian.txt",
+            "size": 290,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548965.1277,
+            "path": "iso-8859-7.txt",
+            "size": 319,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548965.516,
+            "path": "iso-8859-8.txt",
+            "size": 307,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548966.125,
+            "path": "koi8-r.txt",
+            "size": 290,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548966.477,
+            "path": "shift_jis.txt",
+            "size": 216,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548966.814,
+            "path": "tis-620.txt",
+            "size": 68,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548967.11,
+            "path": "utf-16be.txt",
+            "size": 2,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548967.3923,
+            "path": "utf-16le.txt",
+            "size": 84,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548967.7126,
+            "path": "utf-32be.txt",
+            "size": 4,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548968.0146,
+            "path": "utf-32le.txt",
+            "size": 18,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548968.3838,
+            "path": "utf-8-with-bom.txt",
+            "size": 58,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548968.695,
+            "path": "utf-8-without-bom.txt",
+            "size": 58,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548968.9941,
+            "path": "windows-1251.txt",
+            "size": 290,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548969.3103,
+            "path": "windows-1252.txt",
+            "size": 433,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548969.597,
+            "path": "windows-1255.txt",
+            "size": 36,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548969.907,
+            "path": "x-iso-10646-ucs-4-2143.txt",
+            "size": 20,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548970.2273,
+            "path": "x-iso-10646-ucs-4-3412.txt",
+            "size": 20,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548970.5442,
+            "path": "x-mac-cyrillic.txt",
+            "size": 290,
+            "typeId": "object"
+        }
+    ],
+    "/Test Files/Encoding Test Files/encodings": [
+        {
+            "lastModifiedAt": 1693496548944.9883,
+            "path": "big5",
+            "size": 614,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548945.328,
+            "path": "euc_jp",
+            "size": 3919,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548945.665,
+            "path": "euc_kr",
+            "size": 2480,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548945.9692,
+            "path": "gb18030",
+            "size": 1665,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548946.4001,
+            "path": "iso2022cn",
+            "size": 1749,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548946.7563,
+            "path": "iso2022jp",
+            "size": 2924,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548947.1028,
+            "path": "iso2022kr",
+            "size": 3172,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548947.5432,
+            "path": "iso88591_en",
+            "size": 2955,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548947.8547,
+            "path": "iso88592_cs",
+            "size": 1600,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548948.1494,
+            "path": "iso88595_ru",
+            "size": 1024,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548948.4915,
+            "path": "iso88596_ar",
+            "size": 2241,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548948.8186,
+            "path": "iso88597_el",
+            "size": 1033,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548949.1514,
+            "path": "iso88598",
+            "size": 2352,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548949.4717,
+            "path": "iso88598_he",
+            "size": 2353,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548949.7935,
+            "path": "iso88599_tr",
+            "size": 2424,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548950.0933,
+            "path": "koi8r",
+            "size": 1024,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548950.4285,
+            "path": "lang_arabic",
+            "size": 4059,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548950.7395,
+            "path": "lang_chinese",
+            "size": 916,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548951.052,
+            "path": "lang_czech",
+            "size": 1795,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548951.3948,
+            "path": "lang_greek",
+            "size": 1895,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548951.7375,
+            "path": "lang_hebrew",
+            "size": 4124,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548952.0645,
+            "path": "lang_japanese",
+            "size": 3978,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548952.3867,
+            "path": "lang_korean",
+            "size": 3466,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548952.6934,
+            "path": "lang_russian",
+            "size": 1873,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548953.026,
+            "path": "lang_turkish",
+            "size": 2678,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548953.3665,
+            "path": "shiftjis",
+            "size": 2816,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548953.6746,
+            "path": "utf16be",
+            "size": 1334,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548953.9407,
+            "path": "utf16le",
+            "size": 1334,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548954.251,
+            "path": "utf32be",
+            "size": 2664,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548954.572,
+            "path": "utf32le",
+            "size": 2664,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548954.873,
+            "path": "utf8",
+            "size": 1125,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548955.194,
+            "path": "windows_1250",
+            "size": 1617,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548955.5002,
+            "path": "windows_1251",
+            "size": 1024,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548955.8293,
+            "path": "windows_1252",
+            "size": 2976,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548956.1287,
+            "path": "windows_1253",
+            "size": 1052,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548956.4668,
+            "path": "windows_1254",
+            "size": 2445,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548956.883,
+            "path": "windows_1255",
+            "size": 2405,
+            "typeId": "object"
+        },
+        {
+            "lastModifiedAt": 1693496548957.2607,
+            "path": "windows_1256",
+            "size": 2241,
+            "typeId": "object"
+        }
+    ]
+}

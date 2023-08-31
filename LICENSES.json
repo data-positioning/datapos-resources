@@ -1,9 +1,7 @@
 {
-  "@datapos/datapos-resources@0.1.317": {
-    "licenses": "ISC",
-    "publisher": "Jonathan Terrell",
-    "email": "terrell.jm@gmail.com",
-    "path": "/Users/jonathanterrell/Data Positioning/GitHub/datapos-resources",
-    "licenseFile": "/Users/jonathanterrell/Data Positioning/GitHub/datapos-resources/LICENSE"
+  "@datapos/datapos-resources@0.1.349": {
+    "licenses": "ISC*",
+    "path": "/Users/jonathanterrell/Data Positioning/GitHub/data-positioning/datapos-resources",
+    "licenseFile": "/Users/jonathanterrell/Data Positioning/GitHub/data-positioning/datapos-resources/LICENSE.md"
   }
 }
