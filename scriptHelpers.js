@@ -2,18 +2,18 @@ const fs = require('fs').promises;
 const path = require('path');
 
 async function buildFileStoreIndex() {
-    async function readDirectoryRecursively(directoryPath, children) {
+    async function readDirectoryRecursively(directoryPath, itemNames) {
         const items = [];
         index[directoryPath.substring(16)] = items;
-        for (const file of children) {
-            const filePath = path.join(directoryPath, file);
-            const stats = await fs.stat(filePath);
+        for (const itemName of itemNames) {
+            const itemPath = path.join(directoryPath, itemName);
+            const stats = await fs.stat(itemPath);
             if (stats.isDirectory()) {
-                const nextLevelChildren = await fs.readdir(filePath);
-                items.push({ childCount: nextLevelChildren.length, path: file, typeId: 'folder' });
-                await readDirectoryRecursively(filePath, nextLevelChildren);
+                const nextLevelChildren = await fs.readdir(itemPath);
+                items.push({ childCount: nextLevelChildren.length, itemName, typeId: 'folder' });
+                await readDirectoryRecursively(itemPath, nextLevelChildren);
             } else {
-                items.push({ lastModifiedAt: stats.mtimeMs, path: file, size: stats.size, typeId: 'object' });
+                items.push({ lastModifiedAt: stats.mtimeMs, itemName, size: stats.size, typeId: 'object' });
             }
         }
     }
