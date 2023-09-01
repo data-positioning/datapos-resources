@@ -1,7 +1,7 @@
 {
     "name": "datapos-resources",
     "private": true,
-    "version": "0.1.369",
+    "version": "0.1.370",
     "devDependencies": {
         "@datapos/datapos-operations": "^0.1.255",
         "eslint": "^8.48.0",
@@ -17,8 +17,8 @@
         "generateFileStoreIndex": "node -e \"require('./scriptHelpers').generateFileStoreIndex()\"",
         "lint": "npx eslint *.js",
         "publishToNPM": "echo \"***** PUBLISH TO NPM SCRIPT NOT IMPLEMENTED. *****\"",
-        "release": "npm run generateFileStoreIndex && npm run syncWithGitHub",
-        "syncWithGitHub": "npm run bumpVersion && node -e \"require('@datapos/datapos-operations/scriptHelpers').syncWithGitHub()\"",
+        "release": "echo \"***** RELEASE SCRIPT NOT IMPLEMENTED. *****\"",
+        "syncWithGitHub": "npm run generateFileStoreIndex && npm run bumpVersion && node -e \"require('@datapos/datapos-operations/scriptHelpers').syncWithGitHub()\"",
         "test": "echo \"***** TEST SCRIPT NOT IMPLEMENTED. *****\"",
         "updateDependencies": "npm run updateOperations",
         "updateOperations": "npm install --save-dev @datapos/datapos-operations@latest"
