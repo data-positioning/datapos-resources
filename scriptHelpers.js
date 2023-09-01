@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 
-async function buildFileStoreIndex() {
+async function generateFileStoreIndex() {
     async function readDirectoryRecursively(directoryPath, itemNames) {
         const items = [];
         index[directoryPath.substring(16)] = items;
@@ -26,4 +26,4 @@ async function buildFileStoreIndex() {
     });
 }
 
-module.exports = { buildFileStoreIndex };
+module.exports = { generateFileStoreIndex };
