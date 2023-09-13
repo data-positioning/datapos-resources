@@ -1,7 +1,7 @@
 {
     "name": "datapos-resources",
     "private": true,
-    "version": "0.1.387",
+    "version": "0.1.388",
     "devDependencies": {
         "@datapos/datapos-operations": "^0.1.300",
         "prettier": "^3.0.3"
@@ -14,7 +14,7 @@
         "check": "npm outdated",
         "document": "npx license-checker --production --json --out LICENSES.json",
         "format": "echo \"***** FORMAT SCRIPT NOT IMPLEMENTED. *****\"",
-        "lint": "npx eslint *.js",
+        "lint": "echo \"***** LINT SCRIPT NOT IMPLEMENTED. *****\"",
         "publishToNPM": "echo \"***** PUBLISH TO NPM SCRIPT NOT IMPLEMENTED. *****\"",
         "release": "npm run syncWithGitHub",
         "syncWithGitHub": "npm run buildFileStoreIndex && npm run bumpVersion && node -e \"require('@datapos/datapos-operations/scriptHelpers').syncWithGitHub()\"",
