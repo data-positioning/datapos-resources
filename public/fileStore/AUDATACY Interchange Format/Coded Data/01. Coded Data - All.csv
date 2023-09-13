@@ -1,0 +1,251 @@
+Key	CodeTypeId	CodeTypeLabel	CodeValueId	CodeValueLabel	LocaleId
+50001	Gender	Gender	F	Female	en_GB
+50002	Gender	Gender	M	Male	en_GB
+50003	CountryISO	Country (ISO)	AFG	Afghanistan	en_GB
+50004	CountryISO	Country (ISO)	EGY	Egypt	en_GB
+50005	CountryISO	Country (ISO)	ALA	Åland Islands	en_GB
+50006	CountryISO	Country (ISO)	ALB	Albania	en_GB
+50007	CountryISO	Country (ISO)	DZA	Algeria	en_GB
+50008	CountryISO	Country (ISO)	ASM	American Samoa	en_GB
+50009	CountryISO	Country (ISO)	AND	Andorra	en_GB
+50010	CountryISO	Country (ISO)	AGO	Angola	en_GB
+50011	CountryISO	Country (ISO)	AIA	Anguilla	en_GB
+50012	CountryISO	Country (ISO)	ATA	Antarctica	en_GB
+50013	CountryISO	Country (ISO)	ATG	Antigua and Barbuda	en_GB
+50014	CountryISO	Country (ISO)	GNQ	Equatorial Guinea	en_GB
+50015	CountryISO	Country (ISO)	ARG	Argentina	en_GB
+50016	CountryISO	Country (ISO)	ARM	Armenia	en_GB
+50017	CountryISO	Country (ISO)	ABW	Aruba	en_GB
+50018	CountryISO	Country (ISO)	AZE	Azerbaijan	en_GB
+50019	CountryISO	Country (ISO)	ETH	Ethiopia	en_GB
+50020	CountryISO	Country (ISO)	AUS	Australia	en_GB
+50021	CountryISO	Country (ISO)	BHS	Bahamas	en_GB
+50022	CountryISO	Country (ISO)	BHR	Bahrain	en_GB
+50023	CountryISO	Country (ISO)	BGD	Bangladesh	en_GB
+50024	CountryISO	Country (ISO)	BRB	Barbados	en_GB
+50025	CountryISO	Country (ISO)	BLR	Belarus	en_GB
+50026	CountryISO	Country (ISO)	BEL	Belgium	en_GB
+50027	CountryISO	Country (ISO)	BLZ	Belize	en_GB
+50028	CountryISO	Country (ISO)	BEN	Benin	en_GB
+50029	CountryISO	Country (ISO)	BMU	Bermuda	en_GB
+50030	CountryISO	Country (ISO)	BTN	Bhutan	en_GB
+50031	CountryISO	Country (ISO)	BOL	Bolivia	en_GB
+50032	CountryISO	Country (ISO)	BIH	Bosnia and Herzegovina	en_GB
+50033	CountryISO	Country (ISO)	BWA	Botswana	en_GB
+50034	CountryISO	Country (ISO)	BVT	Bouvet Island	en_GB
+50035	CountryISO	Country (ISO)	BRA	Brazil	en_GB
+50036	CountryISO	Country (ISO)	IOT	British Indian Ocean Territory	en_GB
+50037	CountryISO	Country (ISO)	BRN	Brunei	en_GB
+50038	CountryISO	Country (ISO)	BGR	Bulgaria	en_GB
+50039	CountryISO	Country (ISO)	BFA	Burkina Faso	en_GB
+50040	CountryISO	Country (ISO)	BDI	Burundi	en_GB
+50041	CountryISO	Country (ISO)	CHL	Chile	en_GB
+50042	CountryISO	Country (ISO)	CHN	China	en_GB
+50043	CountryISO	Country (ISO)	COK	Cook Islands	en_GB
+50044	CountryISO	Country (ISO)	CRI	Costa Rica	en_GB
+50045	CountryISO	Country (ISO)	CUW	Curacao	en_GB
+50046	CountryISO	Country (ISO)	DNK	Denmark	en_GB
+50047	CountryISO	Country (ISO)	COD	Democratic Republic of the Congo	en_GB
+50048	CountryISO	Country (ISO)	DEU	Germany	en_GB
+50049	CountryISO	Country (ISO)	DMA	Dominica	en_GB
+50050	CountryISO	Country (ISO)	DOM	Dominican Republic	en_GB
+50051	CountryISO	Country (ISO)	DJI	Djibouti	en_GB
+50052	CountryISO	Country (ISO)	ECU	Ecuador	en_GB
+50053	CountryISO	Country (ISO)	SLV	El Salvador	en_GB
+50054	CountryISO	Country (ISO)	CIV	Ivory Coast	en_GB
+50055	CountryISO	Country (ISO)	ERI	Eritrea	en_GB
+50056	CountryISO	Country (ISO)	EST	Estonia	en_GB
+50057	CountryISO	Country (ISO)	FLK	Falkland Islands	en_GB
+50058	CountryISO	Country (ISO)	FRO	Faroe Islands	en_GB
+50059	CountryISO	Country (ISO)	FJI	Fiji	en_GB
+50060	CountryISO	Country (ISO)	FIN	Finland	en_GB
+50061	CountryISO	Country (ISO)	FRA	France	en_GB
+50062	CountryISO	Country (ISO)	GUF	French Guiana	en_GB
+50063	CountryISO	Country (ISO)	PYF	French Polynesia	en_GB
+50064	CountryISO	Country (ISO)	ATF	French Southern and Antarctic Lands	en_GB
+50065	CountryISO	Country (ISO)	GAB	Gabon	en_GB
+50066	CountryISO	Country (ISO)	GMB	Gambia	en_GB
+50067	CountryISO	Country (ISO)	GEO	Georgia	en_GB
+50068	CountryISO	Country (ISO)	GHA	Ghana	en_GB
+50069	CountryISO	Country (ISO)	GIB	Gibraltar	en_GB
+50070	CountryISO	Country (ISO)	GRD	Grenada	en_GB
+50071	CountryISO	Country (ISO)	GRC	Greece	en_GB
+50072	CountryISO	Country (ISO)	GRL	Greenland	en_GB
+50073	CountryISO	Country (ISO)	GLP	Guadeloupe	en_GB
+50074	CountryISO	Country (ISO)	GUM	Guam	en_GB
+50075	CountryISO	Country (ISO)	GTM	Guatemala	en_GB
+50076	CountryISO	Country (ISO)	GGY	Guernsey	en_GB
+50077	CountryISO	Country (ISO)	GIN	Guinea	en_GB
+50078	CountryISO	Country (ISO)	GNB	Guinea-Bissau	en_GB
+50079	CountryISO	Country (ISO)	GUY	Guyana	en_GB
+50080	CountryISO	Country (ISO)	HTI	Haiti	en_GB
+50081	CountryISO	Country (ISO)	HMD	Heard Island and McDonald Islands	en_GB
+50082	CountryISO	Country (ISO)	HND	Honduras	en_GB
+50083	CountryISO	Country (ISO)	HKG	Hong Kong	en_GB
+50084	CountryISO	Country (ISO)	IND	India	en_GB
+50085	CountryISO	Country (ISO)	IDN	Indonesia	en_GB
+50086	CountryISO	Country (ISO)	IMN	Isle of Man	en_GB
+50087	CountryISO	Country (ISO)	IRQ	Iraq	en_GB
+50088	CountryISO	Country (ISO)	IRN	Iran	en_GB
+50089	CountryISO	Country (ISO)	IRL	Ireland	en_GB
+50090	CountryISO	Country (ISO)	ISL	Iceland	en_GB
+50091	CountryISO	Country (ISO)	ISR	Israel	en_GB
+50092	CountryISO	Country (ISO)	ITA	Italy	en_GB
+50093	CountryISO	Country (ISO)	JAM	Jamaica	en_GB
+50094	CountryISO	Country (ISO)	JPN	Japan	en_GB
+50095	CountryISO	Country (ISO)	YEM	Yemen	en_GB
+50096	CountryISO	Country (ISO)	JEY	Jersey	en_GB
+50097	CountryISO	Country (ISO)	JOR	Jordan	en_GB
+50098	CountryISO	Country (ISO)	VGB	British Virgin Islands	en_GB
+50099	CountryISO	Country (ISO)	VIR	Virgin Islands	en_GB
+50100	CountryISO	Country (ISO)	CYM	Cayman Islands	en_GB
+50101	CountryISO	Country (ISO)	KHM	Cambodia	en_GB
+50102	CountryISO	Country (ISO)	CMR	Cameroon	en_GB
+50103	CountryISO	Country (ISO)	CAN	Canada	en_GB
+50104	CountryISO	Country (ISO)	CPV	Cape Verde	en_GB
+50105	CountryISO	Country (ISO)	KAZ	Kazakhstan	en_GB
+50106	CountryISO	Country (ISO)	QAT	Qatar	en_GB
+50107	CountryISO	Country (ISO)	KEN	Kenya	en_GB
+50108	CountryISO	Country (ISO)	KGZ	Kyrgyzstan	en_GB
+50109	CountryISO	Country (ISO)	KIR	Kiribati	en_GB
+50110	CountryISO	Country (ISO)	CCK	Cocos Islands	en_GB
+50111	CountryISO	Country (ISO)	COL	Colombia	en_GB
+50112	CountryISO	Country (ISO)	COM	Comoros	en_GB
+50113	CountryISO	Country (ISO)	COG	Republic of the Congo	en_GB
+50114	CountryISO	Country (ISO)	KOS	Kosovo	en_GB
+50115	CountryISO	Country (ISO)	HRV	Croatia	en_GB
+50116	CountryISO	Country (ISO)	CUB	Cuba	en_GB
+50117	CountryISO	Country (ISO)	KWT	Kuwait	en_GB
+50118	CountryISO	Country (ISO)	LAO	Laos	en_GB
+50119	CountryISO	Country (ISO)	LSO	Lesotho	en_GB
+50120	CountryISO	Country (ISO)	LVA	Latvia	en_GB
+50121	CountryISO	Country (ISO)	LBN	Lebanon	en_GB
+50122	CountryISO	Country (ISO)	LBR	Liberia	en_GB
+50123	CountryISO	Country (ISO)	LBY	Libya	en_GB
+50124	CountryISO	Country (ISO)	LIE	Liechtenstein	en_GB
+50125	CountryISO	Country (ISO)	LTU	Lithuania	en_GB
+50126	CountryISO	Country (ISO)	LUX	Luxembourg	en_GB
+50127	CountryISO	Country (ISO)	MAC	Macau	en_GB
+50128	CountryISO	Country (ISO)	MDG	Madagascar	en_GB
+50129	CountryISO	Country (ISO)	MWI	Malawi	en_GB
+50130	CountryISO	Country (ISO)	MYS	Malaysia	en_GB
+50131	CountryISO	Country (ISO)	MDV	Maldives	en_GB
+50132	CountryISO	Country (ISO)	MLI	Mali	en_GB
+50133	CountryISO	Country (ISO)	MLT	Malta	en_GB
+50134	CountryISO	Country (ISO)	MAR	Morocco	en_GB
+50135	CountryISO	Country (ISO)	MHL	Marshall Islands	en_GB
+50136	CountryISO	Country (ISO)	MTQ	Martinique	en_GB
+50137	CountryISO	Country (ISO)	MRT	Mauritania	en_GB
+50138	CountryISO	Country (ISO)	MUS	Mauritius	en_GB
+50139	CountryISO	Country (ISO)	MYT	Mayotte	en_GB
+50140	CountryISO	Country (ISO)	MKD	Macedonia	en_GB
+50141	CountryISO	Country (ISO)	MEX	Mexico	en_GB
+50142	CountryISO	Country (ISO)	FSM	Micronesia, Federated States of	en_GB
+50143	CountryISO	Country (ISO)	MDA	Moldova	en_GB
+50144	CountryISO	Country (ISO)	MCO	Monaco	en_GB
+50145	CountryISO	Country (ISO)	MNG	Mongolia	en_GB
+50146	CountryISO	Country (ISO)	MNE	Montenegro	en_GB
+50147	CountryISO	Country (ISO)	MSR	Montserrat	en_GB
+50148	CountryISO	Country (ISO)	MOZ	Mozambique	en_GB
+50149	CountryISO	Country (ISO)	MMR	Burma	en_GB
+50150	CountryISO	Country (ISO)	NAM	Namibia	en_GB
+50151	CountryISO	Country (ISO)	NRU	Nauru	en_GB
+50152	CountryISO	Country (ISO)	NPL	Nepal	en_GB
+50153	CountryISO	Country (ISO)	NCL	New Caledonia	en_GB
+50154	CountryISO	Country (ISO)	NZL	New Zealand	en_GB
+50155	CountryISO	Country (ISO)	NIC	Nicaragua	en_GB
+50156	CountryISO	Country (ISO)	NLD	Netherlands	en_GB
+50157	CountryISO	Country (ISO)	ANT	Netherlands Antilles	en_GB
+50158	CountryISO	Country (ISO)	NER	Niger	en_GB
+50159	CountryISO	Country (ISO)	NGA	Nigeria	en_GB
+50160	CountryISO	Country (ISO)	NIU	Niue	en_GB
+50161	CountryISO	Country (ISO)	PRK	North Korea	en_GB
+50162	CountryISO	Country (ISO)	MNP	Northern Mariana Islands	en_GB
+50163	CountryISO	Country (ISO)	NFK	Norfolk Island	en_GB
+50164	CountryISO	Country (ISO)	NOR	Norway	en_GB
+50165	CountryISO	Country (ISO)	OMN	Oman	en_GB
+50166	CountryISO	Country (ISO)	AUT	Austria	en_GB
+50167	CountryISO	Country (ISO)	TLS	Timor-Leste	en_GB
+50168	CountryISO	Country (ISO)	PAK	Pakistan	en_GB
+50169	CountryISO	Country (ISO)	PSE	Palestine	en_GB
+50170	CountryISO	Country (ISO)	PLW	Palau	en_GB
+50171	CountryISO	Country (ISO)	PAN	Panama	en_GB
+50172	CountryISO	Country (ISO)	PNG	Papua New Guinea	en_GB
+50173	CountryISO	Country (ISO)	PRY	Paraguay	en_GB
+50174	CountryISO	Country (ISO)	PER	Peru	en_GB
+50175	CountryISO	Country (ISO)	PHL	Philippines	en_GB
+50176	CountryISO	Country (ISO)	PCN	Pitcairn Islands	en_GB
+50177	CountryISO	Country (ISO)	POL	Poland	en_GB
+50178	CountryISO	Country (ISO)	PRT	Portugal	en_GB
+50179	CountryISO	Country (ISO)	PRI	Puerto Rico	en_GB
+50180	CountryISO	Country (ISO)	REU	Reunion	en_GB
+50181	CountryISO	Country (ISO)	RWA	Rwanda	en_GB
+50182	CountryISO	Country (ISO)	ROU	Romania	en_GB
+50183	CountryISO	Country (ISO)	RUS	Russia	en_GB
+50184	CountryISO	Country (ISO)	SLB	Solomon Islands	en_GB
+50185	CountryISO	Country (ISO)	ZMB	Zambia	en_GB
+50186	CountryISO	Country (ISO)	WSM	Samoa	en_GB
+50187	CountryISO	Country (ISO)	SMR	San Marino	en_GB
+50188	CountryISO	Country (ISO)	BLM	Saint Barthelemy	en_GB
+50189	CountryISO	Country (ISO)	STP	Sao Tome and Principe	en_GB
+50190	CountryISO	Country (ISO)	SAU	Saudi Arabia	en_GB
+50191	CountryISO	Country (ISO)	SWE	Sweden	en_GB
+50192	CountryISO	Country (ISO)	CHE	Switzerland	en_GB
+50193	CountryISO	Country (ISO)	SEN	Senegal	en_GB
+50194	CountryISO	Country (ISO)	SRB	Serbia	en_GB
+50195	CountryISO	Country (ISO)	SYC	Seychelles	en_GB
+50196	CountryISO	Country (ISO)	SLE	Sierra Leone	en_GB
+50197	CountryISO	Country (ISO)	ZWE	Zimbabwe	en_GB
+50198	CountryISO	Country (ISO)	SGP	Singapore	en_GB
+50199	CountryISO	Country (ISO)	SXM	Saint Martin	en_GB
+50200	CountryISO	Country (ISO)	SVK	Slovakia	en_GB
+50201	CountryISO	Country (ISO)	SVN	Slovenia	en_GB
+50202	CountryISO	Country (ISO)	SOM	Somalia	en_GB
+50203	CountryISO	Country (ISO)	ESP	Spain	en_GB
+50204	CountryISO	Country (ISO)	LKA	Sri Lanka	en_GB
+50205	CountryISO	Country (ISO)	SHN	Saint Helena, Ascension and Tristan da Cunha	en_GB
+50206	CountryISO	Country (ISO)	KNA	Saint Kitts and Nevis	en_GB
+50207	CountryISO	Country (ISO)	LCA	Saint Lucia	en_GB
+50208	CountryISO	Country (ISO)	SPM	Saint Pierre and Miquelon	en_GB
+50209	CountryISO	Country (ISO)	VCT	Saint Vincent and the Grenadines	en_GB
+50210	CountryISO	Country (ISO)	ZAF	South Africa	en_GB
+50211	CountryISO	Country (ISO)	SDN	Sudan	en_GB
+50212	CountryISO	Country (ISO)	SGS	South Georgia and South Sandwich Islands	en_GB
+50213	CountryISO	Country (ISO)	KOR	South Korea	en_GB
+50214	CountryISO	Country (ISO)	SSD	South Sudan	en_GB
+50215	CountryISO	Country (ISO)	SUR	Suriname	en_GB
+50216	CountryISO	Country (ISO)	SJM	Svalbard	en_GB
+50217	CountryISO	Country (ISO)	SWZ	Swaziland	en_GB
+50218	CountryISO	Country (ISO)	SYR	Syria	en_GB
+50219	CountryISO	Country (ISO)	TJK	Tajikistan	en_GB
+50220	CountryISO	Country (ISO)	TWN	Taiwan	en_GB
+50221	CountryISO	Country (ISO)	TZA	Tanzania	en_GB
+50222	CountryISO	Country (ISO)	THA	Thailand	en_GB
+50223	CountryISO	Country (ISO)	TGO	Togo	en_GB
+50224	CountryISO	Country (ISO)	TKL	Tokelau	en_GB
+50225	CountryISO	Country (ISO)	TON	Tonga	en_GB
+50226	CountryISO	Country (ISO)	TTO	Trinidad and Tobago	en_GB
+50227	CountryISO	Country (ISO)	TCD	Chad	en_GB
+50228	CountryISO	Country (ISO)	CZE	Czech Republic	en_GB
+50229	CountryISO	Country (ISO)	TUN	Tunisia	en_GB
+50230	CountryISO	Country (ISO)	TUR	Turkey	en_GB
+50231	CountryISO	Country (ISO)	TKM	Turkmenistan	en_GB
+50232	CountryISO	Country (ISO)	TCA	Turks and Caicos Islands	en_GB
+50233	CountryISO	Country (ISO)	TUV	Tuvalu	en_GB
+50234	CountryISO	Country (ISO)	UGA	Uganda	en_GB
+50235	CountryISO	Country (ISO)	UKR	Ukraine	en_GB
+50236	CountryISO	Country (ISO)	HUN	Hungary	en_GB
+50237	CountryISO	Country (ISO)	URY	Uruguay	en_GB
+50238	CountryISO	Country (ISO)	UZB	Uzbekistan	en_GB
+50239	CountryISO	Country (ISO)	VUT	Vanuatu	en_GB
+50240	CountryISO	Country (ISO)	VAT	Holy See (Vatican City)	en_GB
+50241	CountryISO	Country (ISO)	VEN	Venezuela	en_GB
+50242	CountryISO	Country (ISO)	ARE	United Arab Emirates	en_GB
+50243	CountryISO	Country (ISO)	USA	United States	en_GB
+50244	CountryISO	Country (ISO)	GBR	United Kingdom	en_GB
+50245	CountryISO	Country (ISO)	VNM	Vietnam	en_GB
+50246	CountryISO	Country (ISO)	WLF	Wallis and Futuna	en_GB
+50247	CountryISO	Country (ISO)	CXR	Christmas Island	en_GB
+50248	CountryISO	Country (ISO)	ESH	Western Sahara	en_GB
+50249	CountryISO	Country (ISO)	CAF	Central African Republic	en_GB
+50250	CountryISO	Country (ISO)	CYP	Cyprus	en_GB
