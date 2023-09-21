@@ -1,9 +1,10 @@
 {
     "name": "datapos-resources",
+    "license": "ISC",
     "private": true,
-    "version": "0.1.389",
+    "version": "0.1.390",
     "devDependencies": {
-        "@datapos/datapos-operations": "^0.1.336",
+        "@datapos/datapos-operations": "^0.1.337",
         "prettier": "^3.0.3"
     },
     "scripts": {
@@ -11,8 +12,8 @@
         "build": "echo \"***** BUILD SCRIPT NOT IMPLEMENTED. *****\"",
         "buildFileStoreIndex": "node -e \"require('@datapos/datapos-operations/scriptHelpers').buildPublicDirectoryIndex('fileStore')\"",
         "bumpVersion": "node -e \"require('@datapos/datapos-operations/scriptHelpers').bumpVersion()\"",
-        "check": "npm outdated",
-        "document": "npx license-checker --production --json --out LICENSES.json",
+        "check": "npx npm-check-updates && npm outdated",
+        "document": "npx npm-license-crawler --onlyDirectDependencies --production --relativeLicensePath --json LICENSES.json",
         "format": "echo \"***** FORMAT SCRIPT NOT IMPLEMENTED. *****\"",
         "lint": "echo \"***** LINT SCRIPT NOT IMPLEMENTED. *****\"",
         "publishToNPM": "echo \"***** PUBLISH TO NPM SCRIPT NOT IMPLEMENTED. *****\"",
