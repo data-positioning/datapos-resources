@@ -2,7 +2,7 @@
     "name": "datapos-resources",
     "license": "ISC",
     "private": true,
-    "version": "0.1.390",
+    "version": "0.1.391",
     "devDependencies": {
         "@datapos/datapos-operations": "^0.1.337",
         "prettier": "^3.0.3"
