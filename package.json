@@ -2,14 +2,15 @@
     "name": "datapos-resources",
     "license": "ISC",
     "private": true,
-    "version": "0.1.391",
+    "version": "0.1.392",
     "devDependencies": {
-        "@datapos/datapos-operations": "^0.1.337",
+        "@datapos/datapos-operations": "^0.1.339",
         "prettier": "^3.0.3"
     },
     "scripts": {
         "audit": "npm audit",
-        "build": "echo \"***** BUILD SCRIPT NOT IMPLEMENTED. *****\"",
+        "build": "npm run buildApplicationIndex && npm run buildFileStoreIndex",
+        "buildApplicationIndex": "node -e \"require('@datapos/datapos-operations/scriptHelpers').buildPublicDirectoryIndex('application')\"",
         "buildFileStoreIndex": "node -e \"require('@datapos/datapos-operations/scriptHelpers').buildPublicDirectoryIndex('fileStore')\"",
         "bumpVersion": "node -e \"require('@datapos/datapos-operations/scriptHelpers').bumpVersion()\"",
         "check": "npx npm-check-updates && npm outdated",
@@ -18,7 +19,7 @@
         "lint": "echo \"***** LINT SCRIPT NOT IMPLEMENTED. *****\"",
         "publishToNPM": "echo \"***** PUBLISH TO NPM SCRIPT NOT IMPLEMENTED. *****\"",
         "release": "npm run syncWithGitHub",
-        "syncWithGitHub": "npm run buildFileStoreIndex && npm run bumpVersion && node -e \"require('@datapos/datapos-operations/scriptHelpers').syncWithGitHub()\"",
+        "syncWithGitHub": "npm run build && npm run bumpVersion && node -e \"require('@datapos/datapos-operations/scriptHelpers').syncWithGitHub()\"",
         "test": "echo \"***** TEST SCRIPT NOT IMPLEMENTED. *****\"",
         "updateDependencies": "npm run updateOperations",
         "updateOperations": "npm install --save-dev @datapos/datapos-operations@latest"
