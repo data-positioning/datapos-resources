@@ -1,5 +1,5 @@
 {
-    "home": { "id": "workforce-size-2" },
+    "home": { "id": "workforce-size" },
     "children": [
         { "id": "cs", "label": "Customer Services", "children": [] },
         {
@@ -10,24 +10,24 @@
                     "id": "hr-wf",
                     "label": "Workforce",
                     "children": [
-                        { "id": "workforce-size-2", "label": "Size" },
-                        { "id": "", "label": "Hires & Terminations" },
-                        { "id": "", "label": "Movements" },
-                        { "id": "", "label": "Movement Flows" },
+                        { "id": "hr-wf-siz", "label": "Size" },
+                        { "id": "hr-wf-hir-trm", "label": "Hires & Terminations" },
+                        { "id": "hr-wf-mov", "label": "Movements" },
+                        { "id": "hr-wf-mov-flw", "label": "Movement Flows" },
                         {
-                            "id": "hr-wf-prof",
+                            "id": "hr-wf-pfl",
                             "label": "Profiles",
                             "children": [
-                                { "id": "", "label": "Age" },
-                                { "id": "", "label": "Ethnic Background" },
-                                { "id": "", "label": "Gender" },
-                                { "id": "", "label": "Nationality" },
-                                { "id": "", "label": "Payment - Amount" },
-                                { "id": "", "label": "Payment - Grade" },
-                                { "id": "", "label": "Location - Residential" },
-                                { "id": "", "label": "Location - Work" },
-                                { "id": "", "label": "Role" },
-                                { "id": "", "label": "Tenure" }
+                                { "id": "hr-wf-pfl-age", "label": "Age" },
+                                { "id": "hr-wf-pfl-eth", "label": "Ethnic Background" },
+                                { "id": "hr-wf-pfl-gen", "label": "Gender" },
+                                { "id": "hr-wf-pfl-nat", "label": "Nationality" },
+                                { "id": "hr-wf-pfl-pay-amt", "label": "Payment - Amount" },
+                                { "id": "hr-wf-pfl-pay-grd", "label": "Payment - Grade" },
+                                { "id": "hr-wf-pfl-loc-res", "label": "Location - Residential" },
+                                { "id": "hr-wf-pfl-loc-wrk", "label": "Location - Work" },
+                                { "id": "hr-wf-pfl-rol", "label": "Role" },
+                                { "id": "hr-wf-pfl-ten", "label": "Tenure" }
                             ]
                         }
                     ]
@@ -38,17 +38,17 @@
                     "children": []
                 },
                 {
-                    "id": "hr-learn",
+                    "id": "hr-lrn",
                     "label": "Learning",
                     "children": []
                 },
                 {
-                    "id": "hr-tm",
+                    "id": "hr-tlm",
                     "label": "Talent Management (Performance)",
                     "children": [
-                        { "id": "hr-tm-exp", "label": "Experience", "children": [] },
-                        { "id": "hr-tm-mgt", "label": "Management", "children": [] },
-                        { "id": "hr-tm-source", "label": "Sourcing", "children": [] }
+                        { "id": "hr-tlm-exp", "label": "Experience", "children": [] },
+                        { "id": "hr-tlm-mgt", "label": "Management", "children": [] },
+                        { "id": "hr-tlm-src", "label": "Sourcing", "children": [] }
                     ]
                 },
                 {
@@ -57,7 +57,7 @@
                     "children": []
                 },
                 {
-                    "id": "hr-comp",
+                    "id": "hr-cmp",
                     "label": "Compensation",
                     "children": []
                 }
@@ -69,9 +69,9 @@
             "id": "sm",
             "label": "Sales Management",
             "children": [
-                { "id": "cs-cont", "label": "Contacts", "children": [] },
-                { "id": "cs-lead", "label": "Leads", "children": [] },
-                { "id": "cs-opp", "label": "Opportunities", "children": [] }
+                { "id": "sm-ctc", "label": "Contacts", "children": [] },
+                { "id": "sm-led", "label": "Leads", "children": [] },
+                { "id": "sm-opp", "label": "Opportunities", "children": [] }
             ]
         },
         { "id": "sn", "label": "Social Networking", "children": [] },
